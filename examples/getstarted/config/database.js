@@ -8,34 +8,42 @@ const sqlite = {
 
 const postgres = {
   client: 'postgres',
-  connection: {
-    database: 'strapi',
-    user: 'strapi',
-    password: 'strapi',
-    port: 5432,
-    host: 'localhost',
-  },
+  connection: process.env.DATABASE_URL
+    ? {
+        connectionString: process.env.DATABASE_URL,
+        ssl: {
+          rejectUnauthorized:
+            process.env.DATABASE_SSL_REJECT_UNAUTHORIZED === 'true' ? true : false,
+        },
+      }
+    : {
+        database: process.env.DATABASE_NAME || 'strapi',
+        user: process.env.DATABASE_USERNAME || 'strapi',
+        password: process.env.DATABASE_PASSWORD || 'strapi',
+        port: parseInt(process.env.DATABASE_PORT || '5432', 10),
+        host: process.env.DATABASE_HOST || 'localhost',
+      },
 };
 
 const mysql = {
   client: 'mysql',
   connection: {
-    database: 'strapi',
-    user: 'strapi',
-    password: 'strapi',
-    port: 3306,
-    host: 'localhost',
+    database: process.env.DATABASE_NAME || 'strapi',
+    user: process.env.DATABASE_USERNAME || 'strapi',
+    password: process.env.DATABASE_PASSWORD || 'strapi',
+    port: parseInt(process.env.DATABASE_PORT || '3306', 10),
+    host: process.env.DATABASE_HOST || 'localhost',
   },
 };
 
 const mariadb = {
   client: 'mysql',
   connection: {
-    database: 'strapi',
-    user: 'strapi',
-    password: 'strapi',
-    port: 3307,
-    host: 'localhost',
+    database: process.env.DATABASE_NAME || 'strapi',
+    user: process.env.DATABASE_USERNAME || 'strapi',
+    password: process.env.DATABASE_PASSWORD || 'strapi',
+    port: parseInt(process.env.DATABASE_PORT || '3307', 10),
+    host: process.env.DATABASE_HOST || 'localhost',
   },
 };
 
@@ -46,6 +54,8 @@ const db = {
   mariadb,
 };
 
+const client = process.env.DATABASE_CLIENT || process.env.DB || 'sqlite';
+
 module.exports = {
-  connection: process.env.DB ? db[process.env.DB] || db.sqlite : db.sqlite,
+  connection: db[client] || db.sqlite,
 };
