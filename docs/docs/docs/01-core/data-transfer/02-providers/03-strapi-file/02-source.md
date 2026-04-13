@@ -6,9 +6,9 @@ tags:
   - experimental
 ---
 
-# Strapi File Source Provider
+# Resillix CMS File Source Provider
 
-This provider will open and read a Strapi Data File as a data source.
+This provider will open and read a Resillix CMS Data File as a data source.
 
 ## Provider Options
 
@@ -29,7 +29,7 @@ The accepted options are defined in `ILocalFileSourceProviderOptions`.
   };
 ```
 
-Note: When the Strapi CLI attempts to import a file, the options for compression and encryption are set based on the extension of the file being loaded, eg a file with the .gz extension will have the "compress" option set, and a file that includes the .enc extension will have the "encrypt" option set.
+Note: When the Resillix CMS CLI attempts to import a file, the options for compression and encryption are set based on the extension of the file being loaded, eg a file with the .gz extension will have the "compress" option set, and a file that includes the .enc extension will have the "encrypt" option set.
 
 When using the transfer engine programmatically, you may make the determination whether the file being loaded should be decrypted or compressed by setting
 those options.

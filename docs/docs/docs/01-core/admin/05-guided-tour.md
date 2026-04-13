@@ -148,7 +148,7 @@ const tours = {
 } as const;
 ```
 
-2. **Add tour components to Strapi**:
+2. **Add tour components to Resillix CMS**:
 
 Wrap the element that should be the anchor for the step popover.
 

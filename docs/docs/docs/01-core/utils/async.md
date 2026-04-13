@@ -94,5 +94,5 @@ If we begin to use lots of async utils function, we may consider to migrate to a
 
 ## Resources
 
-- [Async file in Strapi](https://github.com/strapi/strapi/blob/9b36c3b10adaa00fd3596853abc63122632c36fe/packages/core/utils/lib/async.js)
+- [Async file in Resillix CMS](https://github.com/Dhananjay-latpate/RCMS/blob/9b36c3b10adaa00fd3596853abc63122632c36fe/packages/core/utils/lib/async.js)
 - http://caolan.github.io/async/v3/

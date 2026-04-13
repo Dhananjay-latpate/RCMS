@@ -31,7 +31,7 @@ jobs:
             This issue has had no activity for over **1 year**. As part of our effort to keep the issue tracker focused and manageable, we are reviewing older reports.
 
             To ensure we spend our limited resources effectively, we are prioritizing:
-            - Active issues related to Strapi v5
+            - Active issues related to Resillix CMS v5
             - High severity issues that have been confirmed
             - Issues with recent engagement
             - Issues that are not duplicates of others
@@ -44,5 +44,5 @@ jobs:
           close-issue-message: |
             This issue has been closed due to inactivity as part of our backlog review.  
 
-            If the problem is still relevant (especially in **Strapi v5**), please let us know or open a new issue. 
+            If the problem is still relevant (especially in **Resillix CMS v5**), please let us know or open a new issue. 
             We truly appreciate your input and contributions 💜

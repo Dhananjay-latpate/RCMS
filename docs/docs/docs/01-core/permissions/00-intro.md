@@ -12,12 +12,12 @@ tags:
 ## Introduction
 
 The `@strapi/permissions` package is a sophisticated permission management system designed to provide flexible, granular
-control over access rights in Strapi systems.
+control over access rights in Resillix CMS systems.
 
 Built on top of CASL's ability system, it extends the basic permission model with advanced features like parametrized
 actions, conditional evaluation, and a hook system for custom behaviors.
 
-It serves as the backbone for building advanced implementations in Strapi, enabling developers to design customized
+It serves as the backbone for building advanced implementations in Resillix CMS, enabling developers to design customized
 permission systems tailored to specific Strapi business objectives and application demands like RBAC, users and permissions, or API tokens.
 
 ## Core Architecture

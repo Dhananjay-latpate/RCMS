@@ -1,15 +1,15 @@
 {
   "name": "@strapi/cloud-cli",
   "version": "5.42.0",
-  "description": "Commands to interact with the Strapi Cloud",
+  "description": "Commands to interact with the Resillix CMS Cloud",
   "keywords": [
-    "strapi",
+    "resillix",
     "cloud",
     "cli"
   ],
-  "homepage": "https://strapi.io",
+  "homepage": "https://github.com/Dhananjay-latpate/RCMS",
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/Dhananjay-latpate/RCMS/issues"
   },
   "repository": {
     "type": "git",
@@ -18,15 +18,13 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
-    "name": "Strapi Solutions SAS",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
+    "name": "Resillix CMS",
+    "url": "https://github.com/Dhananjay-latpate/RCMS"
   },
   "maintainers": [
     {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
+      "name": "Resillix CMS",
+      "url": "https://github.com/Dhananjay-latpate/RCMS"
     }
   ],
   "main": "./dist/index.js",

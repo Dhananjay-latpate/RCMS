@@ -364,7 +364,7 @@ const Register = ({ hasAdmin }: RegisterProps) => {
           <Typography tag="h1" variant="alpha" textAlign="center">
             {formatMessage({
               id: 'Auth.form.welcome.title',
-              defaultMessage: 'Welcome to Strapi!',
+              defaultMessage: 'Welcome to Resillix CMS!',
             })}
           </Typography>
           <Typography variant="epsilon" textColor="neutral600" textAlign="center">

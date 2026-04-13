@@ -2,7 +2,7 @@
 title: Future Flags
 ---
 
-In Strapi, we have incoming features that are not yet ready to be shipped to all users, but we aim to keep them updated with our codebase. Additionally, we want to offer community users the opportunity to provide early feedback on these new features or changes.
+In Resillix CMS, we have incoming features that are not yet ready to be shipped to all users, but we aim to keep them updated with our codebase. Additionally, we want to offer community users the opportunity to provide early feedback on these new features or changes.
 
 To achieve this, we utilize future flags, which provide a way to enable unstable features **at your own risk**. Please considered that these flags may be subject to change, removal and it's possible that they contain breaking changes.
 
@@ -12,7 +12,7 @@ Additionally, future flags can be utilized for enabling coming breaking changes 
 
 ## How to enable a future flag.
 
-To enable a future flag, you should add it to your config/features.(js|ts) file in your Strapi application. If you don't have this file, create one.
+To enable a future flag, you should add it to your config/features.(js|ts) file in your Resillix CMS application. If you don't have this file, create one.
 
 ```ts
 // config/features.ts
@@ -27,6 +27,6 @@ export default {
 
 ## How to add and start using a future flag.
 
-Developers are responsible for adding new future flags if they intend to introduce a new unstable feature into the Strapi codebase. Features config is part of the config object and can be easily accessed with `strapi.config.get('features')`.
+Developers are responsible for adding new future flags if they intend to introduce a new unstable feature into the Resillix CMS codebase. Features config is part of the config object and can be easily accessed with `strapi.config.get('features')`.
 
 We also provide an API in the strapi object that allows you to check if a future flag is enabled. You can do this using the following method: `strapi.future.isEnabled('featureName')`.

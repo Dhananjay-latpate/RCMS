@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Permission Checker** is a service in Strapi that helps enforce access control policies by verifying user permissions for various actions on content entities. It provides methods to check, sanitize, and validate user actions based on their permissions.
+The **Permission Checker** is a service in Resillix CMS that helps enforce access control policies by verifying user permissions for various actions on content entities. It provides methods to check, sanitize, and validate user actions based on their permissions.
 
 ## Features
 
@@ -143,7 +143,7 @@ export default ({ strapi }: { strapi: Core.Strapi }) => ({
 });
 ```
 
-## Example Usage in Strapi
+## Example Usage in Resillix CMS
 
 ```ts
 const canCreate = strapi.plugin('content-manager').service('permission-checker').can.create();

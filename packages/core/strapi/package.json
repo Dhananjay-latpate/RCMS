@@ -3,7 +3,7 @@
   "version": "5.42.0",
   "description": "An open source headless CMS solution to create and manage your own API. It provides a powerful dashboard and features to make your life easier. Databases supported: MySQL, MariaDB, PostgreSQL, SQLite",
   "keywords": [
-    "strapi",
+    "resillix",
     "cms",
     "cmf",
     "content management system",
@@ -40,9 +40,9 @@
     "react",
     "reactjs"
   ],
-  "homepage": "https://strapi.io",
+  "homepage": "https://github.com/Dhananjay-latpate/RCMS",
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/Dhananjay-latpate/RCMS/issues"
   },
   "repository": {
     "type": "git",
@@ -51,15 +51,13 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
-    "name": "Strapi Solutions SAS",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
+    "name": "Resillix CMS",
+    "url": "https://github.com/Dhananjay-latpate/RCMS"
   },
   "maintainers": [
     {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
+      "name": "Resillix CMS",
+      "url": "https://github.com/Dhananjay-latpate/RCMS"
     }
   ],
   "exports": {

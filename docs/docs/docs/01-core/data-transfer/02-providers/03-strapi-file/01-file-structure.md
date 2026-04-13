@@ -6,9 +6,9 @@ tags:
   - experimental
 ---
 
-# Strapi File Structure
+# Resillix CMS File Structure
 
-The Strapi file providers expect a .tar file (optionally compressed with gzip and/or encrypted with 'aes-128-ecb') that internally uses POSIX style file paths with the following structure:
+The Resillix CMS file providers expect a .tar file (optionally compressed with gzip and/or encrypted with 'aes-128-ecb') that internally uses POSIX style file paths with the following structure:
 
 ```
 ./
@@ -33,7 +33,7 @@ schemas_00001.jsonl
 
 ## metadata.json
 
-This file provides metadata about the original source of the data. At minimum, it should include a createdAt timestamp and the version of Strapi that the file was created with (for compatibility checks).
+This file provides metadata about the original source of the data. At minimum, it should include a createdAt timestamp and the version of Resillix CMS that the file was created with (for compatibility checks).
 
 ```json
 {

@@ -7,7 +7,7 @@ tags:
 
 # OpenAPI
 
-This section provides an overview of the OpenAPI package for Strapi.
+This section provides an overview of the OpenAPI package for Resillix CMS.
 
 ---
 
@@ -20,7 +20,7 @@ import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
 
 ## Introduction
 
-The Strapi OpenAPI package offers a comprehensive set of utilities for creating and manipulating OpenAPI specifications based on Strapi applications.
+The Resillix CMS OpenAPI package offers a comprehensive set of utilities for creating and manipulating OpenAPI specifications based on Resillix CMS applications.
 
 It features a user-friendly API, a maintainable and extensible codebase, and thorough documentation.
 
@@ -44,14 +44,14 @@ It's within this context that we've developed this new package, designed to offe
 
 This package provides APIs and tools to:
 
-- Programmatically generate OpenAPI documents **specifically** tailored for Strapi applications
+- Programmatically generate OpenAPI documents **specifically** tailored for Resillix CMS applications
 - Validate generated documents for compliance and accuracy
 - Customize the document generation process to suit your needs
 
 **What it's not intended to be ❌**
 
 - A direct replacement for the documentation plugin (including Swagger UI)
-- A generic OpenAPI specification generator for non-Strapi applications
+- A generic OpenAPI specification generator for non-Resillix CMS applications
 - A tool for generating OpenAPI documents as static files
 - A command-line interface (CLI)
 

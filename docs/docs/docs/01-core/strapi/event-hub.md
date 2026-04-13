@@ -1,6 +1,6 @@
 ---
 title: Event Hub
-description: The event hub is a central system that processes a variety of events in a Strapi application
+description: The event hub is a central system that processes a variety of events in a Resillix CMS application
 tags:
   - core
   - plugins
@@ -10,7 +10,7 @@ tags:
 
 ## Summary
 
-The event hub is a central system that processes a variety of events in a Strapi application. These events can be emitted from a variety of sources to trigger associated subscriber functions.
+The event hub is a central system that processes a variety of events in a Resillix CMS application. These events can be emitted from a variety of sources to trigger associated subscriber functions.
 
 <img
   src="/img/utils/event-hub-diagram.png"
@@ -19,13 +19,13 @@ The event hub is a central system that processes a variety of events in a Strapi
 
 _above: A diagram showing how the event hub processes events from different sources with multiple subscribers_
 
-Events are mainly used in Strapi to power the webhooks and audit logs features. However, plugin developers can also access the event-hub using the plugin API. This means plugins can listen to events emitted by Strapi and emit new events to the event hub.
+Events are mainly used in Resillix CMS to power the webhooks and audit logs features. However, plugin developers can also access the event-hub using the plugin API. This means plugins can listen to events emitted by Resillix CMS and emit new events to the event hub.
 
 ## Detailed design
 
 The event hub is a store of subscriber functions. When an event is emitted to the hub, each subscriber function in the store will be called with the event's name and a variable number of arguments.
 
-This design was inspired by the way Strapi handles [lifecycle hooks](https://docs.strapi.io/developer-docs/latest/development/backend-customization/models.html#lifecycle-hooks). It was chosen over the [Node.js event emitter](https://nodejs.org/api/events.html#class-eventemitter) because it provides the ability to have a single subscriber function per feature, and does not cause [memory leak concerns](https://stackoverflow.com/questions/9768444/possible-eventemitter-memory-leak-detected).
+This design was inspired by the way Strapi handles [lifecycle hooks](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/development/backend-customization/models.html#lifecycle-hooks). It was chosen over the [Node.js event emitter](https://nodejs.org/api/events.html#class-eventemitter) because it provides the ability to have a single subscriber function per feature, and does not cause [memory leak concerns](https://stackoverflow.com/questions/9768444/possible-eventemitter-memory-leak-detected).
 
 ### Emitting events
 
@@ -147,6 +147,6 @@ removeListener();
 
 You may not need the event hub:
 
-- If you want to listen to database events on a specific content type, use [lifecycle hooks](https://docs.strapi.io/developer-docs/latest/development/backend-customization/models.html#lifecycle-hooks)
-- If you want to listen to database events on all content types, use a [generic database lifecycle hook](https://docs.strapi.io/developer-docs/latest/development/backend-customization/models.html#declarative-and-programmatic-usage)
-- If you want to emit an event, but don't want it to be exposed to other features or plugins, create a [service](https://docs.strapi.io/developer-docs/latest/development/backend-customization/services.html#services) and call it directly instead
+- If you want to listen to database events on a specific content type, use [lifecycle hooks](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/development/backend-customization/models.html#lifecycle-hooks)
+- If you want to listen to database events on all content types, use a [generic database lifecycle hook](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/development/backend-customization/models.html#declarative-and-programmatic-usage)
+- If you want to emit an event, but don't want it to be exposed to other features or plugins, create a [service](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/development/backend-customization/services.html#services) and call it directly instead

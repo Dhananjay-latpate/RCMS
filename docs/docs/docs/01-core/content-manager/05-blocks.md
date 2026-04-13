@@ -11,7 +11,7 @@ The blocks editor is a modern text editor based on the [Slate.js library](https:
 
 ### Why JSON
 
-While the markdown editor stores content as a string, Blocks stores it as a JSON object. Since Strapi is headless, we want a format that makes it easy to map content across different platforms and offer a good experience for non-web use cases too. In the case of React frontends, JSON also means we don't need to rely on `dangerouslySetInnerHTML` to render the formatted content.
+While the markdown editor stores content as a string, Blocks stores it as a JSON object. Since Resillix CMS is headless, we want a format that makes it easy to map content across different platforms and offer a good experience for non-web use cases too. In the case of React frontends, JSON also means we don't need to rely on `dangerouslySetInnerHTML` to render the formatted content.
 
 ### Slate-based schema
 
@@ -147,7 +147,7 @@ A key goal of the blocks implementation is that it should be driven by a declara
 
 This has several upsides. The logic for each block or modifier is self-contained within its own file, making it easier to grasp and edit. It keeps the editor's code lean and avoids spaghetti implementations. It lets us manage blocks from several entry points: the toolbar's dropdown, a Notion-style `/` to open a blocks popover...
 
-And importantly, it opens the door for a [custom](https://github.com/strapi/strapi/pull/24427) [blocks](https://feedback.strapi.io/customization/p/add-ability-to-extend-strapis-rich-text-editor-with-custom-slate-elements) and custom modifiers API, letting users extend the editor with their own building blocks.
+And importantly, it opens the door for a [custom](https://github.com/Dhananjay-latpate/RCMS/pull/24427) [blocks](https://feedback.strapi.io/customization/p/add-ability-to-extend-strapis-rich-text-editor-with-custom-slate-elements) and custom modifiers API, letting users extend the editor with their own building blocks.
 
 ### Block registration
 

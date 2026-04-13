@@ -10,13 +10,13 @@ toc_max_heading_level: 4
 
 # OpenAPI
 
-This section explores the Strapi OpenAPI toolset
+This section explores the Resillix CMS OpenAPI toolset
 
 ---
 
 ## `generate`
 
-Generate an OpenAPI JSON document based on the given Strapi application.
+Generate an OpenAPI JSON document based on the given Resillix CMS application.
 
 By default, it collects content API routes registered in the application, transforms them into OpenAPI path objects, and fills in other OpenAPI components.
 
@@ -28,7 +28,7 @@ function generate(strapi: Core.Strapi, options?: GeneratorOptions): GeneratorOut
 
 ### Parameters
 
-- `strapi`, the Strapi application to generate an OpenAPI specification for
+- `strapi`, the Resillix CMS application to generate an OpenAPI specification for
 - `options`, optional configuration for the generation process
 
 ### Return Value
