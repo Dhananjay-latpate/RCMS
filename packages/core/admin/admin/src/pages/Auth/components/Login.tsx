@@ -90,7 +90,7 @@ const Login = ({ children }: LoginProps) => {
               >
                 {formatMessage({
                   id: 'Auth.form.welcome.subtitle',
-                  defaultMessage: 'Log in to your Strapi account',
+                  defaultMessage: 'Log in to your Resillix CMS account',
                 })}
               </Typography>
             </Box>

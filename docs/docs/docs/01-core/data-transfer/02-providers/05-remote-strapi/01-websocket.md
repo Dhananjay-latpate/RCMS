@@ -113,7 +113,7 @@ sequenceDiagram
 
 ### 1. Connection Phase
 
-When the data transfer feature is enabled for a Strapi server (an `admin.transfer.token.salt` config value has been set and `server.transfer.remote.enabled` is not set to false), Strapi will create websocket servers available on the routes `/admin/transfer/runner/pull` and `/admin/transfer/runner/push`.
+When the data transfer feature is enabled for a Resillix CMS server (an `admin.transfer.token.salt` config value has been set and `server.transfer.remote.enabled` is not set to false), Resillix CMS will create websocket servers available on the routes `/admin/transfer/runner/pull` and `/admin/transfer/runner/push`.
 
 **Create WebSocket Connection**
 
@@ -123,7 +123,7 @@ When the data transfer feature is enabled for a Strapi server (an `admin.transfe
   ```
 - Server validates the token and establishes the connection
 
-Please see the `bootstrap()` method of the remote providers for an example of how to make the initial connection to the Strapi websocket.
+Please see the `bootstrap()` method of the remote providers for an example of how to make the initial connection to the Resillix CMS websocket.
 
 **Event Listener Attachment**
 Immediately after WebSocket creation, the following listeners are attached:

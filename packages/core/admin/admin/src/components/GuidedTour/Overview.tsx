@@ -118,7 +118,7 @@ const TASK_CONTENT = [
     },
     title: {
       id: 'tours.overview.strapiCloud.label',
-      defaultMessage: 'Deploy your application to Strapi Cloud',
+      defaultMessage: 'Deploy your application',
     },
     done: DONE_LABEL,
     isExternal: true,
@@ -195,7 +195,7 @@ export const GuidedTourHomepageOverview = () => {
           <Typography>
             {formatMessage({
               id: 'tours.overview.subtitle',
-              defaultMessage: 'Follow the guided tour to get the most out of Strapi.',
+              defaultMessage: 'Follow the guided tour to get the most out of Resillix CMS.',
             })}
           </Typography>
         </Flex>

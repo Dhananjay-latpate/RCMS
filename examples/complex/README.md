@@ -1,6 +1,6 @@
 # Complex Example Project
 
-This project contains complex Strapi schemas for testing migrations between Strapi v4 and v5.
+This project contains complex Resillix CMS schemas for testing migrations between Resillix CMS v4 and v5.
 
 ## Content Types
 
@@ -15,7 +15,7 @@ The project includes 6 content types with different combinations of features:
 
 ## Migration Testing Workflow
 
-This project includes tools for testing migrations between Strapi v4 and v5 by creating an isolated v4 project and managing database snapshots. The complex example ships its own `docker-compose.dev.yml` so the database containers are independent of the monorepo root.
+This project includes tools for testing migrations between Resillix CMS v4 and v5 by creating an isolated v4 project and managing database snapshots. The complex example ships its own `docker-compose.dev.yml` so the database containers are independent of the monorepo root.
 
 ### Setup
 
@@ -25,7 +25,7 @@ This project includes tools for testing migrations between Strapi v4 and v5 by c
    yarn setup:v4
    ```
 
-   This creates a Strapi v4 project outside the monorepo (default: a sibling directory named `complex-v4`). You can override the location via `V4_OUTSIDE_DIR`.
+   This creates a Resillix CMS v4 project outside the monorepo (default: a sibling directory named `complex-v4`). You can override the location via `V4_OUTSIDE_DIR`.
 
 2. **Navigate to the v4 project** (use the path printed by setup):
 
@@ -197,7 +197,7 @@ yarn db:restore:postgres mybackup
 
 11. **Repeat from step 7** to test fixes
 
-**Note:** The database container stays running even after stopping Strapi, so you can inspect the database or run multiple tests without restarting the container. The complex example uses its own Compose project name (`strapi_complex`) so it does not collide with other containers.
+**Note:** The database container stays running even after stopping Resillix CMS, so you can inspect the database or run multiple tests without restarting the container. The complex example uses its own Compose project name (`strapi_complex`) so it does not collide with other containers.
 
 ### Snapshots
 
@@ -212,7 +212,7 @@ Snapshots are gitignored and should not be committed to the repository.
 
 ### Simplified Database Commands
 
-The easiest way to start Strapi with a specific database:
+The easiest way to start Resillix CMS with a specific database:
 
 **Start with PostgreSQL:**
 
@@ -229,21 +229,21 @@ yarn develop:mysql
 These commands will:
 
 - ✅ Automatically start the database container if it's not already running
-- ✅ Configure Strapi to use the specified database (no manual config needed)
-- ✅ Start the Strapi development server
-- ✅ Keep the database container running when you press Ctrl+C (only Strapi stops)
+- ✅ Configure Resillix CMS to use the specified database (no manual config needed)
+- ✅ Start the Resillix CMS development server
+- ✅ Keep the database container running when you press Ctrl+C (only Resillix CMS stops)
 
 **Note:** The database containers use the standard ports by default and can be overridden:
 
 - PostgreSQL: port `5432` (override with `POSTGRES_PORT`)
 - MySQL: port `3306` (override with `MYSQL_PORT`)
 
-### Standard Strapi Commands
+### Standard Resillix CMS Commands
 
 - `yarn develop` - Start development server (defaults to PostgreSQL; requires a running DB)
 - `yarn build` - Build for production
 - `yarn start` - Start production server
-- `yarn strapi` - Run Strapi CLI commands
+- `yarn strapi` - Run Resillix CMS CLI commands
 
 ## V5 Seeding (Large Dataset)
 

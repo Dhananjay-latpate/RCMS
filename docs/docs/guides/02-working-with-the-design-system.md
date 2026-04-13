@@ -2,13 +2,13 @@
 title: Working with the Design System
 ---
 
-## Linking the Strapi Design System
+## Linking the Resillix CMS Design System
 
-Follow these steps to use a local version of the Strapi design system with the Strapi monorepo
+Follow these steps to use a local version of the Resillix CMS design system with the Resillix CMS monorepo
 
 In your copy of the design system run `yarn build` to generate the bundle.
 
-In the Strapi monorepo link your local copy of the design system with [`yarn link`](https://yarnpkg.com/cli/link#gatsby-focus-wrapper):
+In the Resillix CMS monorepo link your local copy of the design system with [`yarn link`](https://yarnpkg.com/cli/link#gatsby-focus-wrapper):
 
 ```
 yarn link -r ../<relative-path-to-strapi-design-system>

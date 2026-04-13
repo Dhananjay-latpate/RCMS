@@ -1,6 +1,6 @@
 ---
 title: Migrations
-description: Conceptual guide to migrations in Strapi
+description: Conceptual guide to migrations in Resillix CMS
 tags:
   - database
   - migration

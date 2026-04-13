@@ -6,9 +6,9 @@ tags:
   - experimental
 ---
 
-# Strapi Remote Source Provider
+# Resillix CMS Remote Source Provider
 
-The Strapi remote source provider connects to a remote Strapi websocket server and sends messages to move between stages and pull data.
+The Resillix CMS remote source provider connects to a remote Strapi websocket server and sends messages to move between stages and pull data.
 
 ## Provider Options
 

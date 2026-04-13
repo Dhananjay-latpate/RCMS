@@ -134,7 +134,7 @@ const AIChat = ({ Step }: StepContentProps) => (
     <Step.Title id="tours.contentTypeBuilder.AIChat.title" defaultMessage="Time to get started!" />
     <Step.Content
       id="tours.contentTypeBuilder.AIChat.content"
-      defaultMessage="<p>If you have any questions about the Content-Type Builder or Strapi ask them here.</p><p>Strapi AI can generate schemas tailored to your needs. Ask for exactly what you want, for example:<ul><li>Date picker</li><li>Email and password fields</li><li>Media of any type</li><li>UIDs</li></ul></p><p>Don’t be shy, try it out !</p>"
+      defaultMessage="<p>If you have any questions about the Content-Type Builder or Resillix CMS ask them here.</p><p>Resillix CMS AI can generate schemas tailored to your needs. Ask for exactly what you want, for example:<ul><li>Date picker</li><li>Email and password fields</li><li>Media of any type</li><li>UIDs</li></ul></p><p>Don’t be shy, try it out !</p>"
     />
     <Step.Actions>
       <ContentTypeBuilderActions showPrevious />

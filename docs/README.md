@@ -1,13 +1,13 @@
-# Strapi contributor documentation
+# Resillix CMS contributor documentation
 
 > [!NOTE]
-> If you are looking for the official Strapi documentation, it is available [here](https://docs.strapi.io)
+> If you are looking for the official Resillix CMS documentation, it is available [here](https://github.com/Dhananjay-latpate/RCMS)
 
 This documentation is a contributor documentation made for anyone that wants to contribute to the project.
 
 To run the documentation website, follow the instructions below.
 
-Otherwise, you can also access the documentation online at [contributor.strapi.io](https://contributor.strapi.io/).
+Otherwise, you can also access the documentation online at the docs/ directory.
 
 ## Getting Started
 

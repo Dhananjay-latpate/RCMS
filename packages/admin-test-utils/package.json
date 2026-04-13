@@ -2,18 +2,16 @@
   "name": "@strapi/admin-test-utils",
   "version": "5.42.0",
   "private": true,
-  "description": "Test utilities for the Strapi administration panel",
+  "description": "Test utilities for the Resillix CMS administration panel",
   "license": "MIT",
   "author": {
-    "name": "Strapi Solutions SAS",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
+    "name": "Resillix CMS",
+    "url": "https://github.com/Dhananjay-latpate/RCMS"
   },
   "maintainers": [
     {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
+      "name": "Resillix CMS",
+      "url": "https://github.com/Dhananjay-latpate/RCMS"
     }
   ],
   "exports": {

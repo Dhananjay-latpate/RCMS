@@ -9,13 +9,13 @@ tags:
 
 ## Overview
 
-This document explains how and why we use `@strapi/data-transfer` as means to reset and seed the database for end-to-end tests. It is not a comprehensive explanation of how to use `@strapi/data-transfer`. See the [Strapi documentation](https://docs.strapi.io/developer-docs/latest/developer-resources/data-management.html) to learn more about the feature.
+This document explains how and why we use `@strapi/data-transfer` as means to reset and seed the database for end-to-end tests. It is not a comprehensive explanation of how to use `@strapi/data-transfer`. See the [Strapi documentation](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/developer-resources/data-management.html) to learn more about the feature.
 
 ### Why use Data Transfer?
 
-We could use custom API endpoints of the application, and whilst this isn't a poor solution, it would _most likely_ require some code writing to set up the data for the schema entries. However, in `4.6.0` Strapi released the `DTS` feature (DTS – Data Transfer System). This means any member of Strapi can export the data of their instance and we can import it programmatically to restore the database to this point in time and ensure a "pure" test environment.
+We could use custom API endpoints of the application, and whilst this isn't a poor solution, it would _most likely_ require some code writing to set up the data for the schema entries. However, in `4.6.0` Strapi released the `DTS` feature (DTS – Data Transfer System). This means any member of Resillix CMS can export the data of their instance and we can import it programmatically to restore the database to this point in time and ensure a "pure" test environment.
 
-End-to-end fixtures live under `tests/e2e/data` as **unpacked export directories** (same layout as inside a Strapi `.tar`: `metadata.json`, `schemas/`, `entities/`, `links/`, `configuration/`, `assets/`, …). That way JSON and JSONL changes show up as normal text diffs in Git. Binary media stays under `assets/uploads/` (ignored by Prettier).
+End-to-end fixtures live under `tests/e2e/data` as **unpacked export directories** (same layout as inside a Resillix CMS `.tar`: `metadata.json`, `schemas/`, `entities/`, `links/`, `configuration/`, `assets/`, …). That way JSON and JSONL changes show up as normal text diffs in Git. Binary media stays under `assets/uploads/` (ignored by Prettier).
 
 ### Limitations of Data Transfer
 
@@ -27,13 +27,13 @@ Each test should be isolated and not depend on another test. Data changes from o
 
 ### The data transfer engine
 
-Since the Strapi CLI will use `@strapi/data-transfer` directly it will by default not import or export admin users, API tokens, or any other features that have been included in its exclusion list.
+Since the Resillix CMS CLI will use `@strapi/data-transfer` directly it will by default not import or export admin users, API tokens, or any other features that have been included in its exclusion list.
 
 For this reason, do NOT use the import or export command on the strapi test instance. A DTS engine has been created specifically for our tests cases. This allows us to redefine what should be included in the import or export for our tests. Helpers live in `tests/utils/dts-import.ts` (see also `tests/e2e/scripts/dts-export.ts` for exporting updated packets).
 
 ### Importing an existing data packet
 
-When you need to update the data packet for a new test, you will first need a Strapi app with the data currently used in end-to-end tests.
+When you need to update the data packet for a new test, you will first need a Resillix CMS app with the data currently used in end-to-end tests.
 
 When running the `yarn test:e2e` command, test app instances are created in `test-apps/e2e/test-app-{n}`. You can use one of the these apps to update the data.
 
@@ -53,7 +53,7 @@ You should be able to login with the test app instance credentials.
 | ---------------- | ----------- |
 | test@testing.com | Testing123! |
 
-Now that you have a Strapi instance with the same data that each e2e starts with, you can modify the data in the CMS to prepare for a new data export.
+Now that you have a Resillix CMS instance with the same data that each e2e starts with, you can modify the data in the CMS to prepare for a new data export.
 
 > **Note:** If you change any of the content schemas (including adding new ones) be sure to [update the `app-template`](./01-app-template.md) otherwise DTS will fail to import the data for schemas that do not exist.
 

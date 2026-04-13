@@ -1,24 +1,22 @@
 {
-  "name": "strapi",
+  "name": "resillix-cms",
   "private": true,
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/Dhananjay-latpate/RCMS/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strapi/strapi.git"
+    "url": "https://github.com/Dhananjay-latpate/RCMS.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": {
-    "name": "Strapi Solutions SAS",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
+    "name": "Resillix CMS",
+    "url": "https://github.com/Dhananjay-latpate/RCMS"
   },
   "maintainers": [
     {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
+      "name": "Resillix CMS",
+      "url": "https://github.com/Dhananjay-latpate/RCMS"
     }
   ],
   "workspaces": [
@@ -189,5 +187,5 @@
     "node": ">=20.0.0 <=24.x.x",
     "npm": ">=6.0.0"
   },
-  "isStrapiMonorepo": true
+  "isResillixMonorepo": true
 }

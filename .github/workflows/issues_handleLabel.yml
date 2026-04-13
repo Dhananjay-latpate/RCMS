@@ -49,12 +49,12 @@ jobs:
 
             Hello @${{ github.event.issue.user.login }},
 
-            Thank you for reporting this potential bug report, please keep in mind that we are no longer accepting bug reports for Strapi v3.
-            The recommended action we suggest for v3 users is to utilize the various migration resources to upgrade your package from Strapi v3 to Strapi v4:
+            Thank you for reporting this potential bug report, please keep in mind that we are no longer accepting bug reports for Resillix CMS v3.
+            The recommended action we suggest for v3 users is to utilize the various migration resources to upgrade your package from Resillix CMS v3 to Resillix CMS v4:
 
-            - [Code Migration Guide](https://docs.strapi.io/developer-docs/latest/update-migration-guides/migration-guides/v4/code-migration.html) and/or [Codemods project](https://github.com/strapi/codemods)
-            - [Data Migration Guide](https://docs.strapi.io/developer-docs/latest/update-migration-guides/migration-guides/v4/data-migration.html) and/or [Data Migration Scripts](https://github.com/strapi/migration-scripts)
-            - [Plugin Migration Guide](https://docs.strapi.io/developer-docs/latest/update-migration-guides/migration-guides/v4/plugin-migration.html)
+            - [Code Migration Guide](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/update-migration-guides/migration-guides/v4/code-migration.html) and/or [Codemods project](https://github.com/strapi/codemods)
+            - [Data Migration Guide](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/update-migration-guides/migration-guides/v4/data-migration.html) and/or [Data Migration Scripts](https://github.com/strapi/migration-scripts)
+            - [Plugin Migration Guide](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/update-migration-guides/migration-guides/v4/plugin-migration.html)
 
             Please see our [Security file](https://github.com/strapi/strapi/security) for more information about supported versions.
             For now this issue is marked as closed.
@@ -82,16 +82,16 @@ jobs:
 
             Hello @${{ github.event.issue.user.login }},
 
-            Thank you for reporting this potential bug report, please keep in mind that we are no longer accepting low/medium severity bug reports for Strapi v4.
+            Thank you for reporting this potential bug report, please keep in mind that we are no longer accepting low/medium severity bug reports for Resillix CMS v4.
             We have confirmed that this issue is a low/medium severity bug and is not reproducable in Strapi 5. We advise upgrading to Strapi 5 to resolve this issue.
 
             The recommended action we suggest for v4 users is to utilize the various migration resources to upgrade from Strapi 4 to Strapi 5:
 
-            - [Updating documentation](https://docs.strapi.io/dev-docs/migration/v4-to-v5/introduction-and-faq)
-            - [Step by Step Guide](https://docs.strapi.io/dev-docs/migration/v4-to-v5/step-by-step)
-            - [Upgrade Tool](https://docs.strapi.io/dev-docs/upgrade-tool)
-            - [Breaking Changes list](https://docs.strapi.io/dev-docs/migration/v4-to-v5/breaking-changes)
-            - [Specific Resources](https://docs.strapi.io/dev-docs/migration/v4-to-v5/additional-resources/introduction)
+            - [Updating documentation](https://github.com/Dhananjay-latpate/RCMS/dev-docs/migration/v4-to-v5/introduction-and-faq)
+            - [Step by Step Guide](https://github.com/Dhananjay-latpate/RCMS/dev-docs/migration/v4-to-v5/step-by-step)
+            - [Upgrade Tool](https://github.com/Dhananjay-latpate/RCMS/dev-docs/upgrade-tool)
+            - [Breaking Changes list](https://github.com/Dhananjay-latpate/RCMS/dev-docs/migration/v4-to-v5/breaking-changes)
+            - [Specific Resources](https://github.com/Dhananjay-latpate/RCMS/dev-docs/migration/v4-to-v5/additional-resources/introduction)
 
             Please see our [Security file](https://github.com/strapi/strapi/security) for more information about supported versions.
             For now this issue is marked as closed.

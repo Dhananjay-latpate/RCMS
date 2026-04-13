@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_USER: strapi
       POSTGRES_PASSWORD: strapi
-      POSTGRES_DB: strapi
+      POSTGRES_DB: resillix
     ports:
       - '5432:5432'
 
@@ -17,7 +17,7 @@ services:
     image: mysql:8
     restart: always
     environment:
-      MYSQL_DATABASE: strapi
+      MYSQL_DATABASE: resillix
       MYSQL_USER: strapi
       MYSQL_PASSWORD: strapi
       MYSQL_ROOT_HOST: '%'

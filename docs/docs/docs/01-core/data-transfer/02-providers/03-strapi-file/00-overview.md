@@ -8,7 +8,7 @@ tags:
   - data-transfer
 ---
 
-# Strapi Data File Providers
+# Resillix CMS Data File Providers
 
 Strapi data file providers transfer data to or from a [Strapi Data File](./01-file-structure.md).
 

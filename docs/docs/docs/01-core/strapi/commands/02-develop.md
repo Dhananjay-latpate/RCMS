@@ -18,7 +18,7 @@ strapi develop
 ### Options
 
 ```bash
-Start your Strapi application in development mode
+Start your Resillix CMS application in development mode
 
 Options:
   --polling         Watch for file changes in network directories (default: false)

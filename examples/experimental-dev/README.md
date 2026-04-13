@@ -1,6 +1,6 @@
 # Experimental Dev
 
-This app is used to run experimental dependencies in Strapi. Specifically right now, used to test react19 release candidates & the react-compiler
+This app is used to run experimental dependencies in Resillix CMS. Specifically right now, used to test react19 release candidates & the react-compiler
 
 ## Getting started
 

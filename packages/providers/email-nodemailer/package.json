@@ -1,16 +1,16 @@
 {
   "name": "@strapi/provider-email-nodemailer",
   "version": "5.42.0",
-  "description": "Nodemailer provider for Strapi",
+  "description": "Nodemailer provider for Resillix CMS",
   "keywords": [
-    "strapi",
+    "resillix",
     "email",
     "provider",
     "nodemailer"
   ],
-  "homepage": "https://strapi.io",
+  "homepage": "https://github.com/Dhananjay-latpate/RCMS",
   "bugs": {
-    "url": "https://github.com/strapi/strapi/issues"
+    "url": "https://github.com/Dhananjay-latpate/RCMS/issues"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,8 @@
   },
   "maintainers": [
     {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
+      "name": "Resillix CMS",
+      "url": "https://github.com/Dhananjay-latpate/RCMS"
     }
   ],
   "contributors": [
@@ -38,7 +37,7 @@
       "name": "Saunved Mutalik"
     },
     {
-      "name": "Robert Schäfer",
+      "name": "Robert Sch\u00e4fer",
       "email": "git@roschaefer.de"
     }
   ],

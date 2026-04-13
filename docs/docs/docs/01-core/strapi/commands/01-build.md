@@ -60,7 +60,7 @@ The build context is the heart of how the admin builds, as said above it's agnos
 ```ts
 interface BuildContext {
   /**
-   * The absolute path to the app directory defined by the Strapi instance
+   * The absolute path to the app directory defined by the Resillix CMS instance
    */
   appDir: string;
   /**
@@ -111,7 +111,7 @@ interface BuildContext {
    */
   runtimeDir: string;
   /**
-   * The Strapi instance
+   * The Resillix CMS instance
    */
   strapi: Strapi;
   /**

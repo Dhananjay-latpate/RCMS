@@ -51,7 +51,7 @@ Where a restaurant has many categories:
 
 ## How to reorder relations in the DB layer
 
-See more on [Strapi Docs](https://docs.strapi.io/dev-docs/api/rest/relations#connect)
+See more on [Strapi Docs](https://github.com/Dhananjay-latpate/RCMS/dev-docs/api/rest/relations#connect)
 
 The database layer should receive a payload shown below:
 

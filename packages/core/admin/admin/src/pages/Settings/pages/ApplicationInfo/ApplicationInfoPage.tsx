@@ -176,7 +176,7 @@ const ApplicationInfoPage = () => {
                     <Typography variant="sigma" textColor="neutral600" tag="dt">
                       {formatMessage({
                         id: 'Settings.application.strapiVersion',
-                        defaultMessage: 'strapi version',
+                        defaultMessage: 'Resillix CMS version',
                       })}
                     </Typography>
                     <Flex gap={3} direction="column" alignItems="start" tag="dd">

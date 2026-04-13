@@ -133,7 +133,7 @@ const ListPageCE = () => {
         title={title}
         subtitle={formatMessage({
           id: 'Settings.permissions.users.listview.header.subtitle',
-          defaultMessage: 'All the users who have access to the Strapi admin panel',
+          defaultMessage: 'All the users who have access to the Resillix CMS admin panel',
         })}
       />
       <Layouts.Action

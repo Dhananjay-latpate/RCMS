@@ -1,6 +1,6 @@
 ---
 title: Transactions
-description: Conceptual guide to transactions in Strapi
+description: Conceptual guide to transactions in Resillix CMS
 tags:
   - database
   - experimental

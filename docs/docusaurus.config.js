@@ -9,12 +9,12 @@ const {
 const config = {
   title: 'Doc',
   tagline: 'Dinosaurs are cool',
-  url: 'https://contributor.strapi.io',
+  url: 'https://github.com/Dhananjay-latpate/RCMS',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'strapi',
-  projectName: 'strapi',
+  organizationName: 'Dhananjay-latpate',
+  projectName: 'RCMS',
   trailingSlash: false,
   themes: ['@docusaurus/theme-mermaid'],
 
@@ -70,7 +70,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/strapi/strapi/tree/main/docs/',
+          editUrl: 'https://github.com/Dhananjay-latpate/RCMS/tree/main/docs/',
         },
         blog: false,
       },

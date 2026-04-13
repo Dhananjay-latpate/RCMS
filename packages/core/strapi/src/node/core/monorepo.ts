@@ -6,7 +6,7 @@ interface StrapiMonorepo {
 }
 
 /**
- * Load information about the strapi CMS monorepo (if applicable)
+ * Load information about the Resillix CMS monorepo (if applicable)
  *
  * @internal
  */
@@ -20,7 +20,7 @@ async function loadStrapiMonorepo(cwd: string): Promise<StrapiMonorepo | undefin
       return undefined;
     }
 
-    if (readResult.packageJson.isStrapiMonorepo) {
+    if (readResult.packageJson.isResillixMonorepo || readResult.packageJson.isStrapiMonorepo) {
       return { path: path.dirname(readResult.path) };
     }
 

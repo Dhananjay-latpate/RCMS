@@ -6,9 +6,9 @@ tags:
   - experimental
 ---
 
-# Strapi Remote Destination Provider
+# Resillix CMS Remote Destination Provider
 
-The Strapi remote destination provider connects to a remote Strapi websocket server and sends messages to move between stages and push data.
+The Resillix CMS remote destination provider connects to a remote Strapi websocket server and sends messages to move between stages and push data.
 
 ## Provider Options
 

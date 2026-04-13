@@ -1,5 +1,5 @@
 ---
-title: Contributing to Strapi
+title: Contributing to Resillix CMS
 hide_title: true
 ---
 
