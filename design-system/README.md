@@ -1,8 +1,8 @@
-# @resillix/design-system (Phase 1)
+# @resillix/design-system
 
-The foundation of the new Resillix design system: **design tokens → light/dark
-themes → Tailwind preset → layout primitives → first component**, plus a live
-preview app used to monitor the system as it grows.
+The new Resillix design system: **design tokens → light/dark themes → Tailwind
+preset → layout primitives → components**, plus a live preview app used to
+monitor the system as it grows.
 
 This folder is intentionally **outside the yarn workspace** (`packages/*`) so it
 builds and deploys independently and does not touch the monorepo lockfile. It
@@ -16,8 +16,11 @@ phase (see [`../docs/DESIGN_SYSTEM_PLAN.md`](../docs/DESIGN_SYSTEM_PLAN.md)).
 | `src/lib/tokens/tokens.css` | Token source of truth as CSS variables (light + `.dark`) |
 | `tailwind-preset.cjs` | Tailwind preset mapping tokens → theme |
 | `src/lib/primitives/` | `Box`, `Flex`, `Grid`, `Typography` (legacy-compatible props) |
-| `src/lib/components/` | `Button` (modern-minimal) |
+| `src/lib/components/` | `Button`, `Field`/`TextInput`/`Textarea`, `Checkbox`, `Toggle`, `Select`, `Dialog`, `Tabs`, `Tooltip`, `Badge`, `Card`, `Table` |
 | `src/preview/` | Live style-guide preview with light/dark toggle |
+
+Interactive components are built on **Radix UI** primitives (Dialog, Select,
+Tabs, Tooltip, Checkbox, Switch, Label) for accessibility, styled with tokens.
 
 ## Develop / build
 
