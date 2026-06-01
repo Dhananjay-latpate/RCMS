@@ -9,7 +9,7 @@ import {
   createContext,
   useForm,
   useQueryParams,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Box,
   Dialog,

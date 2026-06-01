@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 const createAILocalizationJobsController = ({ strapi }: { strapi: Core.Strapi }) => {
   const getService = (name: string) => strapi.plugin('i18n').service(name);

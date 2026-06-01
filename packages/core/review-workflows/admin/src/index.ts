@@ -6,8 +6,8 @@ import { Panel } from './routes/content-manager/model/id/components/Panel';
 import { addColumnToTableHook } from './utils/cm-hooks';
 import { prefixPluginTranslations } from './utils/translations';
 
-import type { StrapiApp, WidgetArgs } from '@strapi/admin/strapi-admin';
-import type { Plugin } from '@strapi/types';
+import type { StrapiApp, WidgetArgs } from '@resillix/admin/strapi-admin';
+import type { Plugin } from '@resillix/types';
 
 const admin: Plugin.Config.AdminInput = {
   register(app: StrapiApp) {

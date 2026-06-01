@@ -1,6 +1,6 @@
 import { join } from 'path';
-import { strings, errors } from '@strapi/utils';
-import type { Struct } from '@strapi/types';
+import { strings, errors } from '@resillix/utils';
+import type { Struct } from '@resillix/types';
 import createBuilder from './schema-builder';
 
 type Infos = {

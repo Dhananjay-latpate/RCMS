@@ -9,7 +9,7 @@ const command: StrapiCloudCommand = ({ command, ctx }) => {
   command
     .command('cloud:projects')
     .alias('projects')
-    .description('List Strapi Cloud projects')
+    .description('List Resillix CMS Cloud projects')
     .option('-d, --debug', 'Enable debugging mode with verbose logs')
     .option('-s, --silent', "Don't log anything")
     .action(() => runAction('projects', action)(ctx));

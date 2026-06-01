@@ -1,4 +1,4 @@
-import { strings } from '@strapi/utils';
+import { strings } from '@resillix/utils';
 
 import type { Context } from 'koa';
 

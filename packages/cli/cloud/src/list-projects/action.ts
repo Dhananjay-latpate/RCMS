@@ -22,6 +22,6 @@ export default async (ctx: CLIContext) => {
     logger.log(projectList);
   } catch (e) {
     ctx.logger.debug('Failed to list projects', e);
-    spinner.fail('An error occurred while fetching your projects from Strapi Cloud.');
+    spinner.fail('An error occurred while fetching your projects from Resillix CMS Cloud.');
   }
 };

@@ -18,7 +18,7 @@ import action from './action';
 const command = () => {
   return (
     createCommand('import')
-      .description('Import data from file to Strapi')
+      .description('Import data from file to Resillix CMS')
       .allowExcessArguments(false)
       .requiredOption(
         '-f, --file <file>',
@@ -97,7 +97,7 @@ const command = () => {
         if (extname(file) !== '.tar') {
           exitWith(
             1,
-            `The file '${opts.file}' does not appear to be a valid Strapi data file. Use a path ending in .tar[.gz][.enc], or an existing directory that contains an unpacked export (e.g. metadata.json).`
+            `The file '${opts.file}' does not appear to be a valid Resillix CMS data file. Use a path ending in .tar[.gz][.enc], or an existing directory that contains an unpacked export (e.g. metadata.json).`
           );
         }
       })

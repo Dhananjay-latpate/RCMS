@@ -5,7 +5,7 @@ import * as constants from '../constants';
 import { Logger } from '../../logger';
 
 jest.mock('execa');
-jest.mock('@strapi/utils', () => ({
+jest.mock('@resillix/utils', () => ({
   packageManager: {
     getPreferred: jest.fn(),
   },
@@ -179,7 +179,7 @@ describe('Package registry URL determination', () => {
 
   beforeAll(() => {
     mockExeca = jest.requireMock('execa');
-    mockGetPreferred = jest.requireMock('@strapi/utils').packageManager.getPreferred;
+    mockGetPreferred = jest.requireMock('@resillix/utils').packageManager.getPreferred;
     const mockFetchPromise = Promise.resolve({
       ok: true,
       json: () => Promise.resolve(mockNpmPackage),

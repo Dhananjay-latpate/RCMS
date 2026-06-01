@@ -1,7 +1,7 @@
 import { extendType, nonNull } from 'nexus';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import type * as Nexus from 'nexus';
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 import type { Context } from '../../types';
 
 const { NotFoundError } = errors;

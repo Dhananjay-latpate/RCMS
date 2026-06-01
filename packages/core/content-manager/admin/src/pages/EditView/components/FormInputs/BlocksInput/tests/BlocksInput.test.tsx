@@ -1,7 +1,7 @@
 /* eslint-disable testing-library/no-node-access */
 import * as React from 'react';
 
-import { Form } from '@strapi/admin/strapi-admin';
+import { Form } from '@resillix/admin/strapi-admin';
 import { render, screen } from '@tests/utils';
 
 import { BlocksInput } from '../BlocksInput';
@@ -10,8 +10,8 @@ import { blocksData } from './mock-schema';
 
 type BlocksEditorProps = React.ComponentProps<typeof BlocksInput>;
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useIsMobile: jest.fn().mockReturnValue(false),
 }));
 

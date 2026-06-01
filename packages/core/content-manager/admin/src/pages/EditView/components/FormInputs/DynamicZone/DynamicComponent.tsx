@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useForm, useIsDesktop } from '@strapi/admin/strapi-admin';
+import { useForm, useIsDesktop } from '@resillix/admin/strapi-admin';
 import {
   Accordion,
   Box,

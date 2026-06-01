@@ -1,5 +1,5 @@
-import type { Struct, Modules } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Struct, Modules } from '@resillix/types';
+import { errors } from '@resillix/utils';
 import { curry, assoc } from 'lodash/fp';
 
 type Transform = (

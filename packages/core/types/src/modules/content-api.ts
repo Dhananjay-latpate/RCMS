@@ -1,5 +1,5 @@
-import permissions from '@strapi/permissions';
-import { providerFactory, sanitize, validate } from '@strapi/utils';
+import permissions from '@resillix/permissions';
+import { providerFactory, sanitize, validate } from '@resillix/utils';
 import type { z } from 'zod/v4';
 
 import type { Route } from '../core';
@@ -82,7 +82,7 @@ export interface ContentApi {
   /**
    * Register extra query params to be merged into content-api route schemas.
    * Query params accept only Zod scalar or array-of-scalar schemas (no nested objects); enforced at runtime. Use {@link ContentApi.addInputParams} for nested structures.
-   * Use `z` from `@strapi/utils` or `zod/v4` for compatibility.
+   * Use `z` from `@resillix/utils` or `zod/v4` for compatibility.
    *
    * @param options - {@link AddQueryParamsOptions}: record of param name → {@link QueryParamEntry}. Each entry has:
    * @param options.[paramName] - {@link QueryParamEntry} (key is the param name, e.g. `"search"`).

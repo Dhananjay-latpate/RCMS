@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { createContext, useNotification } from '@strapi/admin/strapi-admin';
+import { createContext, useNotification } from '@resillix/admin/strapi-admin';
 import { Alert, Button, Flex, Modal } from '@strapi/design-system';
 import { produce } from 'immer';
 import { useIntl } from 'react-intl';

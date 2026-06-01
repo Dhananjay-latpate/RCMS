@@ -1,4 +1,4 @@
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import { Entity } from './shared';
 
 export interface AILocalizationJobs extends Entity {

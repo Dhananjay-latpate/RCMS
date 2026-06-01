@@ -1,13 +1,13 @@
 import { useCallback, useMemo, useState } from 'react';
 
-import { useTracking } from '@strapi/admin/strapi-admin';
+import { useTracking } from '@resillix/admin/strapi-admin';
 
 import { useCTBSession } from '../CTBSession/useCTBSession';
 
 import { FormModalNavigationContext } from './FormModalNavigationContext';
 
-import type { TrackingEvent } from '@strapi/admin/strapi-admin';
-import type { Internal, Struct } from '@strapi/types';
+import type { TrackingEvent } from '@resillix/admin/strapi-admin';
+import type { Internal, Struct } from '@resillix/types';
 
 type FormModalNavigationProviderProps = {
   children: React.ReactNode;

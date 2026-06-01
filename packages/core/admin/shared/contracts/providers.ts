@@ -1,4 +1,4 @@
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 
 /**
  * /providers/isSSOLocked

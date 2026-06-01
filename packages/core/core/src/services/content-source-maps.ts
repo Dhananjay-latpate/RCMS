@@ -1,7 +1,7 @@
 import { vercelStegaCombine } from '@vercel/stega';
-import type { Core, Struct, UID } from '@strapi/types';
-import { traverseEntity } from '@strapi/utils';
-import type { FieldContentSourceMap } from '@strapi/admin/strapi-admin';
+import type { Core, Struct, UID } from '@resillix/types';
+import { traverseEntity } from '@resillix/utils';
+import type { FieldContentSourceMap } from '@resillix/admin/strapi-admin';
 
 const ENCODABLE_TYPES = [
   'string',

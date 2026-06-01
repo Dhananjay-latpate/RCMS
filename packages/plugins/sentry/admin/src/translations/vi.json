@@ -1,5 +1,5 @@
 {
-  "plugin.description.long": "Gửi lỗi Strapi lên Sentry.",
-  "plugin.description.short": "Gửi lỗi Strapi lên Sentry.",
+  "plugin.description.long": "Gửi lỗi Resillix CMS lên Sentry.",
+  "plugin.description.short": "Gửi lỗi Resillix CMS lên Sentry.",
   "plugin.name": "Sentry"
 }

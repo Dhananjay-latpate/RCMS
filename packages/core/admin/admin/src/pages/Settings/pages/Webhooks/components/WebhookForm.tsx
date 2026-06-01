@@ -16,7 +16,7 @@ import { EventTableCE } from './EventsTable';
 import { HeadersInput } from './HeadersInput';
 import { TriggerContainer } from './TriggerContainer';
 
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@resillix/types';
 
 interface WebhookFormValues {
   name: Modules.WebhookStore.Webhook['name'];

@@ -1,4 +1,4 @@
-import type { Core, Schema } from '@strapi/types';
+import type { Core, Schema } from '@resillix/types';
 import { resolveComponentUID } from '../components';
 
 const baseContentType: Schema.ContentType = {

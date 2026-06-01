@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/permissions",
+  "name": "@resillix/permissions",
   "version": "5.42.0",
   "description": "Resillix CMS's permission layer.",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@casl/ability": "6.7.5",
-    "@strapi/utils": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "lodash": "4.18.1",
     "qs": "6.15.0",
     "sift": "16.0.1"

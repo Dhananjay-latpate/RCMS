@@ -21,5 +21,5 @@ try {
   notifyManager.setNotifyFunction((fn) => act(fn));
   notifyManager.setBatchNotifyFunction((fn) => act(fn));
 } catch {
-  // `react-query` may not be installed for all consumers of @strapi/admin-test-utils.
+  // `react-query` may not be installed for all consumers of @resillix/admin-test-utils.
 }

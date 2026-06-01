@@ -190,7 +190,7 @@ export default async function loginAction(
     }
     spinner.succeed('Authentication successful!');
     if (showDashboardLink) {
-      logger.log('You are now logged into Strapi Cloud.');
+      logger.log('You are now logged into Resillix CMS Cloud.');
       logger.log(
         'To access your dashboard, please copy and paste the following URL into your web browser:'
       );

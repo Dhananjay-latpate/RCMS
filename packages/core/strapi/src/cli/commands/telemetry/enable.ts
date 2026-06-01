@@ -100,7 +100,7 @@ const action = async () => {
     updatedPackageJSON.strapi.uuid,
     updatedPackageJSON.strapi?.installId
   );
-  console.log(`${chalk.green('Successfully opted into and enabled Strapi telemetry')}`);
+  console.log(`${chalk.green('Successfully opted into and enabled Resillix CMS telemetry')}`);
   process.exit(0);
 };
 
@@ -109,7 +109,7 @@ const action = async () => {
  */
 const command: StrapiCommand = () => {
   return createCommand('telemetry:enable')
-    .description('Enable anonymous telemetry and metadata sending to Strapi analytics')
+    .description('Enable anonymous telemetry and metadata sending to Resillix CMS analytics')
     .action(runAction('telemetry:enable', action));
 };
 

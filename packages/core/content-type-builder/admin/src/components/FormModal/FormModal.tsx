@@ -7,7 +7,7 @@ import {
   ConfirmDialog,
   useGuidedTour,
   GUIDED_TOUR_REQUIRED_ACTIONS,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import { Button, Divider, Flex, Modal, Tabs, Box, Typography, Dialog } from '@strapi/design-system';
 import get from 'lodash/get';
 import has from 'lodash/has';
@@ -61,7 +61,7 @@ import { getAttributesToDisplay } from './utils/getAttributesToDisplay';
 import { getFormInputNames } from './utils/getFormInputNames';
 
 import type { ContentType } from '../../types';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@resillix/types';
 
 const FormComponent = styled.form`
   overflow: auto;

@@ -5,7 +5,7 @@
  * across Strapi minor/patch updates.
  *
  * @example
- * import { z } from '@strapi/utils';
+ * import { z } from '@resillix/utils';
  * strapi.contentAPI.addQueryParams({
  *   search: {
  *     schema: z.string().max(200).optional(),

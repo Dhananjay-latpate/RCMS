@@ -300,7 +300,7 @@ export default async (ctx: CLIContext, opts: CmdOptions) => {
     if (e instanceof AxiosError && e.response?.data) {
       if (e.response.status === 404) {
         ctx.logger.warn(
-          `The project associated with this folder does not exist in Strapi Cloud. \nPlease link your local project to an existing Strapi Cloud project using the ${chalk.cyan(
+          `The project associated with this folder does not exist in Resillix CMS Cloud. \nPlease link your local project to an existing Resillix CMS Cloud project using the ${chalk.cyan(
             'link'
           )} command before deploying.`
         );
@@ -326,7 +326,7 @@ export default async (ctx: CLIContext, opts: CmdOptions) => {
   const cliConfig = await getConfig({ ctx, cloudApiService });
   if (!cliConfig) {
     ctx.logger.error(
-      'An error occurred while retrieving data from Strapi Cloud. Please check your network or try again later.'
+      'An error occurred while retrieving data from Resillix CMS Cloud. Please check your network or try again later.'
     );
     return;
   }

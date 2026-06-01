@@ -5,7 +5,7 @@ import { StrapiApp, StrapiAppConstructorArgs } from './StrapiApp';
 import { getFetchClient } from './utils/getFetchClient';
 import { createAbsoluteUrl } from './utils/urls';
 
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@resillix/types';
 
 interface RenderAdminArgs {
   customisations: {
@@ -22,7 +22,7 @@ const renderAdmin = async (
   { plugins, customisations, features }: RenderAdminArgs
 ) => {
   if (!mountNode) {
-    throw new Error('[@strapi/admin]: Could not find the root element to mount the admin app');
+    throw new Error('[@resillix/admin]: Could not find the root element to mount the admin app');
   }
 
   window.strapi = {

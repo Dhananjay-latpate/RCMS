@@ -4,7 +4,7 @@ import { ComponentRow } from './ComponentRow';
 import { useDataManager } from './DataManager/useDataManager';
 import { List } from './List';
 
-import type { UID } from '@strapi/types';
+import type { UID } from '@resillix/types';
 
 interface ComponentListProps {
   component: UID.Component;

@@ -1,5 +1,5 @@
 import type * as Nexus from 'nexus';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 const NOT_FIELD_NAME = 'not';
 

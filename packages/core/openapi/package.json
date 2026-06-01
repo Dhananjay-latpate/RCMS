@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/openapi",
+  "name": "@resillix/openapi",
   "version": "5.42.0",
   "description": "A tool set to help generate and validate API documentation for Resillix CMS projects",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",
@@ -60,7 +60,7 @@
     "zod": "3.25.67"
   },
   "devDependencies": {
-    "@strapi/types": "5.42.0",
+    "@resillix/types": "5.42.0",
     "@types/debug": "^4"
   }
 }

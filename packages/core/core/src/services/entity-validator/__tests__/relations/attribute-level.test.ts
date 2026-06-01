@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Common, EntityService } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Common, EntityService } from '@resillix/types';
 
 import entityValidator from '../..';
 import { models, existentIDs, nonExistentIds } from './utils/relations.testdata';

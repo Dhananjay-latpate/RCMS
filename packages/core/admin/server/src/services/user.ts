@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 import _ from 'lodash';
 import { defaults } from 'lodash/fp';
-import { arrays, errors } from '@strapi/utils';
-import type { Data } from '@strapi/types';
+import { arrays, errors } from '@resillix/utils';
+import type { Data } from '@resillix/types';
 import { createUser, hasSuperAdminRole } from '../domain/user';
 import type {
   AdminUser,

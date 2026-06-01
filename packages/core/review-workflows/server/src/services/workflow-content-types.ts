@@ -1,5 +1,5 @@
-import type { Core } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { async } from '@resillix/utils';
 import { difference, merge } from 'lodash/fp';
 import { getService } from '../utils';
 import { WORKFLOW_MODEL_UID } from '../constants/workflows';

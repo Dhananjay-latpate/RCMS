@@ -2,7 +2,7 @@ import { reducer, actions, type State } from '../reducer';
 
 import { initCT, initCompo, init as initUtils } from './utils';
 
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 
 const baseContentType = initCT('test', {});
 const baseComponent = initCompo('test', {});

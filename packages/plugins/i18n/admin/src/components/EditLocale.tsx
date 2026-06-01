@@ -6,7 +6,7 @@ import {
   Form,
   FormHelpers,
   useAuth,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Box,
   Button,

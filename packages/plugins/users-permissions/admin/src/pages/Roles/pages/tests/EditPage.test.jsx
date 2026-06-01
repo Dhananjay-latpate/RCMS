@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { NotificationsProvider } from '@strapi/admin/strapi-admin';
+import { NotificationsProvider } from '@resillix/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import {
   fireEvent,

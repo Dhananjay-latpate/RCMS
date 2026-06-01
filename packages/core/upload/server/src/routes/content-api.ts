@@ -1,6 +1,6 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import * as z from 'zod/v4';
-import { createContentApiRoutesFactory } from '@strapi/utils';
+import { createContentApiRoutesFactory } from '@resillix/utils';
 import { UploadRouteValidator } from './validation';
 
 const createRoutes = createContentApiRoutesFactory((): Core.RouterInput['routes'] => {

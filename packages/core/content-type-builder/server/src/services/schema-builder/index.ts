@@ -1,7 +1,7 @@
 import { join } from 'path';
 import _ from 'lodash';
 
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import createSchemaHandler from './schema-handler';
 import createComponentBuilder from './component-builder';
 import createContentTypeBuilder from './content-type-builder';

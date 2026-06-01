@@ -1,6 +1,6 @@
-import { async, traverseEntity } from '@strapi/utils';
+import { async, traverseEntity } from '@resillix/utils';
 
-import type { Schema, UID } from '@strapi/types';
+import type { Schema, UID } from '@resillix/types';
 
 import { getService } from '../../utils';
 import { FILE_MODEL_UID } from '../../constants';

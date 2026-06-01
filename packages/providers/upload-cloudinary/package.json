@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-upload-cloudinary",
+  "name": "@resillix/provider-upload-cloudinary",
   "version": "5.42.0",
   "description": "Cloudinary provider for strapi upload",
   "keywords": [
@@ -44,7 +44,7 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
-    "@strapi/utils": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "cloudinary": "^2.7.0",
     "into-stream": "^5.1.0"
   },

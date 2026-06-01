@@ -6,7 +6,7 @@ export { action, command };
 
 export default {
   name: 'link-project',
-  description: 'Link a local directory to a Strapi Cloud project',
+  description: 'Link a local directory to a Resillix CMS Cloud project',
   action,
   command,
 } as StrapiCloudCommandInfo;

@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import { strings, validateZod } from '@strapi/utils';
-import type { Struct, UID } from '@strapi/types';
+import { strings, validateZod } from '@resillix/utils';
+import type { Struct, UID } from '@resillix/types';
 import { isArray, isNil, isNull, isNumber, isObject, isUndefined, snakeCase } from 'lodash/fp';
 
 import { isReservedAttributeName, isReservedModelName } from '../../services/builder';

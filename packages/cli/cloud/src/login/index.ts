@@ -6,7 +6,7 @@ export { action, command };
 
 export default {
   name: 'login',
-  description: 'Strapi Cloud Login',
+  description: 'Resillix CMS Cloud Login',
   action,
   command,
 } as StrapiCloudCommandInfo;

@@ -8,7 +8,7 @@ import {
   Form as FormContext,
   type FieldContentSourceMap,
   useNotification,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Box,
   Flex,
@@ -40,7 +40,7 @@ import { PUBLIC_EVENTS } from '../utils/constants';
 import { getSendMessage } from '../utils/getSendMessage';
 import { previewScript } from '../utils/previewScript';
 
-import type { Schema, UID } from '@strapi/types';
+import type { Schema, UID } from '@resillix/types';
 
 /* -------------------------------------------------------------------------------------------------
  * Constants

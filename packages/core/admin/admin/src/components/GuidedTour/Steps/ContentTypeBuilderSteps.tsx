@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { useAIAvailability } from '@strapi/admin/strapi-admin/ee';
-import { UID } from '@strapi/types';
+import { useAIAvailability } from '@resillix/admin/strapi-admin/ee';
+import { UID } from '@resillix/types';
 import { useParams } from 'react-router-dom';
 
 import { useGetGuidedTourMetaQuery } from '../../../services/admin';

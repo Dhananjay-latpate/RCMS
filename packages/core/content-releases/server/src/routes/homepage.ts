@@ -1,4 +1,4 @@
-import type { Plugin } from '@strapi/types';
+import type { Plugin } from '@resillix/types';
 
 const info = { pluginName: 'content-manager', type: 'admin' };
 

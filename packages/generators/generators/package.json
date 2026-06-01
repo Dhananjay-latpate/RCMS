@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/generators",
+  "name": "@resillix/generators",
   "version": "5.42.0",
   "description": "Interactive API generator.",
   "keywords": [
@@ -47,9 +47,9 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
+    "@resillix/typescript-utils": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "@sindresorhus/slugify": "1.1.0",
-    "@strapi/typescript-utils": "5.42.0",
-    "@strapi/utils": "5.42.0",
     "chalk": "4.1.2",
     "fs-extra": "11.2.0",
     "handlebars": "4.7.9",

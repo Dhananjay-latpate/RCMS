@@ -16,7 +16,7 @@ const mock = {
   admin,
 };
 
-jest.mock('@strapi/core', () => {
+jest.mock('@resillix/core', () => {
   const createStrapi = jest.fn(() => mock);
 
   const compileStrapi = jest.fn();

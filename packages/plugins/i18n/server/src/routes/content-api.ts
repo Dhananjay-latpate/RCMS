@@ -1,5 +1,5 @@
-import type { Core } from '@strapi/types';
-import { createContentApiRoutesFactory } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { createContentApiRoutesFactory } from '@resillix/utils';
 import { I18nLocaleRouteValidator } from './validation';
 
 const createContentApiRoutes = createContentApiRoutesFactory((): Core.RouterInput['routes'] => {

@@ -1,5 +1,5 @@
-import { type Model, type Identifiers } from '@strapi/database';
-import type { Struct, Schema } from '@strapi/types';
+import { type Model, type Identifiers } from '@resillix/database';
+import type { Struct, Schema } from '@resillix/types';
 import { createId } from '@paralleldrive/cuid2';
 import assert from 'node:assert';
 import _ from 'lodash/fp';

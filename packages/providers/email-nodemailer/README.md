@@ -1,4 +1,4 @@
-# @strapi/provider-email-nodemailer
+# @resillix/provider-email-nodemailer
 
 A feature-rich Nodemailer email provider for Strapi with support for DKIM, OAuth2, connection pooling, calendar invitations, newsletters, and more.
 
@@ -29,10 +29,10 @@ A feature-rich Nodemailer email provider for Strapi with support for DKIM, OAuth
 
 ```bash
 # using yarn
-yarn add @strapi/provider-email-nodemailer
+yarn add @resillix/provider-email-nodemailer
 
 # using npm
-npm install @strapi/provider-email-nodemailer --save
+npm install @resillix/provider-email-nodemailer --save
 ```
 
 ## Example
@@ -737,7 +737,7 @@ import {
   isValidEmail,
   decodeRfc2047,
   encodeRfc2047Base64,
-} from '@strapi/provider-email-nodemailer/utils';
+} from '@resillix/provider-email-nodemailer/utils';
 ```
 
 ### Parsing Email Addresses

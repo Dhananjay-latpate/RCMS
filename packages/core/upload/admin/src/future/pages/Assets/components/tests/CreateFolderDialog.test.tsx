@@ -10,8 +10,8 @@ jest.mock('../../../../services/folders', () => ({
   useCreateFolderMutation: () => [mockCreateFolder, { isLoading: false }],
 }));
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useNotification: () => ({ toggleNotification: mockToggleNotification }),
 }));
 

@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/utils",
+  "name": "@resillix/utils",
   "version": "5.42.0",
   "description": "Shared utilities for the Resillix CMS packages",
   "keywords": [

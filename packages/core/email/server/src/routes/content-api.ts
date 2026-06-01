@@ -1,5 +1,5 @@
-import type { Core } from '@strapi/types';
-import { createContentApiRoutesFactory } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { createContentApiRoutesFactory } from '@resillix/utils';
 import { EmailRouteValidator } from './validation';
 
 const createRoutes = createContentApiRoutesFactory((): Core.RouterInput['routes'] => {

@@ -1,7 +1,7 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import * as z from 'zod/v4';
 
-import { createContentApiRoutesFactory } from '@strapi/utils';
+import { createContentApiRoutesFactory } from '@resillix/utils';
 
 const ctUIDRegexp = /^((strapi|admin)::[\w-]+|(api|plugin)::[\w-]+\.[\w-]+)$/;
 const componentUIDRegexp = /^[\w-]+\.[\w-]+$/;

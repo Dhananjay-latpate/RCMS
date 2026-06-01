@@ -1,4 +1,4 @@
-import permissions from '@strapi/permissions';
+import permissions from '@resillix/permissions';
 
 type Options = Parameters<typeof permissions.engine.new>[0];
 

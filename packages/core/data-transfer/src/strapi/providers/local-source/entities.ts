@@ -1,5 +1,5 @@
 import { Readable, Transform } from 'stream';
-import type { Core, Struct } from '@strapi/types';
+import type { Core, Struct } from '@resillix/types';
 
 import * as shared from '../../queries';
 import { IEntity } from '../../../../types';

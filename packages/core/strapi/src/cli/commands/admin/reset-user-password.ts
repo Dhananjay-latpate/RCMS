@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import type { DistinctQuestion } from 'inquirer';
 import { createCommand } from 'commander';
-import { createStrapi, compileStrapi } from '@strapi/core';
+import { createStrapi, compileStrapi } from '@resillix/core';
 
 import type { StrapiCommand } from '../../types';
 import { runAction } from '../../utils/helpers';

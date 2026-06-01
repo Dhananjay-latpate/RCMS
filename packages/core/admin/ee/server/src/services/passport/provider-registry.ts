@@ -1,4 +1,4 @@
-import '@strapi/types';
+import '@resillix/types';
 
 export default () => {
   const registry = new Map();

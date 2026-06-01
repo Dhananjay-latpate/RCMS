@@ -1,7 +1,7 @@
 import * as settingsService from '../settings';
 
-jest.mock('@strapi/utils', () => ({
-  ...jest.requireActual('@strapi/utils'),
+jest.mock('@resillix/utils', () => ({
+  ...jest.requireActual('@resillix/utils'),
   traverse: {
     traverseQuerySort: jest.fn((a, b, c) => c),
   },

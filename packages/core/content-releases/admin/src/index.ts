@@ -8,12 +8,12 @@ import { PERMISSIONS, PLUGIN_ID } from './constants';
 import { pluginId } from './pluginId';
 import { prefixPluginTranslations } from './utils/prefixPluginTranslations';
 
-import type { StrapiApp } from '@strapi/admin/strapi-admin';
+import type { StrapiApp } from '@resillix/admin/strapi-admin';
 import type {
   DocumentActionComponent,
   BulkActionComponent,
-} from '@strapi/content-manager/strapi-admin';
-import type { Plugin } from '@strapi/types';
+} from '@resillix/content-manager/strapi-admin';
+import type { Plugin } from '@resillix/types';
 
 // eslint-disable-next-line import/no-default-export
 const admin: Plugin.Config.AdminInput = {

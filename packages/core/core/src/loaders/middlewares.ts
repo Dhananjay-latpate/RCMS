@@ -1,7 +1,7 @@
 import { join, extname, basename } from 'path';
 import fse from 'fs-extra';
-import { importDefault } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { importDefault } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 import { middlewares as internalMiddlewares } from '../middlewares';
 
 // TODO:: allow folders with index.js inside for bigger policies

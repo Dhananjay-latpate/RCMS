@@ -1,4 +1,4 @@
-import { Core } from '@strapi/types';
+import { Core } from '@resillix/types';
 import { getService } from '../utils';
 import {
   HomepageLayout,

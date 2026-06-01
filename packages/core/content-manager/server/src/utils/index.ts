@@ -1,4 +1,4 @@
-import '@strapi/types';
+import '@resillix/types';
 
 import { DocumentManagerService } from 'src/services/document-manager';
 import DocumentMetadata from 'src/services/document-metadata';

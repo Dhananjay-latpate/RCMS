@@ -1,4 +1,4 @@
-import type { errors } from '@strapi/utils';
+import type { errors } from '@resillix/utils';
 import { Release } from './releases';
 
 // Export required to avoid "cannot be named" TS build error

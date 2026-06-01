@@ -1,4 +1,4 @@
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 import { formatContentType } from '../content-types';
 
 describe('Content types service', () => {

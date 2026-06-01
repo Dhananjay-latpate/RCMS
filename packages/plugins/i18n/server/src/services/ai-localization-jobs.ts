@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { AI_LOCALIZATION_JOB_UID } from '../models/ai-localization-job';
 import type { AILocalizationJobs } from '../../../shared/contracts/ai-localization-jobs';
 

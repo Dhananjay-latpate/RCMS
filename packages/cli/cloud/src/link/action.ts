@@ -84,7 +84,7 @@ async function getProjectsList(
     spinner.succeed();
 
     if (!Array.isArray(projectList)) {
-      ctx.logger.log("We couldn't find any projects available for linking in Strapi Cloud.");
+      ctx.logger.log("We couldn't find any projects available for linking in Resillix CMS Cloud.");
       return null;
     }
     const projects: ProjectsList = (projectList as unknown as Project[])
@@ -99,12 +99,12 @@ async function getProjectsList(
         };
       });
     if (projects.length === 0) {
-      ctx.logger.log("We couldn't find any projects available for linking in Strapi Cloud.");
+      ctx.logger.log("We couldn't find any projects available for linking in Resillix CMS Cloud.");
       return null;
     }
     return projects;
   } catch (e) {
-    spinner.fail('An error occurred while fetching your projects from Strapi Cloud.');
+    spinner.fail('An error occurred while fetching your projects from Resillix CMS Cloud.');
     ctx.logger.debug('Failed to list projects', e);
     return null;
   }

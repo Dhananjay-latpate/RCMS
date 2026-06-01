@@ -1,4 +1,4 @@
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@resillix/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { render } from '@testing-library/react';
 import { IntlProvider } from 'react-intl';
@@ -9,8 +9,8 @@ import { Header } from '../Header';
 
 import type { HeaderProps } from '../Header';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useQueryParams: jest.fn(() => [{ rawQuery: '', query: { folder: 2 } }, jest.fn()]),
 }));
 

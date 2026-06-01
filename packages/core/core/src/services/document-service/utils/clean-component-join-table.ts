@@ -1,5 +1,5 @@
-import type { Database } from '@strapi/database';
-import type { Schema } from '@strapi/types';
+import type { Database } from '@resillix/database';
+import type { Schema } from '@resillix/types';
 import { findComponentParent, getParentSchemasForComponent } from '../components';
 
 /**

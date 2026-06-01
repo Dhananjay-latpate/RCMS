@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 import _ from 'lodash';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 const defaultJwtOptions = { expiresIn: '30d' };
 

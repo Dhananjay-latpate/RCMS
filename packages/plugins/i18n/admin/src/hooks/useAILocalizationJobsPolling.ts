@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useNotification, adminApi } from '@strapi/admin/strapi-admin';
+import { useNotification, adminApi } from '@resillix/admin/strapi-admin';
 import { useIntl } from 'react-intl';
 import { useDispatch } from 'react-redux';
 

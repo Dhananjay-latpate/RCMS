@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useTracking, useRBAC, useQueryParams } from '@strapi/admin/strapi-admin';
+import { useTracking, useRBAC, useQueryParams } from '@resillix/admin/strapi-admin';
 import {
   Flex,
   IconButton,

@@ -45,7 +45,7 @@ export default async (ctx: CLIContext) => {
 
   if (environments.length === 0) {
     logger.log(
-      `The only available environment is already linked. You can add a new one from your project settings on the Strapi Cloud dashboard.`
+      `The only available environment is already linked. You can add a new one from your project settings on the Resillix CMS Cloud dashboard.`
     );
     return;
   }
@@ -136,12 +136,12 @@ async function getEnvironmentsList(
     if (e.response && e.response.status === 404) {
       spinner.succeed();
       ctx.logger.warn(
-        `\nThe project associated with this folder does not exist in Strapi Cloud. \nPlease link your local project to an existing Strapi Cloud project using the ${chalk.cyan(
+        `\nThe project associated with this folder does not exist in Resillix CMS Cloud. \nPlease link your local project to an existing Resillix CMS Cloud project using the ${chalk.cyan(
           'link'
         )} command.`
       );
     } else {
-      spinner.fail('An error occurred while fetching environments data from Strapi Cloud.');
+      spinner.fail('An error occurred while fetching environments data from Resillix CMS Cloud.');
       ctx.logger.debug('Failed to list environments', e);
     }
   }

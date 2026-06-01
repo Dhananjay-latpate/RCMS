@@ -1,7 +1,7 @@
 import { useRef, useCallback, useState, type ChangeEvent } from 'react';
 
 import * as ToggleGroup from '@radix-ui/react-toggle-group';
-import { Layouts, useElementOnScreen, usePersistentState } from '@strapi/admin/strapi-admin';
+import { Layouts, useElementOnScreen, usePersistentState } from '@resillix/admin/strapi-admin';
 import {
   Box,
   Flex,

@@ -1,4 +1,4 @@
-import type { Modules, UID } from '@strapi/types';
+import type { Modules, UID } from '@resillix/types';
 
 type Fields = Modules.Documents.Params.Pick<UID.Schema, 'fields'>['fields'];
 

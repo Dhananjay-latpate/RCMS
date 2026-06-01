@@ -1,4 +1,4 @@
-import { useFetchClient } from '@strapi/admin/strapi-admin';
+import { useFetchClient } from '@resillix/admin/strapi-admin';
 
 const TIMEOUT = 'timeout';
 

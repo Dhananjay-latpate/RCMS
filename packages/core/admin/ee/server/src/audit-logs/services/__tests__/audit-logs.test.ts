@@ -1,5 +1,5 @@
 import { createAuditLogsLifecycleService } from '../lifecycles';
-import '@strapi/types';
+import '@resillix/types';
 
 describe('Audit logs service', () => {
   const mockSubscribe = jest.fn();

@@ -2,14 +2,14 @@ import path from 'path';
 import { isObject, isString, isFinite, toNumber } from 'lodash/fp';
 import fs from 'fs-extra';
 import chalk from 'chalk';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 import {
   engine as engineDataTransfer,
   strapi as strapiDataTransfer,
   file as fileDataTransfer,
   directory as directoryDataTransfer,
-} from '@strapi/data-transfer';
+} from '@resillix/data-transfer';
 
 import {
   getDefaultExportName,
@@ -56,7 +56,7 @@ interface CmdOptions {
 /**
  * Export command.
  *
- * It transfers data from a local Strapi instance to a file
+ * It transfers data from a local Resillix CMS instance to a file
  *
  * @param {ExportCommandOptions} opts
  */

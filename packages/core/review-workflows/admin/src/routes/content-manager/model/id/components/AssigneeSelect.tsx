@@ -6,8 +6,8 @@ import {
   useRBAC,
   useAdminUsers,
   useQueryParams,
-} from '@strapi/admin/strapi-admin';
-import { unstable_useDocument } from '@strapi/content-manager/strapi-admin';
+} from '@resillix/admin/strapi-admin';
+import { unstable_useDocument } from '@resillix/content-manager/strapi-admin';
 import { Combobox, ComboboxOption, Field, VisuallyHidden } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { useParams } from 'react-router-dom';

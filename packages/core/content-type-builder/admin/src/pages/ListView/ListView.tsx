@@ -1,5 +1,5 @@
 /* eslint-disable import/no-default-export */
-import { Layouts, tours } from '@strapi/admin/strapi-admin';
+import { Layouts, tours } from '@resillix/admin/strapi-admin';
 import { Box, Button, Flex, Typography } from '@strapi/design-system';
 import { Information, Pencil, Plus } from '@strapi/icons';
 import upperFirst from 'lodash/upperFirst';
@@ -15,7 +15,7 @@ import { getTrad } from '../../utils/getTrad';
 
 import { LinkToCMSettingsView } from './LinkToCMSettingsView';
 
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@resillix/types';
 
 const LayoutsHeaderCustom = styled(Layouts.Header)`
   overflow: hidden;

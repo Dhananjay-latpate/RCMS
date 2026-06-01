@@ -7,7 +7,7 @@ import {
   useField,
   createRulesEngine,
   type JsonLogicCondition,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import { useIntl } from 'react-intl';
 
 import { SINGLE_TYPES } from '../../../constants/collections';
@@ -33,7 +33,7 @@ import { UIDInput } from './FormInputs/UID';
 import { Wysiwyg } from './FormInputs/Wysiwyg/Field';
 
 import type { EditFieldLayout } from '../../../hooks/useDocumentLayout';
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 import type { DistributiveOmit } from 'react-redux';
 
 type InputRendererProps = DistributiveOmit<EditFieldLayout, 'size'> & {

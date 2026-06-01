@@ -12,7 +12,7 @@ import {
   useDebounce,
   RESPONSIVE_DEFAULT_SPACING,
   useIsMobile,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Box,
   Flex,

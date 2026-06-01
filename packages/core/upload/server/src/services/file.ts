@@ -3,7 +3,7 @@ import dns from 'dns/promises';
 import net from 'net';
 import fse from 'fs-extra';
 import { cloneDeep } from 'lodash/fp';
-import { async, errors } from '@strapi/utils';
+import { async, errors } from '@resillix/utils';
 
 import { FOLDER_MODEL_UID, FILE_MODEL_UID } from '../constants';
 import { getService } from '../utils';

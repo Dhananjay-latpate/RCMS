@@ -1,10 +1,10 @@
 import type { Context } from 'koa';
 import { castArray, isNil } from 'lodash/fp';
 import { differenceInHours, parseISO } from 'date-fns';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import constants from '../services/constants';
 import { getService } from '../utils';
-import '@strapi/types';
+import '@resillix/types';
 
 const { UnauthorizedError, ForbiddenError } = errors;
 

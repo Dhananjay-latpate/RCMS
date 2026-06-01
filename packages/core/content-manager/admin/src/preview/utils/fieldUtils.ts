@@ -1,8 +1,8 @@
-import { type FieldContentSourceMap } from '@strapi/admin/strapi-admin';
+import { type FieldContentSourceMap } from '@resillix/admin/strapi-admin';
 
 import type { PREVIEW_ERROR_MESSAGES } from './constants';
 import type { PreviewContextValue } from '../pages/Preview';
-import type { Modules, Schema, Struct, UID } from '@strapi/types';
+import type { Modules, Schema, Struct, UID } from '@resillix/types';
 
 type PreviewErrorMessage = keyof typeof PREVIEW_ERROR_MESSAGES;
 

@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { defineProvider } from './provider';
 import { createSessionManager } from '../services/session-manager';
 

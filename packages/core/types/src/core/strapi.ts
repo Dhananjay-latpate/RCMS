@@ -1,5 +1,5 @@
-import type { Logger } from '@strapi/logger';
-import type { Database } from '@strapi/database';
+import type { Logger } from '@resillix/logger';
+import type { Database } from '@resillix/database';
 
 import type { PropertyPath } from 'lodash';
 import type * as Core from '.';

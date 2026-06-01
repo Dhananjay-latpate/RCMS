@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { createIdMap } from '../id-map';
 
 const ARTICLE_UID = 'api::article.article';

@@ -1,4 +1,4 @@
-import tsUtils from '@strapi/typescript-utils';
+import tsUtils from '@resillix/typescript-utils';
 
 interface Options {
   appDir?: string;

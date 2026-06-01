@@ -1,7 +1,7 @@
 import assert from 'node:assert';
 import semver from 'semver';
 import execa from 'execa';
-import { packageManager } from '@strapi/utils';
+import { packageManager } from '@resillix/utils';
 
 import { ProxyAgent } from 'undici';
 import * as constants from './constants';

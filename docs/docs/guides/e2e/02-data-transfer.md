@@ -9,7 +9,7 @@ tags:
 
 ## Overview
 
-This document explains how and why we use `@strapi/data-transfer` as means to reset and seed the database for end-to-end tests. It is not a comprehensive explanation of how to use `@strapi/data-transfer`. See the [Strapi documentation](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/developer-resources/data-management.html) to learn more about the feature.
+This document explains how and why we use `@resillix/data-transfer` as means to reset and seed the database for end-to-end tests. It is not a comprehensive explanation of how to use `@resillix/data-transfer`. See the [Strapi documentation](https://github.com/Dhananjay-latpate/RCMS/developer-docs/latest/developer-resources/data-management.html) to learn more about the feature.
 
 ### Why use Data Transfer?
 
@@ -27,7 +27,7 @@ Each test should be isolated and not depend on another test. Data changes from o
 
 ### The data transfer engine
 
-Since the Resillix CMS CLI will use `@strapi/data-transfer` directly it will by default not import or export admin users, API tokens, or any other features that have been included in its exclusion list.
+Since the Resillix CMS CLI will use `@resillix/data-transfer` directly it will by default not import or export admin users, API tokens, or any other features that have been included in its exclusion list.
 
 For this reason, do NOT use the import or export command on the strapi test instance. A DTS engine has been created specifically for our tests cases. This allows us to redefine what should be included in the import or export for our tests. Helpers live in `tests/utils/dts-import.ts` (see also `tests/e2e/scripts/dts-export.ts` for exporting updated packets).
 

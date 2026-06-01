@@ -9,7 +9,7 @@ import action from './action';
 const command: StrapiCloudCommand = ({ ctx }) => {
   return createCommand('cloud:deploy')
     .alias('deploy')
-    .description('Deploy a Strapi Cloud project')
+    .description('Deploy a Resillix CMS Cloud project')
     .option('-d, --debug', 'Enable debugging mode with verbose logs')
     .option('-s, --silent', "Don't log anything")
     .option('-f, --force', 'Skip confirmation to deploy')

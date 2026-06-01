@@ -22,19 +22,19 @@ const command = () => {
       .addOption(
         new Option(
           '--from <sourceURL>',
-          `URL of the remote Strapi instance to get data from`
+          `URL of the remote Resillix CMS instance to get data from`
         ).argParser(parseURL)
       )
-      .addOption(new Option('--from-token <token>', `Transfer token for the remote Strapi source`))
+      .addOption(new Option('--from-token <token>', `Transfer token for the remote Resillix CMS source`))
       .addOption(
         new Option(
           '--to <destinationURL>',
-          `URL of the remote Strapi instance to send data to`
+          `URL of the remote Resillix CMS instance to send data to`
         ).argParser(parseURL)
       )
 
       .addOption(
-        new Option('--to-token <token>', `Transfer token for the remote Strapi destination`)
+        new Option('--to-token <token>', `Transfer token for the remote Resillix CMS destination`)
       )
       .addOption(new Option('--verbose', 'Enable verbose logs'))
       .addOption(forceOption)
@@ -115,8 +115,8 @@ const command = () => {
                   name: 'dir',
                   message: 'Choose transfer direction:',
                   choices: [
-                    { name: 'Pull data from remote Strapi to local', value: 'from' },
-                    { name: 'Push local data to remote Strapi', value: 'to' },
+                    { name: 'Pull data from remote Resillix CMS to local', value: 'from' },
+                    { name: 'Push local data to remote Resillix CMS', value: 'to' },
                   ],
                 },
               ]);
@@ -138,7 +138,7 @@ const command = () => {
                 {
                   type: 'input',
                   name: 'remoteUrl',
-                  message: `Enter the URL of the remote Strapi instance to ${direction === 'from' ? 'get data from' : 'send data to'}:`,
+                  message: `Enter the URL of the remote Resillix CMS instance to ${direction === 'from' ? 'get data from' : 'send data to'}:`,
                   default: process.env.STRAPI_TRANSFER_URL,
                   validate(input: string) {
                     try {
@@ -171,7 +171,7 @@ const command = () => {
                 {
                   type: 'password',
                   name: 'token',
-                  message: `Enter the transfer token for the remote Strapi ${direction === 'from' ? 'source' : 'destination'}:`,
+                  message: `Enter the transfer token for the remote Resillix CMS ${direction === 'from' ? 'source' : 'destination'}:`,
                   default: process.env.STRAPI_TRANSFER_TOKEN,
                   validate(input: string) {
                     if (!input?.length) {
@@ -203,7 +203,7 @@ const command = () => {
               const answers = await inquirer.prompt([
                 {
                   type: 'password',
-                  message: 'Please enter your transfer token for the remote Strapi source',
+                  message: 'Please enter your transfer token for the remote Resillix CMS source',
                   name: 'fromToken',
                 },
               ]);
@@ -214,7 +214,7 @@ const command = () => {
             }
 
             await getCommanderConfirmMessage(
-              'The transfer will delete all the local Strapi assets and its database. Are you sure you want to proceed?',
+              'The transfer will delete all the local Resillix CMS assets and its database. Are you sure you want to proceed?',
               { failMessage: 'Transfer process aborted' }
             )(thisCommand);
           }
@@ -232,7 +232,7 @@ const command = () => {
               const answers = await inquirer.prompt([
                 {
                   type: 'password',
-                  message: 'Please enter your transfer token for the remote Strapi destination',
+                  message: 'Please enter your transfer token for the remote Resillix CMS destination',
                   name: 'toToken',
                 },
               ]);
@@ -243,7 +243,7 @@ const command = () => {
             }
 
             await getCommanderConfirmMessage(
-              'The transfer will delete existing data from the remote Strapi! Are you sure you want to proceed?',
+              'The transfer will delete existing data from the remote Resillix CMS! Are you sure you want to proceed?',
               { failMessage: 'Transfer process aborted' }
             )(thisCommand);
           }

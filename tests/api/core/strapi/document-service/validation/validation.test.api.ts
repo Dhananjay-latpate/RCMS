@@ -1,5 +1,5 @@
-import type { Core, Modules } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Core, Modules } from '@resillix/types';
+import { errors } from '@resillix/utils';
 import { createTestSetup, destroyTestSetup } from '../../../../utils/builder-helper';
 import resources from '../resources/index';
 import { ARTICLE_UID } from '../utils';

@@ -1,4 +1,4 @@
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@resillix/admin/strapi-admin';
 
 import type { Folder } from '../../../../../../shared/contracts/folders';
 

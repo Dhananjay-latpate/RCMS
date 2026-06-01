@@ -1,7 +1,7 @@
 import { join } from 'path';
 import type { ActionType, NodePlopAPI } from 'plop';
 import fs from 'fs-extra';
-import tsUtils from '@strapi/typescript-utils';
+import tsUtils from '@resillix/typescript-utils';
 
 import validateInput from './utils/validate-input';
 import getFilePath from './utils/get-file-path';

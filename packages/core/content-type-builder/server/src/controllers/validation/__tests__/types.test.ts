@@ -1,4 +1,4 @@
-import type { Schema, Struct } from '@strapi/types';
+import type { Schema, Struct } from '@resillix/types';
 import { getTypeValidator } from '../types';
 
 describe('Type validators', () => {

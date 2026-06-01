@@ -1,7 +1,7 @@
 import { isNil } from 'lodash/fp';
 
-import { contentTypes } from '@strapi/utils';
-import type { UID } from '@strapi/types';
+import { contentTypes } from '@resillix/utils';
+import type { UID } from '@resillix/types';
 
 import { LongHandDocument } from './types';
 

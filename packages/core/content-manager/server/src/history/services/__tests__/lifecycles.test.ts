@@ -1,4 +1,4 @@
-import type { UID } from '@strapi/types';
+import type { UID } from '@resillix/types';
 import { HISTORY_VERSION_UID } from '../../constants';
 import { createLifecyclesService } from '../lifecycles';
 

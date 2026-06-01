@@ -1,5 +1,5 @@
-import type { Internal } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { Internal } from '@resillix/types';
+import { contentTypes } from '@resillix/utils';
 import {
   toSubjectTemplate,
   getValidOptions,

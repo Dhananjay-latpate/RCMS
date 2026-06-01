@@ -1,6 +1,6 @@
 import { difference, omit } from 'lodash/fp';
-import { contentTypes } from '@strapi/utils';
-import type { Core, Modules, Schema, Data, Struct, UID } from '@strapi/types';
+import { contentTypes } from '@resillix/utils';
+import type { Core, Modules, Schema, Data, Struct, UID } from '@resillix/types';
 
 import { FIELDS_TO_IGNORE } from '../constants';
 import type { CreateHistoryVersion } from '../../../../shared/contracts/history-versions';

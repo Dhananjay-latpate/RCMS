@@ -5,7 +5,7 @@ import {
   useNotification,
   useStrapiApp,
   useQueryParams,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import { Button, LinkButton, Modal } from '@strapi/design-system';
 import { Duplicate, Pencil } from '@strapi/icons';
 import { stringify } from 'qs';

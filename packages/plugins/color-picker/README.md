@@ -8,10 +8,10 @@ To install this plugin, you need to add an NPM dependency to your Strapi applica
 
 ```sh
 # Using Yarn
-yarn add @strapi/plugin-color-picker
+yarn add @resillix/plugin-color-picker
 
 # Or using NPM
-npm install @strapi/plugin-color-picker
+npm install @resillix/plugin-color-picker
 ```
 
 Then, you'll need to build your admin panel:

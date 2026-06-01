@@ -1,5 +1,5 @@
 import type { Context } from 'koa';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import {
   validateRoleUpdateInput,
   validateRoleCreateInput,

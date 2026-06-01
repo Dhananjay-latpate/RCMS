@@ -1,5 +1,5 @@
-import { Widget, useTracking } from '@strapi/admin/strapi-admin';
-import { DocumentStatus, RelativeTime } from '@strapi/content-manager/strapi-admin';
+import { Widget, useTracking } from '@resillix/admin/strapi-admin';
+import { DocumentStatus, RelativeTime } from '@resillix/content-manager/strapi-admin';
 import { Box, IconButton, Table, Tbody, Td, Tr, Typography } from '@strapi/design-system';
 import { Pencil } from '@strapi/icons';
 import { useIntl } from 'react-intl';

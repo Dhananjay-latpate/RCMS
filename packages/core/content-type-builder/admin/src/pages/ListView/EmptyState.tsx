@@ -1,4 +1,4 @@
-import { tours } from '@strapi/admin/strapi-admin';
+import { tours } from '@resillix/admin/strapi-admin';
 import { Button, Box, Flex, Typography } from '@strapi/design-system';
 import { Sparkle, Paperclip } from '@strapi/icons';
 import { EmptyDocuments } from '@strapi/icons/symbols';

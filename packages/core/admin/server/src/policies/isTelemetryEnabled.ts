@@ -1,6 +1,6 @@
-import { policy } from '@strapi/utils';
+import { policy } from '@resillix/utils';
 
-// TODO: TS - Try to make { policy: { createPolicy } } from '@strapi/utils'; work
+// TODO: TS - Try to make { policy: { createPolicy } } from '@resillix/utils'; work
 const { createPolicy } = policy;
 
 /**

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { createContext, type FieldValue, useIsMobile } from '@strapi/admin/strapi-admin';
+import { createContext, type FieldValue, useIsMobile } from '@resillix/admin/strapi-admin';
 import { IconButton, Divider, VisuallyHidden } from '@strapi/design-system';
 import { Expand } from '@strapi/icons';
 import { MessageDescriptor, useIntl } from 'react-intl';
@@ -25,7 +25,7 @@ import { type ModifiersStore, modifiers } from './Modifiers';
 import { withStrapiSchema } from './plugins/withStrapiSchema';
 import { isNonNullable } from './utils/types';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 /* -------------------------------------------------------------------------------------------------
  * BlocksEditorProvider

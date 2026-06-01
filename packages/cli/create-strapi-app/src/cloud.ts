@@ -1,4 +1,4 @@
-import { cli as cloudCli, services as cloudServices } from '@strapi/cloud-cli';
+import { cli as cloudCli, services as cloudServices } from '@resillix/cloud-cli';
 import parseToChalk from './utils/parse-to-chalk';
 
 interface CloudError {
@@ -71,7 +71,7 @@ export async function handleCloudLogin(): Promise<boolean> {
           const message =
             typeof e.response.data === 'string'
               ? e.response.data
-              : 'We are sorry, but we are not able to log you into Strapi servers at the moment.';
+              : 'We are sorry, but we are not able to log you into Resillix CMS servers at the moment.';
           logger.warn(message);
           return false;
         }

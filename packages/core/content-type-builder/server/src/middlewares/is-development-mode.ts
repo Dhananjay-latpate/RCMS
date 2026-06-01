@@ -1,5 +1,5 @@
 import type { Context, Next } from 'koa';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 
 /**
  * Middleware to ensure Content-Type Builder modifications only happen in development mode

@@ -1,5 +1,5 @@
-import { Struct, UID } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import { Struct, UID } from '@resillix/types';
+import { errors } from '@resillix/utils';
 import type { File } from 'formidable';
 
 export interface Logo {

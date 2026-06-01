@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/plugin-documentation",
+  "name": "@resillix/plugin-documentation",
   "version": "5.42.0",
   "description": "Create an OpenAPI Document and visualize your API with SWAGGER UI.",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",
@@ -61,10 +61,10 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.9.7",
-    "@strapi/admin": "5.42.0",
+    "@resillix/admin": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "@strapi/design-system": "2.2.0",
     "@strapi/icons": "2.2.0",
-    "@strapi/utils": "5.42.0",
     "bcryptjs": "2.4.3",
     "cheerio": "^1.0.0",
     "formik": "2.4.5",
@@ -80,9 +80,9 @@
   },
   "devDependencies": {
     "@apidevtools/swagger-parser": "^10.1.0",
-    "@strapi/admin-test-utils": "5.42.0",
-    "@strapi/strapi": "5.42.0",
-    "@strapi/types": "5.42.0",
+    "@resillix/admin-test-utils": "5.42.0",
+    "@resillix/strapi": "5.42.0",
+    "@resillix/types": "5.42.0",
     "@testing-library/react": "16.3.0",
     "@testing-library/user-event": "14.6.1",
     "@types/fs-extra": "11.0.4",
@@ -100,7 +100,7 @@
     "styled-components": "6.1.8"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^5.0.0",
+    "@resillix/strapi": "^5.0.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.30.3",

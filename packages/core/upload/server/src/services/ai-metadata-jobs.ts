@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 import { AIMetadataJob } from '../../../shared/contracts/ai-metadata-jobs';
 import { AI_METADATA_JOB_UID } from '../models/ai-metadata-job';

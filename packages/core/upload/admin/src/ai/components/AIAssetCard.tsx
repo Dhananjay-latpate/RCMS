@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ConfirmDialog } from '@strapi/admin/strapi-admin';
+import { ConfirmDialog } from '@resillix/admin/strapi-admin';
 import {
   Box,
   Card,

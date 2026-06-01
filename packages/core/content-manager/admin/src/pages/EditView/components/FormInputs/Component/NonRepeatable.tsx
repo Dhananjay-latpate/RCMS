@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useForm, useIsMobile } from '@strapi/admin/strapi-admin';
+import { useForm, useIsMobile } from '@resillix/admin/strapi-admin';
 import { Box, Flex } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 

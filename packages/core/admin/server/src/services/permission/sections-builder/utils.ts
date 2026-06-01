@@ -1,5 +1,5 @@
 import { curry, matchesProperty, pick } from 'lodash/fp';
-import type { Internal, Struct } from '@strapi/types';
+import type { Internal, Struct } from '@resillix/types';
 
 const isOfKind = (kind: unknown) => matchesProperty('kind', kind);
 

@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 type PreviewServices = typeof import('./services').services;
 

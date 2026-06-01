@@ -1,7 +1,7 @@
-import utils from '@strapi/utils';
+import utils from '@resillix/utils';
 import { mapValues } from 'lodash/fp';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 import createBuilder from './schema-builder';
 import { getService } from '../utils';

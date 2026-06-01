@@ -105,7 +105,7 @@ describe('Content Type Generator', () => {
        * testContentType controller
        */
 
-      const { createCoreController } = require('@strapi/strapi').factories;
+      const { createCoreController } = require('@resillix/strapi').factories;
 
       module.exports = createCoreController('api::testContentType.testContentType');
       "
@@ -117,7 +117,7 @@ describe('Content Type Generator', () => {
        * testContentType router
        */
 
-      const { createCoreRouter } = require('@strapi/strapi').factories;
+      const { createCoreRouter } = require('@resillix/strapi').factories;
 
       module.exports = createCoreRouter('api::testContentType.testContentType');
       "
@@ -129,7 +129,7 @@ describe('Content Type Generator', () => {
        * testContentType service
        */
 
-      const { createCoreService } = require('@strapi/strapi').factories;
+      const { createCoreService } = require('@resillix/strapi').factories;
 
       module.exports = createCoreService('api::testContentType.testContentType');
       "

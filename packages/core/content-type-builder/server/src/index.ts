@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import '@strapi/types';
+import '@resillix/types';
 
 import config from './config';
 import bootstrap from './bootstrap';

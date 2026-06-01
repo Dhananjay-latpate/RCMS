@@ -1,7 +1,7 @@
 import { isArray, isString, isUndefined, constant } from 'lodash/fp';
 import { nonNull, list, objectType } from 'nexus';
-import { contentTypes } from '@strapi/utils';
-import type { Struct } from '@strapi/types';
+import { contentTypes } from '@resillix/utils';
+import type { Struct } from '@resillix/types';
 
 import type { Context } from '../types';
 

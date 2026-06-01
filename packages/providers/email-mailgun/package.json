@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-email-mailgun",
+  "name": "@resillix/provider-email-mailgun",
   "version": "5.42.0",
   "description": "Mailgun provider for strapi email plugin",
   "keywords": [
@@ -45,7 +45,7 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
-    "@strapi/utils": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "form-data": "4.0.4",
     "mailgun.js": "10.2.1"
   },

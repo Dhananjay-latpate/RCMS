@@ -49,7 +49,7 @@ This package is not yet released, so currently it can be run on a project in the
 
 Run the command with the `--help` option to see all the available options.
 
-[Coming Soon] The Strapi Upgrade tool will be available using `npx @strapi/upgrade` and an alias for that within a project using `strapi upgrade`
+[Coming Soon] The Strapi Upgrade tool will be available using `npx @resillix/upgrade` and an alias for that within a project using `strapi upgrade`
 
 ## Writing a code transforms
 
@@ -84,9 +84,9 @@ const transform: JSONTransform = (file, params) => {
   // Use json() to get useful helpers for performing your transform
   const j = json(file.json);
 
-  const strapiDepAddress = 'dependencies.@strapi/strapi';
+  const strapiDepAddress = 'dependencies.@resillix/strapi';
 
-  // if this file contains a value at dependencies.@strapi/strapi
+  // if this file contains a value at dependencies.@resillix/strapi
   if (j.has(strapiDepAddress)) {
     // we set the value to 5.0.0
     j.set(strapiDepAddress, '5.0.0');

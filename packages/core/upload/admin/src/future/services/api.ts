@@ -1,5 +1,5 @@
 import { Dispatch } from '@reduxjs/toolkit';
-import { adminApi } from '@strapi/admin/strapi-admin';
+import { adminApi } from '@resillix/admin/strapi-admin';
 
 import {
   openUploadProgress,

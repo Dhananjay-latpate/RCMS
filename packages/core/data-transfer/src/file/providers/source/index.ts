@@ -9,7 +9,7 @@ import { Parser, type ReadEntry } from 'tar';
 import { isEmpty, keyBy } from 'lodash/fp';
 import { chain } from 'stream-chain';
 import { parser } from 'stream-json/jsonl/Parser';
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 
 import type { IAsset, IMetadata, ISourceProvider, ProviderType, IFile } from '../../../../types';
 import type { IDiagnosticReporter } from '../../../utils/diagnostic';

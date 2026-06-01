@@ -1,6 +1,6 @@
 // Needs to be wrapped in a component to have access to the form context via a hook.
 
-import { Blocker as BaseBlocker, useForm } from '@strapi/admin/strapi-admin';
+import { Blocker as BaseBlocker, useForm } from '@resillix/admin/strapi-admin';
 
 /**
  * Prevents users from leaving the page with unsaved form changes

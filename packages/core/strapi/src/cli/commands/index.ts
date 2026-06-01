@@ -1,4 +1,4 @@
-import { buildStrapiCloudCommands as cloudCommands } from '@strapi/cloud-cli';
+import { buildStrapiCloudCommands as cloudCommands } from '@resillix/cloud-cli';
 
 import { command as createAdminUser } from './admin/create-user';
 import { command as resetAdminUserPassword } from './admin/reset-user-password';

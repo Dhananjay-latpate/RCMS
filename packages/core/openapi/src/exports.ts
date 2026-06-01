@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 import { DocumentAssemblerFactory } from './assemblers';
 import { DocumentContextFactory } from './context';
@@ -30,7 +30,7 @@ import type { GeneratorOutput } from './generator';
  *
  * @example
  * ```typescript
- * import { generate } from '@strapi/openapi';
+ * import { generate } from '@resillix/openapi';
  *
  * // Assuming 'strapi' is your Strapi instance
  * const output = generate(strapi, { type: 'content-api' });
@@ -39,7 +39,7 @@ import type { GeneratorOutput } from './generator';
  *
  * @example
  * ```typescript
- * import { generate } from '@strapi/openapi';
+ * import { generate } from '@resillix/openapi';
  *
  * // Generate documentation for all route types (default)
  * const output = generate(strapi);

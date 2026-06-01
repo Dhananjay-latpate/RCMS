@@ -4,7 +4,7 @@ This app is used to run experimental dependencies in Resillix CMS. Specifically 
 
 ## Getting started
 
-To run the example you should include `USE_EXPERIMENTAL_DEPENDENCIES=true` in your `.env` file. This flag is used by the `@strapi/strapi` cli package and disabled checking against the dependency versions in your project as for production applications we only officially support v17/18 of react.
+To run the example you should include `USE_EXPERIMENTAL_DEPENDENCIES=true` in your `.env` file. This flag is used by the `@resillix/strapi` cli package and disabled checking against the dependency versions in your project as for production applications we only officially support v17/18 of react.
 
 ## Using the compiler
 

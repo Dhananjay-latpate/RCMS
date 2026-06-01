@@ -1,4 +1,4 @@
-import type { Schema, Attribute } from '@strapi/strapi';
+import type { Schema, Attribute } from '@resillix/strapi';
 
 export interface ArticleComp extends Schema.Component {
   collectionName: 'components_article_comments';
@@ -61,7 +61,7 @@ export interface ArticleCompoUniqueTopLevel extends Schema.Component {
   };
 }
 
-declare module '@strapi/types' {
+declare module '@resillix/types' {
   export module Shared {
     export interface Components {
       'article.comp': ArticleComp;

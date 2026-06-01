@@ -1,4 +1,4 @@
-import { fireEvent, render, waitFor } from '@strapi/strapi/admin/test';
+import { fireEvent, render, waitFor } from '@resillix/strapi/admin/test';
 import { rest } from 'msw';
 
 import { server } from '../../../../tests/server';

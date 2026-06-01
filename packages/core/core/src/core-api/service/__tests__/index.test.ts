@@ -1,4 +1,4 @@
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 import { createService } from '../index';
 import { CollectionTypeService } from '../collection-type';
 import { SingleTypeService } from '../single-type';

@@ -6,8 +6,8 @@ import {
   useQueryParams,
   useRBAC,
   isFetchError,
-} from '@strapi/admin/strapi-admin';
-import { unstable_useContentManagerContext as useContentManagerContext } from '@strapi/content-manager/strapi-admin';
+} from '@resillix/admin/strapi-admin';
+import { unstable_useContentManagerContext as useContentManagerContext } from '@resillix/content-manager/strapi-admin';
 import {
   Box,
   Button,
@@ -32,8 +32,8 @@ import {
 } from './ReleaseActionModal';
 import { ReleaseActionOptions } from './ReleaseActionOptions';
 
-import type { BulkActionComponent } from '@strapi/content-manager/strapi-admin';
-import type { UID } from '@strapi/types';
+import type { BulkActionComponent } from '@resillix/content-manager/strapi-admin';
+import type { UID } from '@resillix/types';
 
 const getContentPermissions = (subject: string) => {
   const permissions = {

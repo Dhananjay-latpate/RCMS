@@ -1,4 +1,4 @@
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@resillix/admin/strapi-admin';
 import { renderHook, waitFor } from '@tests/utils';
 import { useLocation } from 'react-router-dom';
 
@@ -9,7 +9,7 @@ jest.mock('react-router-dom', () => ({
   useLocation: jest.fn(),
 }));
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
+jest.mock('@resillix/admin/strapi-admin', () => ({
   useQueryParams: jest.fn(),
 }));
 

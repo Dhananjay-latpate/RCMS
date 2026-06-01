@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@resillix/admin/strapi-admin';
 import get from 'lodash/get';
 import set from 'lodash/set';
 import { useLocation } from 'react-router-dom';

@@ -1,7 +1,7 @@
 import _ from 'lodash';
 
-import { errors, file } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { errors, file } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 
 import registerUploadMiddleware from './middlewares/upload';
 import spec from '../../documentation/content-api.json';
@@ -46,7 +46,7 @@ const createProvider = (config: Config) => {
 
   let modulePath;
   try {
-    modulePath = require.resolve(`@strapi/provider-upload-${providerName}`);
+    modulePath = require.resolve(`@resillix/provider-upload-${providerName}`);
   } catch (error) {
     if (
       typeof error === 'object' &&

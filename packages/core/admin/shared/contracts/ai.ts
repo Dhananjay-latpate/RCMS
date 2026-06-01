@@ -1,4 +1,4 @@
-import type { errors } from '@strapi/utils';
+import type { errors } from '@resillix/utils';
 
 /**
  * GET /ai-token - Get an AI token for the current admin user

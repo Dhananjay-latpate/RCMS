@@ -1,7 +1,7 @@
-import { compileStrapi, createStrapi } from '@strapi/core';
-import * as openapi from '@strapi/openapi';
+import { compileStrapi, createStrapi } from '@resillix/core';
+import * as openapi from '@resillix/openapi';
 
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 import chalk from 'chalk';
 import fse from 'fs-extra';
@@ -45,7 +45,7 @@ const createStrapiApp = async (): Promise<Core.Strapi> => {
   const appContext = await compileStrapi();
   const app = createStrapi(appContext);
 
-  // Make sure to not log Strapi debug info
+  // Make sure to not log Resillix CMS debug info
   app.log.level = 'error';
 
   // Load internals

@@ -34,7 +34,7 @@ The develop command sets itself up much like the [build](build) command. Once we
 ## Node Usage
 
 ```ts
-import { develop, DevelopOptions } from '@strapi/admin/_internal';
+import { develop, DevelopOptions } from '@resillix/admin/_internal';
 
 const args: DevelopOptions = {
   // ...

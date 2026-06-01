@@ -3,7 +3,7 @@ import { runAction } from '../utils/helpers';
 import listAction from '../environment/list/action';
 
 export function defineCloudNamespace(command: Command, ctx: unknown): Command {
-  const cloud = command.command('cloud').description('Manage Strapi Cloud projects');
+  const cloud = command.command('cloud').description('Manage Resillix CMS Cloud projects');
 
   // Define cloud namespace aliases:
   cloud

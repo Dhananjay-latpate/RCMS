@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const strapi = require('@strapi/strapi')();
+const strapi = require('@resillix/strapi')();
 const fs = require('fs');
 const path = require('path');
 const os = require('os');

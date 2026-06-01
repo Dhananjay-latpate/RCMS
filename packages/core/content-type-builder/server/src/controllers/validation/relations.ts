@@ -1,7 +1,7 @@
 import { isUndefined } from 'lodash/fp';
-import { yup } from '@strapi/utils';
+import { yup } from '@resillix/utils';
 import type { TestContext, TestFunction } from 'yup';
-import type { Schema, UID } from '@strapi/types';
+import type { Schema, UID } from '@resillix/types';
 import { typeKinds, coreUids } from '../../services/constants';
 import { isValidName } from './common';
 

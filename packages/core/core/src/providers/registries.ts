@@ -1,4 +1,4 @@
-import { hooks } from '@strapi/utils';
+import { hooks } from '@resillix/utils';
 
 import { defineProvider } from './provider';
 import * as registries from '../registries';

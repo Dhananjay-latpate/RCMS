@@ -1,6 +1,6 @@
 /* eslint-disable func-names */
-import type { Core, Modules, Schema } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { Core, Modules, Schema } from '@resillix/types';
+import { contentTypes } from '@resillix/utils';
 
 import type {
   GetCountDocuments,

@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { isObject } from 'lodash/fp';
 import chalk from 'chalk';
 
@@ -9,7 +9,7 @@ import {
   strapi as strapiDataTransfer,
   file as fileDataTransfer,
   directory as directoryDataTransfer,
-} from '@strapi/data-transfer';
+} from '@resillix/data-transfer';
 
 import {
   buildTransferTable,
@@ -59,7 +59,7 @@ type EngineOptions = Parameters<typeof createTransferEngine>[2];
 /**
  * Import command.
  *
- * It transfers data from a Strapi backup file or unpacked export directory to a local Strapi instance
+ * It transfers data from a Resillix CMS backup file or unpacked export directory to a local Resillix CMS instance
  */
 export default async (opts: CmdOptions) => {
   // validate inputs from Commander
@@ -73,7 +73,7 @@ export default async (opts: CmdOptions) => {
     : createLocalFileSourceProvider(getLocalFileSourceOptions(opts));
 
   /**
-   * To local Strapi instance
+   * To local Resillix CMS instance
    */
   const strapiInstance = await createStrapiInstance();
 

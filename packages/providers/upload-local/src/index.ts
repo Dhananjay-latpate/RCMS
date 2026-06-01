@@ -2,10 +2,10 @@ import { pipeline } from 'stream';
 import fs, { ReadStream } from 'fs';
 import path from 'path';
 import fse from 'fs-extra';
-import * as utils from '@strapi/utils';
+import * as utils from '@resillix/utils';
 
-// Needed to load global.strapi without having to put @strapi/types in the regular dependencies
-import type {} from '@strapi/types';
+// Needed to load global.strapi without having to put @resillix/types in the regular dependencies
+import type {} from '@resillix/types';
 
 interface File {
   name: string;

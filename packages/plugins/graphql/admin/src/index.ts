@@ -7,7 +7,7 @@ const name = pluginPkg.strapi.name;
 
 // eslint-disable-next-line import/no-default-export
 export default {
-  // TODO: we need to have the type for StrapiApp done from `@strapi/admin` package.
+  // TODO: we need to have the type for StrapiApp done from `@resillix/admin` package.
   register(app: any) {
     app.registerPlugin({
       id: pluginId,

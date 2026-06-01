@@ -100,10 +100,10 @@ ContentType and Component are referring to both the related schema and entity.
 
 ### Usage
 
-When referencing resource by their UID you'll need to use the `UID` namespace exported from `@strapi/types`.
+When referencing resource by their UID you'll need to use the `UID` namespace exported from `@resillix/types`.
 
 ```typescript
-import type { UID } from '@strapi/types';
+import type { UID } from '@resillix/types';
 ```
 
 This namespace contains shortcuts to dynamic UID types built from the public registries so that they always adapt to the current context.
@@ -121,7 +121,7 @@ A common usage is to declare a function that takes a UID as a parameter.
 For our example, let's imagine we want to fetch an entity based on the provided resource UID.
 
 ```typescript
-import type { UID, Data } from '@strapi/types';
+import type { UID, Data } from '@resillix/types';
 
 declare function fetch(uid: UID.ContentType): Data.ContentType;
 ```
@@ -145,7 +145,7 @@ fetch('admin::user');
 To do that, we'll need the function to be able to provide us with the current `uid` type based on usage.
 
 ```typescript
-import type { UID, Data } from '@strapi/types';
+import type { UID, Data } from '@resillix/types';
 
 declare function fetch<T extends UID.ContentType>(uid: T): Data.ContentType<T>;
 ```
@@ -170,7 +170,7 @@ It's completely possible to reference `T` in other generic parameters.
 Let's add the possibility to select which fields we want to return for our entity.
 
 ```typescript
-import type { UID, Data, Schema } from '@strapi/types';
+import type { UID, Data, Schema } from '@resillix/types';
 
 declare function fetch<T extends UID.ContentType, F extends Schema.AttributeNames<T>>(
   uid: T,

@@ -1,8 +1,8 @@
 import type { Context } from 'koa';
 import { update, map, property } from 'lodash/fp';
 
-import type { Core } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { async } from '@resillix/utils';
 
 import type { StagePermission } from '../../../shared/contracts/review-workflows';
 import { getService } from '../utils';

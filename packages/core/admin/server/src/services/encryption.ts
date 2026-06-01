@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 const IV_LENGTH = 16; // 16 bytes for AES-GCM IV
 const ENCRYPTION_VERSION = 'v1';

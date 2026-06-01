@@ -1,8 +1,8 @@
 import { readFile } from 'node:fs/promises';
 import { extname } from 'node:path';
 import { lookup } from 'mime-types';
-import type { Core } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { errors } from '@resillix/utils';
 
 export type SecurityConfig = {
   allowedTypes?: string[];

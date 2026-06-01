@@ -9,7 +9,7 @@ import action from './action';
 const command: StrapiCloudCommand = ({ ctx }) => {
   return createCommand('cloud:login')
     .alias('login')
-    .description('Strapi Cloud Login')
+    .description('Resillix CMS Cloud Login')
     .addHelpText(
       'after',
       '\nAfter running this command, you will be prompted to enter your authentication information.'

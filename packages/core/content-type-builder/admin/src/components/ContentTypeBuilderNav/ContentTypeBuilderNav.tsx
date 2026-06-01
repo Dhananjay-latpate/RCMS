@@ -1,6 +1,6 @@
 import { Fragment, useState, useEffect } from 'react';
 
-import { ConfirmDialog, SubNav, tours } from '@strapi/admin/strapi-admin';
+import { ConfirmDialog, SubNav, tours } from '@resillix/admin/strapi-admin';
 import {
   Box,
   Searchbar,

@@ -1,7 +1,7 @@
 import crypto from 'crypto';
 import jwt from 'jsonwebtoken';
 import type { VerifyOptions, Algorithm } from 'jsonwebtoken';
-import type { Database } from '@strapi/database';
+import type { Database } from '@resillix/database';
 import { DEFAULT_ALGORITHM } from '../constants';
 
 export interface SessionProvider {

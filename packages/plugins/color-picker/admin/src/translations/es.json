@@ -9,7 +9,7 @@
   "color-picker.options.advanced.requiredField.description": "No podrás crear una entrada si este campo está vacío",
   "color-picker.settings": "Ajustes",
   "color-picker.toggle.aria-label": "Conmutar Selector de color",
-  "plugin.description.long": "Un campo personalizado de selección de color mantenido por Strapi. Utiliza los controles deslizantes de saturación y tono para seleccionar un color y guardar el valor en HEX.",
-  "plugin.description.short": "Un campo personalizado de selección de color mantenido por Strapi.",
+  "plugin.description.long": "Un campo personalizado de selección de color mantenido por Resillix CMS. Utiliza los controles deslizantes de saturación y tono para seleccionar un color y guardar el valor en HEX.",
+  "plugin.description.short": "Un campo personalizado de selección de color mantenido por Resillix CMS.",
   "plugin.name": "Selector de color"
 }

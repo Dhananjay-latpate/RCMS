@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import { useNotification } from '@strapi/admin/strapi-admin';
+import { useNotification } from '@resillix/admin/strapi-admin';
 
 import { STRAPI_MAX_ATTACHMENT_SIZE, STRAPI_MAX_ATTACHMENTS } from '../lib/constants';
 import { generateId } from '../lib/misc';

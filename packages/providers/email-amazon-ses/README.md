@@ -1,4 +1,4 @@
-# @strapi/provider-email-amazon-ses
+# @resillix/provider-email-amazon-ses
 
 ## Resources
 
@@ -15,10 +15,10 @@
 
 ```bash
 # using yarn
-yarn add @strapi/provider-email-amazon-ses
+yarn add @resillix/provider-email-amazon-ses
 
 # using npm
-npm install @strapi/provider-email-amazon-ses --save
+npm install @resillix/provider-email-amazon-ses --save
 ```
 
 ## Configuration

@@ -1,5 +1,5 @@
-import type { Core } from '@strapi/types';
-import { CSP_DEFAULTS, extendMiddlewareConfiguration } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { CSP_DEFAULTS, extendMiddlewareConfiguration } from '@resillix/utils';
 
 export default async ({ strapi }: { strapi: Core.Strapi }) => {
   const aiEnabledConfig = strapi.config.get('admin.ai.enabled') !== false;

@@ -1,5 +1,5 @@
-import type { Data, UID } from '@strapi/types';
-import { type errors } from '@strapi/utils';
+import type { Data, UID } from '@resillix/types';
+import { type errors } from '@resillix/utils';
 
 /**
  * GET /content-manager/preview/url/:uid

@@ -1,6 +1,6 @@
-import { contentTypes as contentTypesUtils } from '@strapi/utils';
+import { contentTypes as contentTypesUtils } from '@resillix/utils';
 
-import type { UID, Data, Core } from '@strapi/types';
+import type { UID, Data, Core } from '@resillix/types';
 
 import type { SettingsService } from '../services/settings';
 import type { ReleaseService } from '../services/release';

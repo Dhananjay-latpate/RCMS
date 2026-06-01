@@ -1,5 +1,5 @@
-import type { UID, Schema } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { UID, Schema } from '@resillix/types';
+import { contentTypes } from '@resillix/utils';
 import type { Document } from '../document-manager';
 
 const { isVisibleAttribute } = contentTypes;

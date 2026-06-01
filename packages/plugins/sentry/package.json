@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/plugin-sentry",
+  "name": "@resillix/plugin-sentry",
   "version": "5.42.0",
   "description": "Send Resillix CMS error events to Sentry",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",
@@ -60,14 +60,14 @@
     "@strapi/icons": "2.2.0"
   },
   "devDependencies": {
-    "@strapi/strapi": "5.42.0",
+    "@resillix/strapi": "5.42.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.30.3",
     "styled-components": "6.1.8"
   },
   "peerDependencies": {
-    "@strapi/strapi": "^5.0.0",
+    "@resillix/strapi": "^5.0.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.30.3",

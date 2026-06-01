@@ -6,7 +6,7 @@ import {
   DescriptionComponentRenderer,
   useIsDesktop,
   createContext,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import { Flex, Typography } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { useMatch } from 'react-router-dom';

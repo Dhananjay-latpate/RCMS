@@ -1,4 +1,4 @@
-import type { Utils } from '@strapi/types';
+import type { Utils } from '@resillix/types';
 
 import type { JSONTransformAPI } from '../../json';
 

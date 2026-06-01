@@ -1,5 +1,5 @@
-import { Table, useQueryParams } from '@strapi/admin/strapi-admin';
-import { errors } from '@strapi/utils';
+import { Table, useQueryParams } from '@resillix/admin/strapi-admin';
+import { errors } from '@resillix/utils';
 import { within } from '@testing-library/react';
 import { render as renderRTL, waitFor, server } from '@tests/utils';
 import { rest } from 'msw';
@@ -11,8 +11,8 @@ import {
   ConfirmDialogPublishAll,
 } from '../ConfirmBulkActionDialog';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   /**
    * TODO: can we remove this mock by instead passing a value to `initialEntries`?
    */

@@ -1,4 +1,4 @@
-# @strapi/provider-upload-cloudinary
+# @resillix/provider-upload-cloudinary
 
 ## Resources
 
@@ -15,10 +15,10 @@
 
 ```bash
 # using yarn
-yarn add @strapi/provider-upload-cloudinary
+yarn add @resillix/provider-upload-cloudinary
 
 # using npm
-npm install @strapi/provider-upload-cloudinary --save
+npm install @resillix/provider-upload-cloudinary --save
 ```
 
 ## Configuration

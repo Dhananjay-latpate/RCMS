@@ -16,7 +16,7 @@ import type { Model } from './types';
  */
 export const createModelCache = (
   getModelFn: (
-    uid: // TODO should use the type from @strapi/types but this package doesn't depend on it
+    uid: // TODO should use the type from @resillix/types but this package doesn't depend on it
     any
   ) => Model
 ) => {

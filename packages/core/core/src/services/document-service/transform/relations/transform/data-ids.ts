@@ -1,7 +1,7 @@
 import { curry } from 'lodash/fp';
 
-import type { UID } from '@strapi/types';
-import { errors, relations } from '@strapi/utils';
+import type { UID } from '@resillix/types';
+import { errors, relations } from '@resillix/utils';
 
 import { ID, LongHandDocument } from '../utils/types';
 import { IdMap } from '../../id-map';

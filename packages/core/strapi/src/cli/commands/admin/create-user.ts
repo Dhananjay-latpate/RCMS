@@ -1,8 +1,8 @@
 import { createCommand } from 'commander';
-import { yup } from '@strapi/utils';
+import { yup } from '@resillix/utils';
 import _ from 'lodash';
 import type { QuestionCollection } from 'inquirer';
-import { createStrapi, compileStrapi } from '@strapi/core';
+import { createStrapi, compileStrapi } from '@resillix/core';
 
 import { runAction } from '../../utils/helpers';
 import { getInquirer } from '../../utils/get-inquirer';

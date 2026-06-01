@@ -6,7 +6,7 @@ export { action, command };
 
 export default {
   name: 'list-environments',
-  description: 'List Strapi Cloud environments',
+  description: 'List Resillix CMS Cloud environments',
   action,
   command,
 } as StrapiCloudCommandInfo;

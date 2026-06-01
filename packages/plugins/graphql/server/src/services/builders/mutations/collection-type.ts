@@ -1,6 +1,6 @@
 import { extendType, nonNull, idArg } from 'nexus';
 import type * as Nexus from 'nexus';
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 import type { Context } from '../../types';
 
 export default ({ strapi }: Context) => {

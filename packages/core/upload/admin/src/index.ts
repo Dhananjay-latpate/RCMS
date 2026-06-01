@@ -12,8 +12,8 @@ import { getTrad, prefixPluginTranslations } from './utils';
 
 import type { MediaLibraryDialogProps } from './components/MediaLibraryDialog/MediaLibraryDialog';
 import type { MediaLibraryInputProps } from './components/MediaLibraryInput/MediaLibraryInput';
-import type { StrapiApp } from '@strapi/admin/strapi-admin';
-import type { Plugin } from '@strapi/types';
+import type { StrapiApp } from '@resillix/admin/strapi-admin';
+import type { Plugin } from '@resillix/types';
 
 const name = pluginPkg.strapi.name;
 

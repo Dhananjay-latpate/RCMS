@@ -1,5 +1,5 @@
 import { toString } from 'lodash/fp';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 
 const { ApplicationError } = errors;
 

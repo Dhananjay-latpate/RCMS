@@ -17,7 +17,7 @@ const transform: modules.runner.json.JSONTransform = (file, params) => {
   }
 
   const j = json(file.json);
-  const strapiDepAddress = 'dependencies.@strapi/strapi';
+  const strapiDepAddress = 'dependencies.@resillix/strapi';
 
   if (j.has(strapiDepAddress)) {
     j.set(strapiDepAddress, '5.0.0');

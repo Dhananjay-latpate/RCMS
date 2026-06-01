@@ -1,4 +1,4 @@
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@resillix/admin/strapi-admin';
 import { Flex, Menu, Typography, useCollator } from '@strapi/design-system';
 import { stringify } from 'qs';
 import { useIntl } from 'react-intl';

@@ -5,7 +5,7 @@ import execa from 'execa';
 import fse from 'fs-extra';
 import semver from 'semver';
 
-import { createGrowthSsoTrial } from '@strapi/cloud-cli';
+import { createGrowthSsoTrial } from '@resillix/cloud-cli';
 
 import { copyTemplate } from './utils/template';
 import { tryGitInit } from './utils/git';
@@ -83,7 +83,7 @@ async function createApp(scope: Scope) {
 
   await trackUsage({ event: 'willCreateProject', scope });
 
-  logger.title('Strapi', `Creating a new application at ${chalk.green(rootPath)}`);
+  logger.title('Resillix CMS', `Creating a new application at ${chalk.green(rootPath)}`);
 
   if (!isQuickstart) {
     await trackUsage({ event: 'didChooseCustomDatabase', scope });
@@ -230,21 +230,21 @@ async function createApp(scope: Scope) {
 
   const cmd = chalk.cyan(`${packageManager} run`);
 
-  logger.title('Strapi', `Your application was created!`);
+  logger.title('Resillix CMS', `Your application was created!`);
 
   logger.log([
     'Available commands in your project:',
     '',
-    'Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)',
+    'Start Resillix CMS in watch mode. (Changes in Resillix CMS project files will trigger a server restart)',
     `${cmd} develop`,
     '',
-    'Start Strapi without watch mode.',
+    'Start Resillix CMS without watch mode.',
     `${cmd} start`,
     '',
-    'Build Strapi admin panel.',
+    'Build Resillix CMS admin panel.',
     `${cmd} build`,
     '',
-    'Deploy Strapi project.',
+    'Deploy Resillix CMS project.',
     `${cmd} deploy`,
     '',
   ]);
@@ -273,7 +273,7 @@ async function createApp(scope: Scope) {
   }
 
   if (runApp && installDependencies) {
-    logger.title('Run', 'Running your Strapi application');
+    logger.title('Run', 'Running your Resillix CMS application');
 
     try {
       await trackUsage({ event: 'willStartServer', scope });
@@ -294,7 +294,7 @@ async function createApp(scope: Scope) {
         });
       }
 
-      logger.fatal('Failed to start your Strapi application');
+      logger.fatal('Failed to start your Resillix CMS application');
     }
   }
 }

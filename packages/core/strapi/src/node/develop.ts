@@ -1,10 +1,10 @@
-import * as tsUtils from '@strapi/typescript-utils';
-import { strings } from '@strapi/utils';
+import * as tsUtils from '@resillix/typescript-utils';
+import { strings } from '@resillix/utils';
 import chokidar from 'chokidar';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import cluster from 'node:cluster';
-import { createStrapi } from '@strapi/core';
+import { createStrapi } from '@resillix/core';
 
 import type { CLIContext } from '../cli/types';
 import { checkRequiredDependencies } from './core/dependencies';

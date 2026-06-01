@@ -1,5 +1,5 @@
-import { policy as policyUtils, errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { policy as policyUtils, errors } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 
 const createPolicicesMiddleware = (route: Core.Route, strapi: Core.Strapi) => {
   const policiesConfig = route?.config?.policies ?? [];

@@ -68,5 +68,5 @@ A small wrapper that automatically binds the correct default namespace can be fo
 
 ### Types
 
-- [`@strapi/types`](https://github.com/Dhananjay-latpate/RCMS/tree/develop/packages/core/types) provides types to represent core Strapi objects like routes or an application
+- [`@resillix/types`](https://github.com/Dhananjay-latpate/RCMS/tree/develop/packages/core/types) provides types to represent core Strapi objects like routes or an application
 - [`openapi-types`](https://github.com/kogosoftwarellc/open-api/tree/main/packages/openapi-types) provides types to represent a full OpenAPI document and its sub-objects

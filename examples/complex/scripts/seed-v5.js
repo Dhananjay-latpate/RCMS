@@ -3,7 +3,7 @@
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { createStrapi, compileStrapi } = require('@strapi/strapi');
+const { createStrapi, compileStrapi } = require('@resillix/strapi');
 
 let strapi;
 

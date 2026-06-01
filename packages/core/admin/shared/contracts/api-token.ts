@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Data } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Data } from '@resillix/types';
 
 export type ApiToken = {
   accessKey: string;

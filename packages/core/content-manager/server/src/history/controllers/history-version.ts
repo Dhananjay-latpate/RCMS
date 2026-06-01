@@ -1,5 +1,5 @@
-import { async, errors } from '@strapi/utils';
-import type { Core, UID } from '@strapi/types';
+import { async, errors } from '@resillix/utils';
+import type { Core, UID } from '@resillix/types';
 import { pick } from 'lodash/fp';
 import { getService as getContentManagerService } from '../../utils';
 import { getService } from '../utils';

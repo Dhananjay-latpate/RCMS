@@ -4,7 +4,7 @@ import qs from 'qs';
 
 import { getCookieValue, setCookie } from './cookies';
 
-import type { errors } from '@strapi/utils';
+import type { errors } from '@resillix/utils';
 
 export type ApiError =
   | errors.ApplicationError
@@ -229,7 +229,7 @@ type FetchClient = {
  * to the Strapi backend.
  * @example
  * ```tsx
- * import { getFetchClient } from '@strapi/admin/admin';
+ * import { getFetchClient } from '@resillix/admin/admin';
  *
  * const myFunct = () => {
  *   const { get } = getFetchClient();

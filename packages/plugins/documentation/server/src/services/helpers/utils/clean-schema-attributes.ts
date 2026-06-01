@@ -1,4 +1,4 @@
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 import type { OpenAPIV3 } from 'openapi-types';
 
 import getSchemaData from './get-schema-data';

@@ -1,8 +1,8 @@
 import type { Context, Next } from 'koa';
 import path from 'path';
-import utils from '@strapi/utils';
+import utils from '@resillix/utils';
 import { isString, has, toLower, get } from 'lodash/fp';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 const { RateLimitError } = utils.errors;
 

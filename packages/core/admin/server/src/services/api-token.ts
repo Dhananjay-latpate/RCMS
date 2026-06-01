@@ -1,7 +1,7 @@
 import crypto from 'crypto';
 import { omit, difference, isNil, isEmpty, map, isArray, uniq, isNumber } from 'lodash/fp';
-import type { Core } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { errors } from '@resillix/utils';
 import type { Update, ApiToken, ApiTokenBody } from '../../../shared/contracts/api-token';
 import constants from './constants';
 import { getService } from '../utils';

@@ -5,8 +5,8 @@ import path from 'path';
 import { map, values, sumBy, pipe, flatMap, propEq } from 'lodash/fp';
 import _ from 'lodash';
 import { exists } from 'fs-extra';
-import { env } from '@strapi/utils';
-import tsUtils from '@strapi/typescript-utils';
+import { env } from '@resillix/utils';
+import tsUtils from '@resillix/typescript-utils';
 import {
   validateUpdateProjectSettings,
   validateUpdateProjectSettingsFiles,

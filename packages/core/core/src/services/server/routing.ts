@@ -1,7 +1,7 @@
 import Router from '@koa/router';
 import { has } from 'lodash/fp';
-import { yup } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { yup } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 
 import createEndpointComposer from './compose-endpoint';
 

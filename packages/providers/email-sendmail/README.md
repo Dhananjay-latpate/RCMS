@@ -1,4 +1,4 @@
-# @strapi/provider-email-sendmail
+# @resillix/provider-email-sendmail
 
 ## Resources
 
@@ -15,10 +15,10 @@
 
 ```bash
 # using yarn
-yarn add @strapi/provider-email-sendmail
+yarn add @resillix/provider-email-sendmail
 
 # using npm
-npm install @strapi/provider-email-sendmail --save
+npm install @resillix/provider-email-sendmail --save
 ```
 
 ## Configuration

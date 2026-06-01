@@ -4,8 +4,8 @@ import { within } from '@testing-library/react';
 import { render as renderRTL, screen, waitFor } from '@tests/utils';
 import { useLocation } from 'react-router-dom';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useIsMobile: jest.fn().mockReturnValue(false),
 }));
 

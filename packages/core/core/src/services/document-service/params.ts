@@ -1,6 +1,6 @@
 import { pick } from 'lodash/fp';
-import type { UID, Modules } from '@strapi/types';
-import { SHARED_QUERY_PARAM_KEYS } from '@strapi/utils';
+import type { UID, Modules } from '@resillix/types';
+import { SHARED_QUERY_PARAM_KEYS } from '@resillix/utils';
 
 /**
  * Division of allowlists:

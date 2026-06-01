@@ -8,7 +8,7 @@ const assertCwdContainsStrapiProject = (name: string) => {
     console.log(
       `You need to run ${chalk.yellow(
         `strapi ${name}`
-      )} in a Strapi project. Make sure you are in the right directory.`
+      )} in a Resillix CMS project. Make sure you are in the right directory.`
     );
     process.exit(1);
   };
@@ -17,8 +17,8 @@ const assertCwdContainsStrapiProject = (name: string) => {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     const pkgJSON = require(`${process.cwd()}/package.json`);
     if (
-      !has('dependencies.@strapi/strapi', pkgJSON) &&
-      !has('devDependencies.@strapi/strapi', pkgJSON)
+      !has('dependencies.@resillix/strapi', pkgJSON) &&
+      !has('devDependencies.@resillix/strapi', pkgJSON)
     ) {
       logErrorAndExit();
     }

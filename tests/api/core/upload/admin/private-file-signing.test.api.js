@@ -125,7 +125,7 @@ describe.skip('Upload Plugin url signing', () => {
   };
 
   beforeAll(async () => {
-    const localProviderPath = require.resolve('@strapi/provider-upload-local');
+    const localProviderPath = require.resolve('@resillix/provider-upload-local');
     jest.mock(localProviderPath, () => mockProvider(true));
 
     //  Create builder

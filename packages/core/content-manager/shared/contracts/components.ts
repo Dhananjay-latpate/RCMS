@@ -1,6 +1,6 @@
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 import type { Configuration, Settings, Metadatas, Layouts } from './content-types';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 
 export interface Component extends Struct.ComponentSchema {
   isDisplayed: boolean;

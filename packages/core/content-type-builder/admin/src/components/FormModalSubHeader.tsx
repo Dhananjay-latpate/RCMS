@@ -1,11 +1,11 @@
-import { StrapiAppContextValue } from '@strapi/admin/strapi-admin';
+import { StrapiAppContextValue } from '@resillix/admin/strapi-admin';
 import { Flex, Typography } from '@strapi/design-system';
 import upperFirst from 'lodash/upperFirst';
 import { useIntl } from 'react-intl';
 
 import { getTrad } from '../utils';
 
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 
 type ModalTitleProps = {
   forTarget?: Struct.ModelType;

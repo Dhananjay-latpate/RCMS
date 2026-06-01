@@ -23,7 +23,7 @@ const defaultCWD = '/__unit_tests__';
 const appPackageJSONFile = `{
   "name": "test",
   "version": "1.0.0",
-  "dependencies": { "@strapi/strapi": "${currentStrapiVersion}" }
+  "dependencies": { "@resillix/strapi": "${currentStrapiVersion}" }
 }`;
 
 const pluginPackageJSONFile = `{
@@ -82,33 +82,33 @@ describe('Project', () => {
       );
     });
 
-    test('Fails when not a plugin and no @strapi/strapi dependency found', async () => {
+    test('Fails when not a plugin and no @resillix/strapi dependency found', async () => {
       vol.fromNestedJSON(
         { 'package.json': `{ "name": "test", "version": "1.2.3" }`, src: defaultFiles },
         defaultCWD
       );
 
       expect(() => projectFactory(defaultCWD)).toThrow(
-        'No version of @strapi/strapi was found in test. Are you in a valid Strapi project?'
+        'No version of @resillix/strapi was found in test. Are you in a valid Strapi project?'
       );
     });
 
-    test(`Use the @strapi/strapi's package.json version as a fallback fails when no version is installed`, () => {
+    test(`Use the @resillix/strapi's package.json version as a fallback fails when no version is installed`, () => {
       vol.fromNestedJSON(
         {
-          'package.json': `{ "name": "test", "version": "1.2.3", "dependencies": { "@strapi/strapi": "^4.0.0" } }`,
+          'package.json': `{ "name": "test", "version": "1.2.3", "dependencies": { "@resillix/strapi": "^4.0.0" } }`,
           src: defaultFiles,
         },
         defaultCWD
       );
 
       expect(() => projectFactory(defaultCWD)).toThrow(
-        `Cannot resolve module "@strapi/strapi" from paths [${defaultCWD}]`
+        `Cannot resolve module "@resillix/strapi" from paths [${defaultCWD}]`
       );
     });
 
     // TODO: Waiting for https://github.com/jestjs/jest/issues/9543 to be implemented as we rely on require.resolve to find the actual module
-    test.todo(`Use the @strapi/strapi's package.json version as a fallback succeed`);
+    test.todo(`Use the @resillix/strapi's package.json version as a fallback succeed`);
 
     test('Succeed for valid AppProject', () => {
       vol.fromNestedJSON(appVolume, defaultCWD);

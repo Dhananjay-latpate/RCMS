@@ -1,5 +1,5 @@
-import { queryParams } from '@strapi/utils';
-import type { Core, UID } from '@strapi/types';
+import { queryParams } from '@resillix/utils';
+import type { Core, UID } from '@resillix/types';
 
 export default (strapi: Core.Strapi) => {
   const { transformQueryParams } = queryParams.createTransformer({

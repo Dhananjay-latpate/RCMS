@@ -4,6 +4,6 @@
  * relation-locale service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require('@resillix/strapi').factories;
 
 module.exports = createCoreService('api::relation-locale.relation-locale');

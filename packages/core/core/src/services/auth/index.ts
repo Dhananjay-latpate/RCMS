@@ -1,8 +1,8 @@
 import assert from 'assert/strict';
 import { has } from 'lodash/fp';
 
-import { errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 import type { ParameterizedContext } from 'koa';
 
 interface AuthenticationResponse {

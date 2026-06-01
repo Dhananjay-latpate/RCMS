@@ -1,9 +1,9 @@
 /* eslint-disable no-continue */
 import { keyBy, omit } from 'lodash/fp';
 
-import type { UID, Schema } from '@strapi/types';
+import type { UID, Schema } from '@resillix/types';
 
-import type { JoinTable } from '@strapi/database';
+import type { JoinTable } from '@resillix/database';
 
 interface LoadContext {
   oldVersions: { id: string; locale: string }[];

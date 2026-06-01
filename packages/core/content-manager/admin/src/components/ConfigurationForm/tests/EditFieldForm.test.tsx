@@ -1,4 +1,4 @@
-import { Form } from '@strapi/admin/strapi-admin';
+import { Form } from '@resillix/admin/strapi-admin';
 import { Modal } from '@strapi/design-system';
 import { fireEvent, render as renderRTL, screen } from '@tests/utils';
 

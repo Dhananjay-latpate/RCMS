@@ -15,10 +15,10 @@ To install this plugin, you need to add an NPM dependency to your Strapi applica
 
 ```sh
 # Using Yarn
-yarn add @strapi/plugin-sentry
+yarn add @resillix/plugin-sentry
 
 # Or using NPM
-npm install @strapi/plugin-sentry
+npm install @resillix/plugin-sentry
 ```
 
 ## Configuration
@@ -97,7 +97,7 @@ const sentryInstance = strapi.plugin('sentry').service('sentry').getInstance();
 If the `dsn` property is set to a nil value (`null` or `undefined`) while `enabled` is true, the Sentry plugin will be available to use in the running Strapi instance, but the service will not actually send errors to Sentry. That allows you to write code that runs on every environment without additional checks, but only send errors to Sentry in production.
 
 When you start Strapi with a nil `dsn` config property, the plugin will print a warning:  
-`info: @strapi/plugin-sentry is disabled because no Sentry DSN was provided`
+`info: @resillix/plugin-sentry is disabled because no Sentry DSN was provided`
 
 You can make use of that by using the `env` utility to set the `dsn` config property depending on the environment.
 

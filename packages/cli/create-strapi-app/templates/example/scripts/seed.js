@@ -255,7 +255,7 @@ async function importSeedData() {
 }
 
 async function main() {
-  const { createStrapi, compileStrapi } = require('@strapi/strapi');
+  const { createStrapi, compileStrapi } = require('@resillix/strapi');
 
   const appContext = await compileStrapi();
   const app = await createStrapi(appContext).load();

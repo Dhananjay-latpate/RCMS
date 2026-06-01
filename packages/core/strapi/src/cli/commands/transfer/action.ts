@@ -1,5 +1,5 @@
 import { isObject } from 'lodash/fp';
-import { engine as engineDataTransfer, strapi as strapiDataTransfer } from '@strapi/data-transfer';
+import { engine as engineDataTransfer, strapi as strapiDataTransfer } from '@resillix/data-transfer';
 
 import {
   buildTransferTable,
@@ -41,7 +41,7 @@ interface CmdOptions {
 /**
  * Transfer command.
  *
- * Transfers data between local Strapi and remote Strapi instances
+ * Transfers data between local Resillix CMS and remote Resillix CMS instances
  */
 export default async (opts: CmdOptions) => {
   // Validate inputs from Commander
@@ -57,7 +57,7 @@ export default async (opts: CmdOptions) => {
   let source;
   let destination;
 
-  // if no URL provided, use local Strapi
+  // if no URL provided, use local Resillix CMS
   if (!opts.from) {
     source = createLocalStrapiSourceProvider({
       getStrapi: () => strapi,
@@ -79,7 +79,7 @@ export default async (opts: CmdOptions) => {
     });
   }
 
-  // if no URL provided, use local Strapi
+  // if no URL provided, use local Resillix CMS
   if (!opts.to) {
     destination = createLocalStrapiDestinationProvider({
       getStrapi: () => strapi,

@@ -1,5 +1,5 @@
-import type { Data, Modules } from '@strapi/types';
-import type { errors } from '@strapi/utils';
+import type { Data, Modules } from '@resillix/types';
+import type { errors } from '@resillix/utils';
 import { AdminRole, Permission, SanitizedAdminRole } from './shared';
 
 export type SanitizedPermission = Pick<

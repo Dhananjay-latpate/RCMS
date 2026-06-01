@@ -1,9 +1,9 @@
-import { useAIAvailability } from '@strapi/admin/strapi-admin/ee';
+import { useAIAvailability } from '@resillix/admin/strapi-admin/ee';
 import { render, screen, server } from '@tests/utils';
 import { rest } from 'msw';
 
-jest.mock('@strapi/admin/strapi-admin/ee', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin/ee'),
+jest.mock('@resillix/admin/strapi-admin/ee', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin/ee'),
   useAIAvailability: jest.fn(),
 }));
 

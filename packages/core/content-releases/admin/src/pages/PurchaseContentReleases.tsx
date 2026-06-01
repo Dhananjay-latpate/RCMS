@@ -1,4 +1,4 @@
-import { Layouts, RESPONSIVE_DEFAULT_SPACING } from '@strapi/admin/strapi-admin';
+import { Layouts, RESPONSIVE_DEFAULT_SPACING } from '@resillix/admin/strapi-admin';
 import { Box, Main, Flex, Typography, Grid, LinkButton } from '@strapi/design-system';
 import { ExternalLink, Check, PaperPlane } from '@strapi/icons';
 import { useIntl } from 'react-intl';

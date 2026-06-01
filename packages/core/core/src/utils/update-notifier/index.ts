@@ -4,8 +4,8 @@ import Configstore from 'configstore';
 import semver from 'semver';
 import boxen from 'boxen';
 import chalk from 'chalk';
-import { env } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { env } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 
 import pkg from '../../../package.json';
 

@@ -5,7 +5,7 @@ import {
   PreviewFieldError,
 } from '../fieldUtils';
 
-import type { Schema, Modules } from '@strapi/types';
+import type { Schema, Modules } from '@resillix/types';
 
 describe('fieldUtils', () => {
   describe('parsePathWithIndices', () => {

@@ -1,10 +1,10 @@
-import { useLicenseLimits } from '@strapi/admin/strapi-admin/ee';
+import { useLicenseLimits } from '@resillix/admin/strapi-admin/ee';
 import { render, screen } from '@tests/utils';
 
 import { useGetLicenseTrialTimeLeftQuery } from '../../../src/services/admin';
 import { UpsellBanner } from '../UpsellBanner';
 
-jest.mock('@strapi/admin/strapi-admin/ee', () => ({
+jest.mock('@resillix/admin/strapi-admin/ee', () => ({
   useLicenseLimits: jest.fn(() => ({
     license: {
       isTrial: true,

@@ -1,6 +1,6 @@
-import type { Core, Schema } from '@strapi/types';
+import type { Core, Schema } from '@resillix/types';
 
-import { contentTypes, contentTypes as contentTypeUtils } from '@strapi/utils';
+import { contentTypes, contentTypes as contentTypeUtils } from '@resillix/utils';
 import * as z from 'zod/v4';
 import type { QueryParam } from './validation/content-type';
 
@@ -148,7 +148,7 @@ const getCollectionTypeRoutes = (
  * based on the content type: e.g. locale only for localized types, status only for draft & publish.
  *
  * This is separate from the runtime allowlist used when api.rest.strictParams is on
- * (ALLOWED_QUERY_PARAM_KEYS + registerQueryParam in @strapi/utils). That allowlist is global
+ * (ALLOWED_QUERY_PARAM_KEYS + registerQueryParam in @resillix/utils). That allowlist is global
  * (locale and status are always allowed); validate/sanitize then pass them through and the
  * document service or i18n layer ignores them when not applicable.
  *

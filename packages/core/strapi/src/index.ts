@@ -1,4 +1,4 @@
-export * from '@strapi/core';
+export * from '@resillix/core';
 
-export type * from '@strapi/types';
+export type * from '@resillix/types';
 export type * from './cli/types';

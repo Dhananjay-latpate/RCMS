@@ -18,7 +18,7 @@ const exampleMiddlewaresConfig = [
   },
 ];
 
-jest.mock('@strapi/provider-upload-local', () => ({
+jest.mock('@resillix/provider-upload-local', () => ({
   init() {
     global.strapi.config.set('middlewares', exampleMiddlewaresConfig);
 

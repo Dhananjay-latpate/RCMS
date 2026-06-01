@@ -2,4 +2,4 @@
 
 'use strict';
 
-require('create-strapi-app/bin');
+require('create-resillix-app/bin');

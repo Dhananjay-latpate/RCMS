@@ -1,7 +1,7 @@
 import { cloneDeep, isEmpty } from 'lodash/fp';
 
-import type { Schema } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { Schema } from '@resillix/types';
+import { async } from '@resillix/utils';
 import { getService } from '../utils';
 
 /**

@@ -1,4 +1,4 @@
-import type { Data, Struct, UID } from '@strapi/types';
+import type { Data, Struct, UID } from '@resillix/types';
 
 export interface Entity {
   id: Data.ID;

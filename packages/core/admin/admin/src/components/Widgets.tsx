@@ -1,4 +1,4 @@
-import { useAuth, useTracking } from '@strapi/admin/strapi-admin';
+import { useAuth, useTracking } from '@resillix/admin/strapi-admin';
 import { Avatar, Badge, Box, Flex, Typography } from '@strapi/design-system';
 import { Earth, Images, User, Key, Files, Layout, Graph, Webhooks } from '@strapi/icons';
 import { useIntl } from 'react-intl';

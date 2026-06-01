@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useQueryParams, getDisplayName } from '@strapi/admin/strapi-admin';
+import { useQueryParams, getDisplayName } from '@resillix/admin/strapi-admin';
 import {
   Alert,
   Box,

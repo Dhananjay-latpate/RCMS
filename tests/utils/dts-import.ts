@@ -13,7 +13,7 @@ const {
     providers: { createRemoteStrapiDestinationProvider, createLocalStrapiDestinationProvider },
   },
   engine: { createTransferEngine },
-} = require('@strapi/data-transfer');
+} = require('@resillix/data-transfer');
 
 interface RestoreConfiguration {
   coreStore: boolean;
@@ -108,7 +108,7 @@ export const resetDatabaseAndImportDataFromPathProgrammatic = async (
   await loadTestAppEnv(appPath);
 
   // Load Strapi instance
-  const { createStrapi } = require('@strapi/core');
+  const { createStrapi } = require('@resillix/core');
   const strapiInstance = createStrapi({
     appDir: appPath,
     distDir: appPath,

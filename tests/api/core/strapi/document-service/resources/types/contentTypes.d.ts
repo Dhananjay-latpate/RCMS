@@ -1,4 +1,4 @@
-import type { Internal, Schema } from '@strapi/types';
+import type { Internal, Schema } from '@resillix/types';
 
 export interface AdminPermission extends Struct.CollectionTypeSchema {
   collectionName: 'admin_permissions';
@@ -752,7 +752,7 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   };
 }
 
-declare module '@strapi/types' {
+declare module '@resillix/types' {
   export module Public {
     export module Registries {
       export interface ContentTypesSchemas {

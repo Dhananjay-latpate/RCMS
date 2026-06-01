@@ -1,4 +1,4 @@
-import { queryParams } from '@strapi/utils';
+import { queryParams } from '@resillix/utils';
 
 import createReleaseService from '../release';
 import releaseCT from '../../content-types/release/schema';

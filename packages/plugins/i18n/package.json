@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/i18n",
+  "name": "@resillix/i18n",
   "version": "5.42.0",
   "description": "Create read and update content in different languages, both from the Admin Panel and from the API",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",
@@ -59,9 +59,9 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.9.7",
+    "@resillix/utils": "5.42.0",
     "@strapi/design-system": "2.2.0",
     "@strapi/icons": "2.2.0",
-    "@strapi/utils": "5.42.0",
     "lodash": "4.18.1",
     "qs": "6.15.0",
     "react-intl": "6.6.2",
@@ -70,11 +70,11 @@
     "zod": "3.25.67"
   },
   "devDependencies": {
-    "@strapi/admin": "5.42.0",
-    "@strapi/admin-test-utils": "5.42.0",
-    "@strapi/content-manager": "5.42.0",
-    "@strapi/database": "5.42.0",
-    "@strapi/types": "5.42.0",
+    "@resillix/admin": "5.42.0",
+    "@resillix/admin-test-utils": "5.42.0",
+    "@resillix/content-manager": "5.42.0",
+    "@resillix/database": "5.42.0",
+    "@resillix/types": "5.42.0",
     "@testing-library/react": "16.3.0",
     "@testing-library/user-event": "14.6.1",
     "koa": "2.16.4",
@@ -86,8 +86,8 @@
     "styled-components": "6.1.8"
   },
   "peerDependencies": {
-    "@strapi/admin": "^5.0.0",
-    "@strapi/content-manager": "^5.0.0",
+    "@resillix/admin": "^5.0.0",
+    "@resillix/content-manager": "^5.0.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.30.3",

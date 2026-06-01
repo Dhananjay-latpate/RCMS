@@ -1,8 +1,8 @@
 import _ from 'lodash';
-import utils, { errors } from '@strapi/utils';
+import utils, { errors } from '@resillix/utils';
 
 import type { Context } from 'koa';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 import { getService } from '../utils';
 import { FILE_MODEL_UID } from '../constants';

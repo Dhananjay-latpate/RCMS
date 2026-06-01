@@ -1,5 +1,5 @@
 import { merge } from 'lodash/fp';
-import { async } from '@strapi/utils';
+import { async } from '@resillix/utils';
 
 import type { Context } from 'koa';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/logger",
+  "name": "@resillix/logger",
   "version": "5.42.0",
   "description": "Resillix CMS's logger",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",

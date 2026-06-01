@@ -1,5 +1,5 @@
-import { useAuth } from '@strapi/admin/strapi-admin';
-import { unstable_useDocument as useDocument } from '@strapi/content-manager/strapi-admin';
+import { useAuth } from '@resillix/admin/strapi-admin';
+import { unstable_useDocument as useDocument } from '@resillix/content-manager/strapi-admin';
 import { renderHook } from '@testing-library/react';
 import { useParams } from 'react-router-dom';
 
@@ -9,11 +9,11 @@ jest.mock('react-router-dom', () => ({
   useParams: jest.fn(),
 }));
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
+jest.mock('@resillix/admin/strapi-admin', () => ({
   useAuth: jest.fn(),
 }));
 
-jest.mock('@strapi/content-manager/strapi-admin', () => ({
+jest.mock('@resillix/content-manager/strapi-admin', () => ({
   unstable_useDocument: jest.fn(),
 }));
 

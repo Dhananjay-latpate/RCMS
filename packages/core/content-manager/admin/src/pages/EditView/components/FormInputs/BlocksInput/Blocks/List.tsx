@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Typography } from '@strapi/design-system';
 import { BulletList, NumberList } from '@strapi/icons';
-import { Schema } from '@strapi/types';
+import { Schema } from '@resillix/types';
 import { type Text, Editor, Node, Transforms, Path, Element } from 'slate';
 import { type RenderElementProps, ReactEditor } from 'slate-react';
 import { styled, type CSSProperties, css } from 'styled-components';

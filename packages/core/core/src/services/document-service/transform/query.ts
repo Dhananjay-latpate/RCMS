@@ -1,4 +1,4 @@
-import type { UID } from '@strapi/types';
+import type { UID } from '@resillix/types';
 
 import { curry, assoc } from 'lodash/fp';
 import { parseHasPublishedVersion, getHasPublishedVersionCondition } from '../draft-and-publish';

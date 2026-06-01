@@ -37,7 +37,7 @@ Read the Getting Started tutorial or follow the steps below:
 Use the **Quickstart** command below to create a new Resillix CMS project instantly:
 
 ```bash
-npx create-strapi@latest my-project
+npx create-resillix@latest my-project
 ```
 
 This command generates a brand new project with the default features (authentication, permissions, content management, content type builder & file upload).

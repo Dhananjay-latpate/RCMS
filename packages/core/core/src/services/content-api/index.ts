@@ -5,10 +5,10 @@ import {
   sanitizeRoutesMapForSerialization,
   ALLOWED_QUERY_PARAM_KEYS,
   RESERVED_INPUT_PARAM_KEYS,
-} from '@strapi/utils';
+} from '@resillix/utils';
 import * as z from 'zod/v4';
 
-import type { Core, Modules, UID } from '@strapi/types';
+import type { Core, Modules, UID } from '@resillix/types';
 
 import instantiatePermissionsUtilities from './permissions';
 

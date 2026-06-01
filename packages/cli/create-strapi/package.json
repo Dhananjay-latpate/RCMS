@@ -1,9 +1,9 @@
 {
-  "name": "create-strapi",
+  "name": "create-resillix",
   "version": "5.42.0",
   "description": "Generate a new Resillix CMS application.",
   "keywords": [
-    "create-strapi",
+    "create-resillix",
     "create",
     "new",
     "generate",
@@ -35,7 +35,7 @@
     "bin/"
   ],
   "dependencies": {
-    "create-strapi-app": "5.42.0"
+    "create-resillix-app": "5.42.0"
   },
   "engines": {
     "node": ">=20.0.0 <=24.x.x",

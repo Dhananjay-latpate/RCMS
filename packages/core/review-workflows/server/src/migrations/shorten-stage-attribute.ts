@@ -1,6 +1,6 @@
 import semver from 'semver';
 import { getOr } from 'lodash/fp';
-import { async } from '@strapi/utils';
+import { async } from '@resillix/utils';
 import { STAGE_MODEL_UID } from '../constants/workflows';
 
 function checkVersionThreshold(

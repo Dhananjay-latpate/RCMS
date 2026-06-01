@@ -1,7 +1,7 @@
 import path from 'path';
 import { isArray } from 'lodash/fp';
-import { importDefault } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { importDefault } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 
 const instantiateMiddleware = (
   middlewareFactory: Core.MiddlewareFactory,

@@ -7,11 +7,11 @@ tags:
   - actions
 ---
 
-# @strapi/permissions
+# @resillix/permissions
 
 ## Introduction
 
-The `@strapi/permissions` package is a sophisticated permission management system designed to provide flexible, granular
+The `@resillix/permissions` package is a sophisticated permission management system designed to provide flexible, granular
 control over access rights in Resillix CMS systems.
 
 Built on top of CASL's ability system, it extends the basic permission model with advanced features like parametrized
@@ -83,7 +83,7 @@ granting access.
 ## Integration Example
 
 ```typescript
-import { engine, domain } from '@strapi/permissions';
+import { engine, domain } from '@resillix/permissions';
 
 // 1. Define Providers
 const providers = {

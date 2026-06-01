@@ -1,5 +1,5 @@
-import type { Core } from '@strapi/types';
-import { errors, extendMiddlewareConfiguration } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { errors, extendMiddlewareConfiguration } from '@resillix/utils';
 
 export type HandlerParams = {
   documentId: string;
@@ -8,7 +8,7 @@ export type HandlerParams = {
 };
 
 /**
- * @deprecated Use Core.Config.Admin['preview'] from @strapi/types instead
+ * @deprecated Use Core.Config.Admin['preview'] from @resillix/types instead
  * Keeping for backward compatibility
  */
 export type PreviewConfig = NonNullable<Core.Config.Admin['preview']>;

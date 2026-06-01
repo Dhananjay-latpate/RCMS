@@ -5,11 +5,11 @@ Highly customizable permission engine made for Strapi
 ## Get Started
 
 ```sh
-yarn add @strapi/permissions
+yarn add @resillix/permissions
 ```
 
 ```javascript
-const permissions = require('@strapi/permissions');
+const permissions = require('@resillix/permissions');
 
 const engine = permissions.engine.new({ providers });
 
@@ -38,7 +38,7 @@ You can also register to some hooks for each engine instance.
 See `lib/engine/hooks.js` -> `createEngineHooks` for available hooks.
 
 ```javascript
-const permissions = require('@strapi/permissions');
+const permissions = require('@resillix/permissions');
 
 const engine = permissions.engine
   .new({ providers })
@@ -69,7 +69,7 @@ ability.can('update', 'bar'); // true
 The `format.permission` hook can be used to modify the permission.
 
 ```javascript
-const permissions = require('@strapi/permissions');
+const permissions = require('@resillix/permissions');
 
 const engine = permissions.engine
   .new({ providers })

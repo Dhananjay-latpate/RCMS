@@ -16,7 +16,7 @@ const mockClose = jest.fn();
   close: mockClose,
 });
 
-describe('@strapi/provider-email-nodemailer', () => {
+describe('@resillix/provider-email-nodemailer', () => {
   beforeEach(() => {
     jest.clearAllMocks();
   });
