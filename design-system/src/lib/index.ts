@@ -45,5 +45,27 @@ export { Badge, type BadgeProps, type BadgeTone } from './components/Badge';
 export { Card, CardHeader, CardBody, CardFooter, type CardProps } from './components/Card';
 export { Table, Thead, Tbody, Tr, Th, Td } from './components/Table';
 
+// Patterns (app shell)
+export { AppShell, type AppShellProps } from './patterns/AppShell';
+export {
+  SideNav,
+  type SideNavProps,
+  type NavItem,
+  type NavSection,
+} from './patterns/SideNav';
+export { TopBar, type TopBarProps } from './patterns/TopBar';
+export {
+  PageHeader,
+  type PageHeaderProps,
+  type Breadcrumb,
+} from './patterns/PageHeader';
+export {
+  CommandPalette,
+  useCommandPalette,
+  type CommandPaletteProps,
+  type CommandItem,
+} from './patterns/CommandPalette';
+export * as Icons from './patterns/icons';
+
 // Utils
 export { cn } from './utils/cn';

@@ -17,10 +17,13 @@ phase (see [`../docs/DESIGN_SYSTEM_PLAN.md`](../docs/DESIGN_SYSTEM_PLAN.md)).
 | `tailwind-preset.cjs` | Tailwind preset mapping tokens → theme |
 | `src/lib/primitives/` | `Box`, `Flex`, `Grid`, `Typography` (legacy-compatible props) |
 | `src/lib/components/` | `Button`, `Field`/`TextInput`/`Textarea`, `Checkbox`, `Toggle`, `Select`, `Dialog`, `Tabs`, `Tooltip`, `Badge`, `Card`, `Table` |
-| `src/preview/` | Live style-guide preview with light/dark toggle |
+| `src/lib/patterns/` | App shell: `AppShell`, `SideNav`, `TopBar`, `PageHeader`, `CommandPalette` (⌘K) + icon set |
+| `src/preview/` | Live preview — **Style guide** + a realistic **Admin shell** screen, with light/dark toggle |
 
 Interactive components are built on **Radix UI** primitives (Dialog, Select,
 Tabs, Tooltip, Checkbox, Switch, Label) for accessibility, styled with tokens.
+The patterns reproduce the admin frame (232px side nav, 64px top bar) matching
+the legacy admin layout tokens.
 
 ## Develop / build
 

@@ -32,7 +32,9 @@ import {
   Tr,
   Th,
   Td,
+  cn,
 } from '../lib';
+import { AdminShell } from './AdminShell';
 
 /** Live preview / mini style-guide for the Resillix design system. */
 const swatches: Array<{ label: string; vars: string[] }> = [
@@ -62,6 +64,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 
 export function App() {
   const [dark, setDark] = React.useState(false);
+  const [view, setView] = React.useState<'guide' | 'shell'>('guide');
 
   React.useEffect(() => {
     document.documentElement.classList.toggle('dark', dark);
@@ -69,22 +72,42 @@ export function App() {
 
   return (
     <TooltipProvider delayDuration={150}>
+      {/* Control bar */}
+      <div className="sticky top-0 z-30 flex h-14 items-center justify-between border-b border-border bg-surface/80 px-4 backdrop-blur">
+        <Flex gap={2} align="center">
+          <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary-600 text-sm font-bold text-white">
+            R
+          </span>
+          <Typography variant="epsilon">Resillix Design System</Typography>
+        </Flex>
+        <Flex gap={2} align="center">
+          <div className="flex rounded-lg border border-border p-0.5">
+            {(['guide', 'shell'] as const).map((v) => (
+              <button
+                key={v}
+                onClick={() => setView(v)}
+                className={cn(
+                  'rounded-md px-3 py-1 text-xs font-medium transition-colors',
+                  view === v ? 'bg-primary-100 text-primary-700' : 'text-muted hover:text-ink'
+                )}
+              >
+                {v === 'guide' ? 'Style guide' : 'Admin shell'}
+              </button>
+            ))}
+          </div>
+          <Button variant="tertiary" size="S" onClick={() => setDark((d) => !d)}>
+            {dark ? '☀ Light' : '☾ Dark'}
+          </Button>
+        </Flex>
+      </div>
+
+      {view === 'shell' ? (
+        <div className="px-4 py-3">
+          <AdminShell />
+        </div>
+      ) : (
       <Box className="min-h-full" paddingY={9}>
         <Box className="mx-auto w-full max-w-5xl px-4">
-          {/* Header */}
-          <Flex justify="between" align="center" className="mb-8">
-            <Box>
-              <Typography asChild variant="alpha">
-                <h1>Resillix Design System</h1>
-              </Typography>
-              <Typography variant="omega" textColor="muted" className="mt-1 block">
-                Tokens, themes, primitives &amp; components — live preview.
-              </Typography>
-            </Box>
-            <Button variant="tertiary" size="S" onClick={() => setDark((d) => !d)}>
-              {dark ? '☀ Light' : '☾ Dark'}
-            </Button>
-          </Flex>
 
           {/* Colors */}
           <Section title="Color tokens">
@@ -311,6 +334,7 @@ export function App() {
           </Typography>
         </Box>
       </Box>
+      )}
     </TooltipProvider>
   );
 }
