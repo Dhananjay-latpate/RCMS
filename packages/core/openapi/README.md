@@ -1,1 +1,1 @@
-# @strapi/openapi
+# @resillix/openapi

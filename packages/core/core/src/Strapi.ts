@@ -2,12 +2,12 @@ import { bootstrap as bootstrapGlobalAgent } from 'global-agent';
 import path from 'path';
 import _ from 'lodash';
 import { isFunction } from 'lodash/fp';
-import { Logger, createLogger } from '@strapi/logger';
-import { Database } from '@strapi/database';
+import { Logger, createLogger } from '@resillix/logger';
+import { Database } from '@resillix/database';
 
-import type { Core, Modules, UID, Schema } from '@strapi/types';
+import type { Core, Modules, UID, Schema } from '@resillix/types';
 
-import tsUtils from '@strapi/typescript-utils';
+import tsUtils from '@resillix/typescript-utils';
 import { loadConfiguration } from './configuration';
 
 import * as factories from './factories';

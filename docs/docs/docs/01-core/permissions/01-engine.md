@@ -21,7 +21,7 @@ This is the abstraction used by other Strapi systems to create their custom perm
 ## Usage
 
 ```typescript
-import * as permissions from '@strapi/permissions';
+import * as permissions from '@resillix/permissions';
 
 const engine = permissions.engine.new({
   providers: {

@@ -1,4 +1,4 @@
-import * as tsUtils from '@strapi/typescript-utils';
+import * as tsUtils from '@resillix/typescript-utils';
 import type { CLIContext } from '../cli/types';
 import { checkRequiredDependencies } from './core/dependencies';
 import { getTimer, prettyTime } from './core/timer';

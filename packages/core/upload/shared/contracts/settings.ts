@@ -3,8 +3,8 @@
  * E.g the size optimization flag, the responsive dimensions flag and the auto orientation.
  */
 
-import { errors } from '@strapi/utils';
-import type { Utils } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Utils } from '@resillix/types';
 
 export interface Settings {
   data: {

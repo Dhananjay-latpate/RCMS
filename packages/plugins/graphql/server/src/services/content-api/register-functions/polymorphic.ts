@@ -1,5 +1,5 @@
 import { unionType } from 'nexus';
-import type { Struct } from '@strapi/types';
+import type { Struct } from '@resillix/types';
 import type { Context } from '../../types';
 
 const registerPolymorphicContentType = (

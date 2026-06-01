@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { isObject } from 'lodash/fp';
 import chalk from 'chalk';
 
@@ -9,7 +9,7 @@ import {
   strapi as strapiDataTransfer,
   file as fileDataTransfer,
   directory as directoryDataTransfer,
-} from '@strapi/data-transfer';
+} from '@resillix/data-transfer';
 
 import {
   buildTransferTable,

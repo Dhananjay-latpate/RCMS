@@ -2,8 +2,8 @@ import os from 'node:os';
 import path from 'node:path';
 import fs from 'node:fs/promises';
 import browserslist from 'browserslist';
-import { createStrapi } from '@strapi/core';
-import type { Core, Modules } from '@strapi/types';
+import { createStrapi } from '@resillix/core';
+import type { Core, Modules } from '@resillix/types';
 import type { Server } from 'node:http';
 
 import type { CLIContext } from '../cli/types';

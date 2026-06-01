@@ -1,5 +1,5 @@
-import type { UID } from '@strapi/types';
-import { contentTypes } from '@strapi/utils';
+import type { UID } from '@resillix/types';
+import { contentTypes } from '@resillix/utils';
 
 interface Options {
   /**

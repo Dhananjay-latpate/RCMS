@@ -1,4 +1,4 @@
-import { queryParams } from '@strapi/utils';
+import { queryParams } from '@resillix/utils';
 
 import createReleaseActionService from '../release-action';
 

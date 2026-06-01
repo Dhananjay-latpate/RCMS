@@ -1,12 +1,12 @@
 import chalk from 'chalk';
 import Table from 'cli-table3';
 import { Command, Option } from 'commander';
-import { configs, createLogger, type winston, formats } from '@strapi/logger';
-import { createStrapi, compileStrapi } from '@strapi/core';
+import { configs, createLogger, type winston, formats } from '@resillix/logger';
+import { createStrapi, compileStrapi } from '@resillix/core';
 import ora from 'ora';
 import { merge } from 'lodash/fp';
-import type { Core } from '@strapi/types';
-import { engine as engineDataTransfer, strapi as strapiDataTransfer } from '@strapi/data-transfer';
+import type { Core } from '@resillix/types';
+import { engine as engineDataTransfer, strapi as strapiDataTransfer } from '@resillix/data-transfer';
 
 import { readableBytes, exitWith } from './helpers';
 import { getParseListWithChoices, parseInteger, confirmMessage } from './commander';

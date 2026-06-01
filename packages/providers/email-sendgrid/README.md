@@ -1,4 +1,4 @@
-# @strapi/provider-email-sendgrid
+# @resillix/provider-email-sendgrid
 
 ## Resources
 
@@ -15,10 +15,10 @@
 
 ```bash
 # using yarn
-yarn add @strapi/provider-email-sendgrid
+yarn add @resillix/provider-email-sendgrid
 
 # using npm
-npm install @strapi/provider-email-sendgrid --save
+npm install @resillix/provider-email-sendgrid --save
 ```
 
 ## Configuration

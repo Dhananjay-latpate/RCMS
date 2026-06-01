@@ -7,8 +7,8 @@ import type { Folder } from '../../../../../../../shared/contracts/folders';
 const mockSetQuery = jest.fn();
 const mockUseQueryParams = jest.fn();
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useQueryParams: (...args: unknown[]) => mockUseQueryParams(...args),
 }));
 

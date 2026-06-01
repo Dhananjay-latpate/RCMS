@@ -1,7 +1,7 @@
 import { isNil, omit } from 'lodash/fp';
 
-import { setCreatorFields, async, contentTypes, errors } from '@strapi/utils';
-import type { Modules, UID } from '@strapi/types';
+import { setCreatorFields, async, contentTypes, errors } from '@resillix/utils';
+import type { Modules, UID } from '@resillix/types';
 
 import { getService } from '../utils';
 import { validateBulkActionInput } from './validation';

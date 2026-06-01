@@ -1,4 +1,4 @@
-import { createContext } from '@strapi/admin/strapi-admin';
+import { createContext } from '@resillix/admin/strapi-admin';
 
 interface ComponentContextValue {
   /**

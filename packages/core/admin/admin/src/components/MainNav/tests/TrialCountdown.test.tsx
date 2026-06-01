@@ -1,9 +1,9 @@
-import { useLicenseLimits } from '@strapi/admin/strapi-admin/ee';
+import { useLicenseLimits } from '@resillix/admin/strapi-admin/ee';
 import { screen, render } from '@tests/utils';
 
 import { TrialCountdown } from '../TrialCountdown';
 
-jest.mock('@strapi/admin/strapi-admin/ee', () => ({
+jest.mock('@resillix/admin/strapi-admin/ee', () => ({
   useLicenseLimits: jest.fn(() => ({
     license: {
       isTrial: true,

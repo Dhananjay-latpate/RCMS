@@ -19,7 +19,7 @@ The `map` function is an asynchronous version of the `Array.prototype.map` metho
 Example usage:
 
 ```js
-import { async } from '@strapi/utils';
+import { async } from '@resillix/utils';
 
 const input = [1, 2, 3];
 
@@ -37,7 +37,7 @@ The `reduce` function is an asynchronous version of the `Array.prototype.reduce`
 Example usage:
 
 ```js
-import { async } from '@strapi/utils';
+import { async } from '@resillix/utils';
 const input = [1, 2, 3];
 
 const reducer = async.reduce(input);
@@ -55,7 +55,7 @@ The `pipe` function is a utility function for composing asynchronous functions. 
 Example usage:
 
 ```js
-import { async } from '@strapi/utils';
+import { async } from '@resillix/utils';
 
 async function addOne(input: number): Promise<number> {
   return input + 1;

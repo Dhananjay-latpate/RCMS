@@ -5,11 +5,11 @@
  * packages & plugins.
  *
  * The utilities are designed to work both standalone (for generic validation) and
- * as building blocks for more sophisticated schema-aware validation via @strapi/core.
+ * as building blocks for more sophisticated schema-aware validation via @resillix/core.
  *
  * @example
  * ```typescript
- * import { AbstractRouteValidator, type QueryParam } from '@strapi/utils';
+ * import { AbstractRouteValidator, type QueryParam } from '@resillix/utils';
  * import * as z from 'zod/v4';
  *
  * export class MyPluginRouteValidator extends AbstractRouteValidator {

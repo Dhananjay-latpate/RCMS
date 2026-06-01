@@ -1,4 +1,4 @@
-import type { Internal, Schema } from '@strapi/types';
+import type { Internal, Schema } from '@resillix/types';
 
 import type { Context } from '../../types';
 

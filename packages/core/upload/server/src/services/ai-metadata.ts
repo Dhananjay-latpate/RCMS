@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { z } from 'zod';
 import { InputFile, File } from '../types';
 import { Settings } from '../controllers/validation/admin/settings';

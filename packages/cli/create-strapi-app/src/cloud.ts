@@ -1,4 +1,4 @@
-import { cli as cloudCli, services as cloudServices } from '@strapi/cloud-cli';
+import { cli as cloudCli, services as cloudServices } from '@resillix/cloud-cli';
 import parseToChalk from './utils/parse-to-chalk';
 
 interface CloudError {

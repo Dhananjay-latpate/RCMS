@@ -1,7 +1,7 @@
 import { createCommand } from 'commander';
 import fs from 'fs';
-import tsUtils from '@strapi/typescript-utils';
-import { createStrapi } from '@strapi/core';
+import tsUtils from '@resillix/typescript-utils';
+import { createStrapi } from '@resillix/core';
 
 import type { StrapiCommand } from '../types';
 import { runAction } from '../utils/helpers';

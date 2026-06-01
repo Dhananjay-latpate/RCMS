@@ -1,6 +1,6 @@
 /* eslint-disable check-file/filename-naming-convention */
 import { configureStore } from '@reduxjs/toolkit';
-import { adminApi, NotificationsProvider, useNotification } from '@strapi/admin/strapi-admin';
+import { adminApi, NotificationsProvider, useNotification } from '@resillix/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { act, renderHook, waitFor } from '@testing-library/react';
 import { server } from '@tests/utils';
@@ -20,8 +20,8 @@ const ASSET_FIXTURE = {
 
 const notificationStatusMock = jest.fn();
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useNotification() {
     return { toggleNotification: notificationStatusMock };
   },

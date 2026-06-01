@@ -26,10 +26,10 @@
  */
 
 /* eslint-disable no-continue */
-import type { UID } from '@strapi/types';
-import type { Database, Migration } from '@strapi/database';
+import type { UID } from '@resillix/types';
+import type { Database, Migration } from '@resillix/database';
 import { createId } from '@paralleldrive/cuid2';
-import { contentTypes } from '@strapi/utils';
+import { contentTypes } from '@resillix/utils';
 import createDebug from 'debug';
 import {
   getComponentJoinTableName,

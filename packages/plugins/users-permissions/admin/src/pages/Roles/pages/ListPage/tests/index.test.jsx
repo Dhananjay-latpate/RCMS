@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-import { render as renderAdmin } from '@strapi/strapi/admin/test';
+import { render as renderAdmin } from '@resillix/strapi/admin/test';
 import { waitForElementToBeRemoved } from '@testing-library/react';
 import { useLocation } from 'react-router-dom';
 
@@ -15,8 +15,8 @@ jest.mock('cropperjs/dist/cropper.css?raw', () => '', {
   virtual: true,
 });
 
-jest.mock('@strapi/strapi/admin', () => ({
-  ...jest.requireActual('@strapi/strapi/admin'),
+jest.mock('@resillix/strapi/admin', () => ({
+  ...jest.requireActual('@resillix/strapi/admin'),
   useRBAC: jest.fn().mockImplementation(() => ({
     isLoading: false,
     allowedActions: { canRead: true, canUpdate: true, canDelete: true, canCreate: true },

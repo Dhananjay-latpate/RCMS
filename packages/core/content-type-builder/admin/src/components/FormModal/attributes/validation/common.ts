@@ -1,4 +1,4 @@
-import { translatedErrors as errorsTrads } from '@strapi/admin/strapi-admin';
+import { translatedErrors as errorsTrads } from '@resillix/admin/strapi-admin';
 import { snakeCase } from 'lodash/fp';
 import toNumber from 'lodash/toNumber';
 import * as yup from 'yup';

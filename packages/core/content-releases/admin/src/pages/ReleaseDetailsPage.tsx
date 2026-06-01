@@ -14,7 +14,7 @@ import {
   isFetchError,
   useStrapiApp,
   Layouts,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Button,
   Flex,

@@ -3,7 +3,7 @@
 import * as React from 'react';
 
 import { ConfigureStoreOptions, configureStore } from '@reduxjs/toolkit';
-import { fixtures } from '@strapi/admin-test-utils';
+import { fixtures } from '@resillix/admin-test-utils';
 import { darkTheme, lightTheme } from '@strapi/design-system';
 import {
   fireEvent,
@@ -208,8 +208,8 @@ const Providers = ({ children, initialEntries, storeConfig, permissions = [] }: 
                                   autoReload
                                   useYarn
                                   dependencies={{
-                                    '@strapi/plugin-documentation': '4.2.0',
-                                    '@strapi/provider-upload-cloudinary': '4.2.0',
+                                    '@resillix/plugin-documentation': '4.2.0',
+                                    '@resillix/provider-upload-cloudinary': '4.2.0',
                                   }}
                                   strapiVersion="4.1.0"
                                   communityEdition

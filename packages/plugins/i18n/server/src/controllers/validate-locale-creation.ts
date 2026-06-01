@@ -1,6 +1,6 @@
 import { get } from 'lodash/fp';
-import { errors } from '@strapi/utils';
-import type { Core, Struct } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Core, Struct } from '@resillix/types';
 import { getService } from '../utils';
 
 const { ApplicationError } = errors;

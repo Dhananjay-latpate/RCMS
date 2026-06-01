@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import { has, omit, pipe, assign, curry } from 'lodash/fp';
-import type { Utils, UID, Schema, Data, Modules } from '@strapi/types';
-import { contentTypes as contentTypesUtils, async, errors } from '@strapi/utils';
+import type { Utils, UID, Schema, Data, Modules } from '@resillix/types';
+import { contentTypes as contentTypesUtils, async, errors } from '@resillix/utils';
 import {
   getComponentJoinTableName,
   getComponentJoinColumnEntityName,

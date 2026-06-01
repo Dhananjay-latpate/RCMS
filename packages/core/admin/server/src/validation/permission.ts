@@ -1,4 +1,4 @@
-import { yup, validateYupSchema } from '@strapi/utils';
+import { yup, validateYupSchema } from '@resillix/utils';
 import { getService } from '../utils';
 import validators from './common-validators';
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useIsMobile } from '@strapi/admin/strapi-admin';
+import { useIsMobile } from '@resillix/admin/strapi-admin';
 import {
   Button,
   Flex,

@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/strapi';
+import type { Core } from '@resillix/strapi';
 import type { Config } from 'src/config';
 import * as Sentry from '@sentry/node';
 
@@ -21,7 +21,7 @@ const createSentryService = (strapi: Core.Strapi) => {
 
       // Don't init Sentry if no DSN was provided
       if (!config.dsn) {
-        strapi.log.info('@strapi/plugin-sentry is disabled because no Sentry DSN was provided');
+        strapi.log.info('@resillix/plugin-sentry is disabled because no Sentry DSN was provided');
         return this;
       }
 

@@ -1,4 +1,4 @@
-import '@strapi/strapi';
+import '@resillix/strapi';
 
 export default {
   /**

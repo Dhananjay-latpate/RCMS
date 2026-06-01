@@ -2,9 +2,9 @@
  * Webhook store is the implementation of webhook storage over the core_store
  */
 
-import { errors } from '@strapi/utils';
-import type { Model, Database } from '@strapi/database';
-import type { Modules } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Model, Database } from '@resillix/database';
+import type { Modules } from '@resillix/types';
 
 const { ValidationError } = errors;
 

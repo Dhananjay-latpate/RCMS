@@ -1,7 +1,7 @@
 import { isNil, mapValues } from 'lodash/fp';
-import { contentTypes as contentTypesUtils } from '@strapi/utils';
+import { contentTypes as contentTypesUtils } from '@resillix/utils';
 
-import type { UID, Struct, Core } from '@strapi/types';
+import type { UID, Struct, Core } from '@resillix/types';
 
 import type { ConfigurationUpdate } from './configuration';
 

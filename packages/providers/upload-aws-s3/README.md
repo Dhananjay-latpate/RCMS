@@ -1,4 +1,4 @@
-# @strapi/provider-upload-aws-s3
+# @resillix/provider-upload-aws-s3
 
 ## Resources
 
@@ -15,10 +15,10 @@
 
 ```bash
 # using yarn
-yarn add @strapi/provider-upload-aws-s3
+yarn add @resillix/provider-upload-aws-s3
 
 # using npm
-npm install @strapi/provider-upload-aws-s3 --save
+npm install @resillix/provider-upload-aws-s3 --save
 ```
 
 ## Configuration

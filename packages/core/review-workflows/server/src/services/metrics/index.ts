@@ -1,4 +1,4 @@
-import '@strapi/types';
+import '@resillix/types';
 
 export const sendDidCreateStage = async () => {
   strapi.telemetry.send('didCreateStage', {});

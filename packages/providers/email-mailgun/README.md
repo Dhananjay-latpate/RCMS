@@ -1,4 +1,4 @@
-# @strapi/provider-email-mailgun
+# @resillix/provider-email-mailgun
 
 ## Resources
 
@@ -15,10 +15,10 @@
 
 ```bash
 # using yarn
-yarn add @strapi/provider-email-mailgun
+yarn add @resillix/provider-email-mailgun
 
 # using npm
-npm install @strapi/provider-email-mailgun --save
+npm install @resillix/provider-email-mailgun --save
 ```
 
 ## Configuration

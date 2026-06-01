@@ -6,7 +6,7 @@ import { isAllowedContentTypesForRelations } from '../../../../utils';
 import { useDataManager } from '../../../DataManager/useDataManager';
 import { actions } from '../../../FormModal/reducer';
 
-import type { Internal, Schema } from '@strapi/types';
+import type { Internal, Schema } from '@resillix/types';
 interface RelationTargetPickerProps {
   oneThatIsCreatingARelationWithAnother: string;
   target: Internal.UID.ContentType;

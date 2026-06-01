@@ -1,4 +1,4 @@
-import { Form } from '@strapi/admin/strapi-admin';
+import { Form } from '@resillix/admin/strapi-admin';
 import { render, waitFor, screen, server } from '@tests/utils';
 import { rest } from 'msw';
 

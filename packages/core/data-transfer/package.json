@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/data-transfer",
+  "name": "@resillix/data-transfer",
   "version": "5.42.0",
   "description": "Data transfer capabilities for Resillix CMS",
   "keywords": [
@@ -49,9 +49,9 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
-    "@strapi/logger": "5.42.0",
-    "@strapi/types": "5.42.0",
-    "@strapi/utils": "5.42.0",
+    "@resillix/logger": "5.42.0",
+    "@resillix/types": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "chalk": "4.1.2",
     "cli-table3": "0.6.5",
     "commander": "8.3.0",
@@ -68,7 +68,7 @@
     "ws": "8.17.1"
   },
   "devDependencies": {
-    "@strapi/database": "5.42.0",
+    "@resillix/database": "5.42.0",
     "@types/fs-extra": "11.0.4",
     "@types/jest": "29.5.2",
     "@types/koa": "2.13.4",

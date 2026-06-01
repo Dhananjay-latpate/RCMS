@@ -8,7 +8,7 @@ import {
   useTracking,
   useQueryParams,
   Layouts,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Checkbox,
   Box,

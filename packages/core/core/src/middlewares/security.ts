@@ -1,8 +1,8 @@
 import { defaultsDeep, mergeWith } from 'lodash/fp';
 import helmet, { KoaHelmet } from 'koa-helmet';
-import { CSP_DEFAULTS } from '@strapi/utils';
+import { CSP_DEFAULTS } from '@resillix/utils';
 
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 export type Config = NonNullable<Parameters<KoaHelmet>[0]>;
 

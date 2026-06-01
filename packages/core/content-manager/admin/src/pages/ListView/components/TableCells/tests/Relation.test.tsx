@@ -1,12 +1,12 @@
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@resillix/admin/strapi-admin';
 import { render as renderRTL, waitFor, screen, server } from '@tests/utils';
 import { rest } from 'msw';
 import { Route, Routes } from 'react-router-dom';
 
 import { RelationSingle, RelationMultiple } from '../Relations';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useQueryParams: jest.fn(() => [
     {
       query: {},

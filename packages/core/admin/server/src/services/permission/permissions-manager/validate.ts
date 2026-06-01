@@ -9,7 +9,7 @@ import {
   async,
   errors,
   createModelCache,
-} from '@strapi/utils';
+} from '@resillix/utils';
 import { createPermissionFieldsCache } from './permission-fields';
 
 import { ADMIN_USER_ALLOWED_FIELDS } from '../../../domain/user';

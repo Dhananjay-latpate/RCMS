@@ -1,7 +1,7 @@
 import { getRelationType } from '../../../utils/getRelationType';
 
 import type { AnyAttribute, ContentType } from '../../../types';
-import type { Internal, Struct } from '@strapi/types';
+import type { Internal, Struct } from '@resillix/types';
 
 export type EditableContentTypeSchema = {
   kind: Struct.ContentTypeKind;

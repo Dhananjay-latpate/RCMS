@@ -1,12 +1,12 @@
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import { renderHook, screen, server, waitFor } from '@tests/utils';
 import { rest } from 'msw';
 
 import { mockData } from '../../../tests/mockData';
 import { useDocumentActions } from '../useDocumentActions';
 
-jest.mock('@strapi/admin/strapi-admin/ee', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin/ee'),
+jest.mock('@resillix/admin/strapi-admin/ee', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin/ee'),
   useGetAIFeatureConfigQuery: () => ({ data: undefined }),
   useAIAvailability: () => false,
 }));

@@ -1,6 +1,6 @@
-import { async } from '@strapi/utils';
+import { async } from '@resillix/utils';
 
-import type { Migration, Database } from '@strapi/database';
+import type { Migration, Database } from '@resillix/database';
 
 type Knex = Parameters<Migration['up']>[0];
 

@@ -153,7 +153,7 @@ const tours = {
 Wrap the element that should be the anchor for the step popover.
 
 ```tsx
-import { tours } from '@strapi/admin/strapi-admin';
+import { tours } from '@resillix/admin/strapi-admin';
 
 const MyComponent = () => {
   return (

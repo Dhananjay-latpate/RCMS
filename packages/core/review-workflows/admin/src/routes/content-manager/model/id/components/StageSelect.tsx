@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-import { useNotification, useAPIErrorHandler, useQueryParams } from '@strapi/admin/strapi-admin';
-import { useLicenseLimits } from '@strapi/admin/strapi-admin/ee';
-import { unstable_useDocument } from '@strapi/content-manager/strapi-admin';
+import { useNotification, useAPIErrorHandler, useQueryParams } from '@resillix/admin/strapi-admin';
+import { useLicenseLimits } from '@resillix/admin/strapi-admin/ee';
+import { unstable_useDocument } from '@resillix/content-manager/strapi-admin';
 import {
   SingleSelect,
   type SingleSelectProps,
@@ -29,7 +29,7 @@ import { getStageColorByHex } from '../../../../../utils/colors';
 
 import { STAGE_ATTRIBUTE_NAME } from './constants';
 
-import type { Data } from '@strapi/types';
+import type { Data } from '@resillix/types';
 
 /* -------------------------------------------------------------------------------------------------
  * LimitModals

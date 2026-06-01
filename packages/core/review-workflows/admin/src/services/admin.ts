@@ -1,4 +1,4 @@
-import { SanitizedAdminUser } from '@strapi/admin/strapi-admin';
+import { SanitizedAdminUser } from '@resillix/admin/strapi-admin';
 
 import { reviewWorkflowsApi } from './api';
 

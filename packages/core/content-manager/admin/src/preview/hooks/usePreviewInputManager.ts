@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { useField } from '@strapi/admin/strapi-admin';
-import { Schema } from '@strapi/types';
+import { useField } from '@resillix/admin/strapi-admin';
+import { Schema } from '@resillix/types';
 
 import { useHasInputPopoverParent } from '../components/InputPopover';
 import { usePreviewContext } from '../pages/Preview';

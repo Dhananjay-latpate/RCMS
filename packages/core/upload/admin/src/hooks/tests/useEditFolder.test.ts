@@ -1,4 +1,4 @@
-import { useFetchClient } from '@strapi/admin/strapi-admin';
+import { useFetchClient } from '@resillix/admin/strapi-admin';
 import { renderHook, waitFor } from '@tests/utils';
 
 import { useEditFolder } from '../useEditFolder';
@@ -14,8 +14,8 @@ const FOLDER_EDIT_FIXTURE = {
   parent: 1,
 };
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useFetchClient: jest.fn().mockReturnValue({
     put: jest.fn().mockResolvedValue({ name: 'folder-edited' }),
     post: jest.fn().mockResolvedValue({ name: 'folder-created' }),

@@ -2,7 +2,7 @@ import os from 'os';
 import path from 'path';
 import fse from 'fs-extra';
 import _ from 'lodash';
-import { errors, async } from '@strapi/utils';
+import { errors, async } from '@resillix/utils';
 
 import type { Context } from 'koa';
 

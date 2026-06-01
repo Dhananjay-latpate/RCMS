@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Core, Modules } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Core, Modules } from '@resillix/types';
 
 const { ApplicationError } = errors;
 

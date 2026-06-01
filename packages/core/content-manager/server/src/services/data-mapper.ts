@@ -1,7 +1,7 @@
 import { pick, getOr } from 'lodash/fp';
-import { contentTypes as contentTypesUtils } from '@strapi/utils';
+import { contentTypes as contentTypesUtils } from '@resillix/utils';
 
-import type { Schema, Struct } from '@strapi/types';
+import type { Schema, Struct } from '@resillix/types';
 
 const dtoFields = [
   'uid',

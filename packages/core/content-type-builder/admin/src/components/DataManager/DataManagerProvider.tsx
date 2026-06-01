@@ -9,7 +9,7 @@ import {
   adminApi,
   useGuidedTour,
   GUIDED_TOUR_REQUIRED_ACTIONS,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import groupBy from 'lodash/groupBy';
 import isEqual from 'lodash/isEqual';
 import mapValues from 'lodash/mapValues';
@@ -33,7 +33,7 @@ import { retrieveSpecificInfoFromComponents } from './utils/retrieveSpecificInfo
 
 import type { ContentTypes, ContentType, Components } from '../../types';
 import type { FormAPI } from '../../utils/formAPI';
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@resillix/types';
 
 interface DataManagerProviderProps {
   children: React.ReactNode;

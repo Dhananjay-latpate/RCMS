@@ -1,5 +1,5 @@
-import type { Core, UID, Modules } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Core, UID, Modules } from '@resillix/types';
+import { errors } from '@resillix/utils';
 import { isNil } from 'lodash/fp';
 import { ENTITY_ASSIGNEE_ATTRIBUTE } from '../constants/workflows';
 import { getService, getAdminService } from '../utils';

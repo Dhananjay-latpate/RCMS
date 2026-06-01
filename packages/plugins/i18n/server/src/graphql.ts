@@ -1,6 +1,6 @@
 import { propEq, identity } from 'lodash/fp';
-import { errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 
 const { ValidationError } = errors;
 

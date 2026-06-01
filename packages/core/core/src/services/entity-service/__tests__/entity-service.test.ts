@@ -1,4 +1,4 @@
-import type { Utils } from '@strapi/types';
+import type { Utils } from '@resillix/types';
 import createEntityService from '../index';
 
 jest.mock('bcryptjs', () => ({ hashSync: () => 'secret-password' }));

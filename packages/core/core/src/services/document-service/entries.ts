@@ -1,5 +1,5 @@
-import type { UID, Modules } from '@strapi/types';
-import { async, errors } from '@strapi/utils';
+import type { UID, Modules } from '@resillix/types';
+import { async, errors } from '@resillix/utils';
 import { assoc, omit } from 'lodash/fp';
 
 import * as components from './components';

@@ -1,6 +1,6 @@
 import { merge, map, difference, uniq } from 'lodash/fp';
-import type { Core } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { Core } from '@resillix/types';
+import { async } from '@resillix/utils';
 import { getService } from './utils';
 import { getTokenOptions, expiresInToSeconds } from './services/token';
 import adminActions from './config/admin-actions';

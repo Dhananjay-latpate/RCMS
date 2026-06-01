@@ -1,6 +1,6 @@
 import { isArray } from 'lodash/fp';
-import { contentTypes } from '@strapi/utils';
-import type { UID, Schema, Core } from '@strapi/types';
+import { contentTypes } from '@resillix/utils';
+import type { UID, Schema, Core } from '@resillix/types';
 
 const READ_ACTION = 'plugin::content-manager.explorer.read';
 

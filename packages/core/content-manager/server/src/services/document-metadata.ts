@@ -1,7 +1,7 @@
 import { groupBy, pick, uniq } from 'lodash/fp';
 
-import { async, contentTypes } from '@strapi/utils';
-import type { Core, UID, Modules } from '@strapi/types';
+import { async, contentTypes } from '@resillix/utils';
+import type { Core, UID, Modules } from '@resillix/types';
 
 import type { DocumentMetadata } from '../../../shared/contracts/collection-types';
 

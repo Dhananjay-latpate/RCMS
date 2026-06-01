@@ -3,7 +3,7 @@ import { withReact } from 'slate-react';
 
 import { normalizeBlocksState } from '../BlocksEditor';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 describe('normalizeBlocksState', () => {
   let editor: Editor;

@@ -1,6 +1,6 @@
 import { createContext, useContext, ReactNode, useEffect, useState } from 'react';
 
-import { GUIDED_TOUR_REQUIRED_ACTIONS, useGuidedTour } from '@strapi/admin/strapi-admin';
+import { GUIDED_TOUR_REQUIRED_ACTIONS, useGuidedTour } from '@resillix/admin/strapi-admin';
 
 import { useDataManager } from '../../DataManager/useDataManager';
 import { transformChatToCTB } from '../lib/transforms/schemas/toCTB';

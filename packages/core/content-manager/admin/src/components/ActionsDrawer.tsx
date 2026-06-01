@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { WIDTH_SIDE_NAVIGATION, createContext } from '@strapi/admin/strapi-admin';
+import { WIDTH_SIDE_NAVIGATION, createContext } from '@resillix/admin/strapi-admin';
 import { Portal, Flex, Box, ScrollArea, IconButton } from '@strapi/design-system';
 import { CaretDown, CaretUp } from '@strapi/icons';
 import { useIntl } from 'react-intl';

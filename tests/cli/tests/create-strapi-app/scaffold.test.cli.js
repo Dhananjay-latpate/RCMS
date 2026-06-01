@@ -22,7 +22,7 @@ function mkProjectDir() {
   return fs.mkdtempSync(path.join(os.tmpdir(), 'strapi-csa-cli-test-'));
 }
 
-describe('create-strapi-app', () => {
+describe('create-resillix-app', () => {
   beforeAll(() => {
     if (!fs.existsSync(bin)) {
       throw new Error(

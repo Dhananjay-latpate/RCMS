@@ -1,7 +1,7 @@
 // TODO: find a better naming convention for the file that was an index file before
 import * as React from 'react';
 
-import { useField, useNotification } from '@strapi/admin/strapi-admin';
+import { useField, useNotification } from '@resillix/admin/strapi-admin';
 import { useIntl } from 'react-intl';
 
 import { AllowedFiles, getAllowedFiles, getTrad } from '../../utils';

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useQueryParams, useIsMobile } from '@strapi/admin/strapi-admin';
+import { useQueryParams, useIsMobile } from '@resillix/admin/strapi-admin';
 import { Box, Flex, Typography } from '@strapi/design-system';
 import { stringify } from 'qs';
 import { useIntl } from 'react-intl';

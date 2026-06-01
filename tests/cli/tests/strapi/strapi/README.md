@@ -11,7 +11,7 @@ The `openapi:generate` test compares the generated OpenAPI document to a **Jest 
 #### When you need to update
 
 - You changed `tests/app-template` (or anything that affects how `test-apps/cli/test-app-0` is built).
-- You intentionally changed `@strapi/openapi` or the `strapi openapi generate` command and expect different JSON output.
+- You intentionally changed `@resillix/openapi` or the `strapi openapi generate` command and expect different JSON output.
 
 #### Steps (from the repository root)
 

@@ -1,5 +1,5 @@
 import type { ActionType, NodePlopAPI } from 'plop';
-import tsUtils from '@strapi/typescript-utils';
+import tsUtils from '@resillix/typescript-utils';
 import { join } from 'path';
 import fs from 'fs';
 

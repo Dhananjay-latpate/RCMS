@@ -6,7 +6,7 @@ import {
   createContext,
   useRBAC,
   HEIGHT_TOP_NAVIGATION,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import { Box, Flex, FocusTrap, Main, Portal, Link } from '@strapi/design-system';
 import { stringify } from 'qs';
 import { useIntl } from 'react-intl';
@@ -32,7 +32,7 @@ import type {
   HistoryVersionDataResponse,
   GetHistoryVersions,
 } from '../../../../shared/contracts/history-versions';
-import type { UID } from '@strapi/types';
+import type { UID } from '@resillix/types';
 
 /* -------------------------------------------------------------------------------------------------
  * HistoryProvider

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useParams, useLoaderData, useRevalidator } from 'react-router-dom';
 import { BlocksRenderer } from '@strapi/blocks-react-renderer';
 
-import { Page, Layouts } from '@strapi/admin/strapi-admin';
+import { Page, Layouts } from '@resillix/admin/strapi-admin';
 import {
   Grid,
   Flex,

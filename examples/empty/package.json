@@ -11,12 +11,12 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "strapi": "strapi",
-    "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+    "upgrade": "npx @resillix/upgrade latest",
+    "upgrade:dry": "npx @resillix/upgrade latest --dry"
   },
   "dependencies": {
-    "@strapi/plugin-users-permissions": "workspace:*",
-    "@strapi/strapi": "workspace:*",
+    "@resillix/plugin-users-permissions": "workspace:*",
+    "@resillix/strapi": "workspace:*",
     "better-sqlite3": "12.8.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",

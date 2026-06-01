@@ -6,9 +6,9 @@ import {
   validate,
   errors,
   createModelCache,
-} from '@strapi/utils';
+} from '@resillix/utils';
 
-import type { UID, Modules } from '@strapi/types';
+import type { UID, Modules } from '@resillix/types';
 import { wrapInTransaction, type RepositoryFactoryMethod } from './common';
 import * as DP from './draft-and-publish';
 import * as i18n from './internationalization';

@@ -70,7 +70,7 @@ flowchart TB;
   end
 
   %% Type System
-  subgraph TypesPackage["@strapi/types"]
+  subgraph TypesPackage["@resillix/types"]
     %% Nodes
     TypeSystem["Type System"]
     Types{{Types}}
@@ -85,7 +85,7 @@ flowchart TB;
   end
 
   %% Strapi
-  subgraph StrapiPackage["@strapi/strapi"]
+  subgraph StrapiPackage["@resillix/strapi"]
     %% Nodes
     Strapi["Strapi"]
     APIs[["APIs"]]
@@ -112,8 +112,8 @@ It should accept:
 - Content-type UIDs as keys
 - Content-type schemas as values
 
-```ts title="@strapi/types/public/registries.ts"
-import type { Internal, Struct } from '@strapi/types';
+```ts title="@resillix/types/public/registries.ts"
+import type { Internal, Struct } from '@resillix/types';
 
 export interface ContentTypeSchemas {
   [key: Internal.UID.ContentType]: Struct.ContentTypeSchema;
@@ -130,8 +130,8 @@ We use low level types to define our index (`Internal`/`Struct`) to keep it as g
 
 To define `UID.ContentType`, we extract every key (`Internal.Registry.Keys`) from the public content-type registry (`Public.ContentTypeSchemas`) that matches with the base definition of a content-type UID (`Internal.UID.ContentType`).
 
-```ts title="@strapi/types/uid.ts"
-import type { Internal, Public } from '@strapi/types';
+```ts title="@resillix/types/uid.ts"
+import type { Internal, Public } from '@resillix/types';
 
 export type ContentType = Internal.Registry.Keys<
   Public.ContentTypeSchemas,
@@ -151,8 +151,8 @@ To declare `Schema.ContentType`, we simply query the content-type schema registr
 Since `UID.ContentType` (`TUID`) is [dynamically built based on actual keys](#uidcontenttype), we know for sure that there will be a valid corresponding schema in the registry.
 :::
 
-```ts title="@strapi/types/schema.ts"
-import type { UID, Public } from '@strapi/types';
+```ts title="@resillix/types/schema.ts"
+import type { UID, Public } from '@resillix/types';
 
 export type ContentType<TUID extends UID.ContentType> = Public.ContentTypeSchemas[TUID];
 ```
@@ -161,8 +161,8 @@ export type ContentType<TUID extends UID.ContentType> = Public.ContentTypeSchema
 
 To create types for a dynamic API (_aka one that reacts to its context_), simply use dynamic type definitions such as `UID`, `Data` or `Schema`.
 
-```ts title="@strapi/core/document-service.ts"
-import type { Data, UID } from '@strapi/types';
+```ts title="@resillix/core/document-service.ts"
+import type { Data, UID } from '@resillix/types';
 
 export type findOne<TUID extends UID.ContentType>(uid: TUID): Data.ContentType<TUID>;
 ```
@@ -180,7 +180,7 @@ Registries are **indexed**, which means that:
 <Tabs>
   <TabItem value="augmented" label="Augmented">
     ```ts
-    import type { UID } from '@strapi/types';
+    import type { UID } from '@resillix/types';
 
     const uid: UID.ContentType;
     // ^ 'api::article.article' | 'admin::user'
@@ -189,7 +189,7 @@ Registries are **indexed**, which means that:
   </TabItem>
   <TabItem value="empty" label="Empty">
     ```ts
-    import type { UID } from '@strapi/types';
+    import type { UID } from '@resillix/types';
 
     const uid: UID.ContentType;
     // ^ `admin::${string}` | `api::${string}.${string}` | `plugin::${string}.${string}` | `strapi::${string}`
@@ -206,13 +206,13 @@ Registries are **indexed**, which means that:
 It's possible to manually augment the public registries to create tailor-made experiences.
 
 ```ts title="my-app/index.d.ts"
-import type { Struct } from '@strapi/strapi';
+import type { Struct } from '@resillix/strapi';
 
 interface ApiArticleArticle extends Struct.ContentTypeSchema {
   // ...
 }
 
-declare module '@strapi/strapi' {
+declare module '@resillix/strapi' {
   export module Public {
     export interface ContentTypeSchemas {
       'api::article.article': ApiArticleArticle;
@@ -224,9 +224,9 @@ declare module '@strapi/strapi' {
 This will force every type that depends on the `Public.ContentTypeSchemas` registry to recognize `'api::article.article'` as the only valid UID and `ApiArticleArticle` the only valid schema.
 
 :::note
-In the context of a Strapi application, developers are strongly encouraged to use types exported by `@strapi/strapi` and not `@strapi/types`.
+In the context of a Strapi application, developers are strongly encouraged to use types exported by `@resillix/strapi` and not `@resillix/types`.
 
-This is to allow having both an internal (`@strapi/types`) and a public (`@strapi/strapi`) types API.
+This is to allow having both an internal (`@resillix/types`) and a public (`@resillix/strapi`) types API.
 :::
 
 ###### Automated Augmentation
@@ -259,7 +259,7 @@ yarn develop
 The generated types will automatically augment the corresponding registries.
 
 ```ts title="my-app/types/generated/contentTypes.d.ts"
-import type { Struct } from '@strapi/strapi';
+import type { Struct } from '@resillix/strapi';
 
 interface ApiArticleArticle extends Struct.ContentTypeSchema {
   // ...
@@ -269,7 +269,7 @@ interface AdminUser extends Struct.ContentTypeSchema {
   // ...
 }
 
-declare module '@strapi/strapi' {
+declare module '@resillix/strapi' {
   export module Public {
     export interface ContentTypeSchemas {
       'api::article.article': ApiArticleArticle;
@@ -303,8 +303,8 @@ export default () => ({
 ```
 </TabItem>
 <TabItem value="strapi" label="Strapi Codebase">
-```ts title="@strapi/strapi/document-service.ts"
-import type { UID } from '@strapi/types';
+```ts title="@resillix/strapi/document-service.ts"
+import type { UID } from '@resillix/types';
 
 export const findOne<TUID extends UID.ContentType>(uid: TUID) {
   // ...

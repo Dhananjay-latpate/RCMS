@@ -1,4 +1,4 @@
-import { server } from '@strapi/admin/strapi-admin/test';
+import { server } from '@resillix/admin/strapi-admin/test';
 
 import { HANDLERS } from './handlers';
 

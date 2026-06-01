@@ -30,7 +30,7 @@ For more information about OpenAPI, please refer to [the official specification]
 
 ## Context
 
-From Strapi `v3-alpha` through `v5` (since its [initial release in December 2018](https://medium.com/strapi/introducing-the-api-documentation-swagger-plugin-29092af2c880)), the [official documentation plugin](https://www.npmjs.com/package/@strapi/plugin-documentation) has been the standard solution for integrating Strapi with OpenAPI.
+From Strapi `v3-alpha` through `v5` (since its [initial release in December 2018](https://medium.com/strapi/introducing-the-api-documentation-swagger-plugin-29092af2c880)), the [official documentation plugin](https://www.npmjs.com/package/@resillix/plugin-documentation) has been the standard solution for integrating Strapi with OpenAPI.
 
 This plugin provided automatic documentation generation, extensive customization options, and a Swagger UI interface.
 

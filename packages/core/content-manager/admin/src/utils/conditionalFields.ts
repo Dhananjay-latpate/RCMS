@@ -1,4 +1,4 @@
-import { type JsonLogicCondition } from '@strapi/admin/strapi-admin';
+import { type JsonLogicCondition } from '@resillix/admin/strapi-admin';
 
 import { getIn } from './objects';
 

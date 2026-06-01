@@ -10,7 +10,7 @@
  * - Legitimate rows are never deleted (single relations remain)
  * - If the component's parent does not support D&P, nothing is deleted
  */
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 // Note: Avoid wrapping in a transaction to prevent pool deadlocks with SQLite
 
 const { createTestBuilder } = require('api-tests/builder');

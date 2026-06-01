@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useQueryParams } from '@strapi/admin/strapi-admin';
+import { useQueryParams } from '@resillix/admin/strapi-admin';
 import { Typography, Loader, useNotifyAT, Menu } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 

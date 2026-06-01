@@ -1,5 +1,5 @@
-import { contentTypes as contentTypesUtils, async } from '@strapi/utils';
-import type { Schema } from '@strapi/types';
+import { contentTypes as contentTypesUtils, async } from '@resillix/utils';
+import type { Schema } from '@resillix/types';
 
 import { getBatchToDiscard } from './database/5.0.0-discard-drafts';
 

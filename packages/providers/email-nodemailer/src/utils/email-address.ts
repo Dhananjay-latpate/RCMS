@@ -4,7 +4,7 @@
  * Provides utilities for parsing and formatting email addresses
  * according to RFC 5322, RFC 2047, and related standards.
  *
- * @module @strapi/provider-email-nodemailer/utils
+ * @module @resillix/provider-email-nodemailer/utils
  */
 
 export interface ParsedEmailAddress {

@@ -1,5 +1,5 @@
 import { isNil, merge } from 'lodash/fp';
-import type { UID } from '@strapi/types';
+import type { UID } from '@resillix/types';
 import { type Populate, getDeepPopulate, getQueryPopulate } from './utils/populate';
 
 /**

@@ -1,6 +1,6 @@
-import { async } from '@strapi/utils';
+import { async } from '@resillix/utils';
 import { isEmpty } from 'lodash/fp';
-import type { Core, UID, Modules } from '@strapi/types';
+import type { Core, UID, Modules } from '@resillix/types';
 
 const ACTIONS = {
   read: 'plugin::content-manager.explorer.read',

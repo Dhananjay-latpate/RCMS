@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { useNotification } from '@strapi/admin/strapi-admin';
+import { useNotification } from '@resillix/admin/strapi-admin';
 
 import { useCTBTracking } from '../../CTBSession/ctbSession';
 import { useStrapiChat } from '../providers/ChatProvider';

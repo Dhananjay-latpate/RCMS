@@ -1,6 +1,6 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { prop } from 'lodash/fp';
-import { async, errors } from '@strapi/utils';
+import { async, errors } from '@resillix/utils';
 import { getAdminService } from '../utils';
 import { STAGE_TRANSITION_UID, STAGE_MODEL_UID } from '../constants/workflows';
 

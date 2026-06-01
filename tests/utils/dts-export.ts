@@ -1,7 +1,7 @@
-import type { Core } from '@strapi/strapi';
+import type { Core } from '@resillix/strapi';
 
-import dts from '@strapi/data-transfer';
-import { createStrapi } from '@strapi/strapi';
+import dts from '@resillix/data-transfer';
+import { createStrapi } from '@resillix/strapi';
 import { ALLOWED_CONTENT_TYPES } from '../e2e/constants';
 
 const {

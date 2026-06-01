@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * API tests: schemas built with the exported Zod v4 from @strapi/utils (z)
+ * API tests: schemas built with the exported Zod v4 from @resillix/utils (z)
  * are used and validated/sanitized correctly throughout the content API pipeline.
  * Covers happy paths and error cases for extra query and body params.
  */
@@ -10,7 +10,7 @@ const { values } = require('lodash/fp');
 const { createTestBuilder } = require('api-tests/builder');
 const { createStrapiInstance } = require('api-tests/strapi');
 const { createAuthRequest } = require('api-tests/request');
-const { z } = require('@strapi/utils');
+const { z } = require('@resillix/utils');
 
 const resources = require('./resources');
 
@@ -52,7 +52,7 @@ const init = async () => {
   data = await builder.sanitizedFixtures(strapi);
 };
 
-describe('Content API – schemas from exported @strapi/utils z (Zod v4)', () => {
+describe('Content API – schemas from exported @resillix/utils z (Zod v4)', () => {
   beforeAll(async () => {
     await init();
   });
@@ -62,7 +62,7 @@ describe('Content API – schemas from exported @strapi/utils z (Zod v4)', () =>
     await builder.cleanup();
   });
 
-  describe('addQueryParams / addInputParams accept schemas from @strapi/utils', () => {
+  describe('addQueryParams / addInputParams accept schemas from @resillix/utils', () => {
     it('addQueryParams accepts schema built with exported z and applyExtraParamsToRoutes succeeds', () => {
       strapi.contentAPI.addQueryParams({
         exportedZodSearch: { schema: z.string().max(200).optional() },

@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 
 import { formatApplicationError, formatHttpError, formatInternalError } from '../services/errors';
 

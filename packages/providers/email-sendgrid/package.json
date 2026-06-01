@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/provider-email-sendgrid",
+  "name": "@resillix/provider-email-sendgrid",
   "version": "5.42.0",
   "description": "Sendgrid provider for strapi email",
   "keywords": [
@@ -43,8 +43,8 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
-    "@sendgrid/mail": "8.1.3",
-    "@strapi/utils": "5.42.0"
+    "@resillix/utils": "5.42.0",
+    "@sendgrid/mail": "8.1.3"
   },
   "devDependencies": {
     "eslint-config-custom": "5.42.0",

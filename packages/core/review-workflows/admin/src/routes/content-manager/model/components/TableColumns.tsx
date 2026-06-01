@@ -1,6 +1,6 @@
-import { SanitizedAdminUser } from '@strapi/admin/strapi-admin';
+import { SanitizedAdminUser } from '@resillix/admin/strapi-admin';
 import { Box, Flex, Typography } from '@strapi/design-system';
-import { Data } from '@strapi/types';
+import { Data } from '@resillix/types';
 
 import { STAGE_COLOR_DEFAULT } from '../../../../constants';
 import { getStageColorByHex } from '../../../../utils/colors';

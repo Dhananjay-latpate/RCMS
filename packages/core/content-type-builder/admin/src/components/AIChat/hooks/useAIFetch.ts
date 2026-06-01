@@ -7,8 +7,8 @@
 import { useState } from 'react';
 
 import { UIMessage, useChat } from '@ai-sdk/react';
-import { useAppInfo } from '@strapi/admin/strapi-admin';
-import { useGetAIUsageQuery } from '@strapi/admin/strapi-admin/ee';
+import { useAppInfo } from '@resillix/admin/strapi-admin';
+import { useGetAIUsageQuery } from '@resillix/admin/strapi-admin/ee';
 import { DefaultChatTransport } from 'ai';
 
 import { fetchAI, makeChatFetch, safeParseJson } from '../lib/aiClient';

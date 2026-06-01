@@ -1,5 +1,5 @@
-import { errors } from '@strapi/utils';
-import type { Modules } from '@strapi/types';
+import { errors } from '@resillix/utils';
+import type { Modules } from '@resillix/types';
 
 /**
  * /webhooks - GET all webhooks

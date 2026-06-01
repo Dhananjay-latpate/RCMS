@@ -17,5 +17,5 @@ pnpm create strapi@latest
 Using npx
 
 ```sh
-npx create-strapi@latest
+npx create-resillix@latest
 ```

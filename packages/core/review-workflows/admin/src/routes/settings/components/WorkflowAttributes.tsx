@@ -1,4 +1,4 @@
-import { InputRenderer, useField, useForm } from '@strapi/admin/strapi-admin';
+import { InputRenderer, useField, useForm } from '@resillix/admin/strapi-admin';
 import {
   Field,
   Grid,

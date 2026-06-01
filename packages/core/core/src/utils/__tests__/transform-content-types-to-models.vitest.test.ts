@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest';
 import { cloneDeep, merge } from 'lodash';
-import { Database } from '@strapi/database';
+import { Database } from '@resillix/database';
 import {
   LoadedContentTypeModel,
   transformContentTypesToModels,

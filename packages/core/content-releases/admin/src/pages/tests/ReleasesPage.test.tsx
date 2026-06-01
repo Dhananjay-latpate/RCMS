@@ -8,8 +8,8 @@ import { ReleasesPage } from '../ReleasesPage';
 
 import { mockReleasesPageData } from './mockReleasesPageData';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useLicenseLimits: jest.fn().mockReturnValue({
     isLoading: false,
     isError: false,

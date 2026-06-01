@@ -1,13 +1,13 @@
 import _ from 'lodash';
 import delegate from 'delegates';
-import { errors as databaseErrors } from '@strapi/database';
+import { errors as databaseErrors } from '@resillix/database';
 import {
   contentTypes as contentTypesUtils,
   errors,
   relations as relationUtils,
-} from '@strapi/utils';
-import type { Database } from '@strapi/database';
-import type { Core, Modules, Utils } from '@strapi/types';
+} from '@resillix/utils';
+import type { Database } from '@resillix/database';
+import type { Core, Modules, Utils } from '@resillix/types';
 
 type Decoratable<T> = T & {
   decorate(

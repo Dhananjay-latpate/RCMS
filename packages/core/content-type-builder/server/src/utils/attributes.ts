@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import utils, { errors } from '@strapi/utils';
-import type { Schema } from '@strapi/types';
+import utils, { errors } from '@resillix/utils';
+import type { Schema } from '@resillix/types';
 
 const { ApplicationError } = errors;
 

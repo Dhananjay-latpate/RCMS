@@ -1,8 +1,8 @@
 import * as yup from 'yup';
 import { pick } from 'lodash/fp';
 
-import type { Core, UID } from '@strapi/types';
-import { validateYupSchema, errors } from '@strapi/utils';
+import type { Core, UID } from '@resillix/types';
+import { validateYupSchema, errors } from '@resillix/utils';
 
 import { Preview } from '../../../../../shared/contracts';
 import type { HandlerParams } from '../../services/preview-config';

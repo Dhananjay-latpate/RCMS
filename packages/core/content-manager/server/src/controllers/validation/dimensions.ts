@@ -1,5 +1,5 @@
-import { errors, yup, validateYupSchema, contentTypes } from '@strapi/utils';
-import type { UID } from '@strapi/types';
+import { errors, yup, validateYupSchema, contentTypes } from '@resillix/utils';
+import type { UID } from '@resillix/types';
 
 interface Options {
   allowMultipleLocales?: boolean;

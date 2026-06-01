@@ -1,6 +1,6 @@
 import { pick, uniq, prop, getOr, flatten, pipe, map } from 'lodash/fp';
-import { contentTypes as contentTypesUtils, errors } from '@strapi/utils';
-import type { Core, UID } from '@strapi/types';
+import { contentTypes as contentTypesUtils, errors } from '@resillix/utils';
+import type { Core, UID } from '@resillix/types';
 import type { FillFromLocale } from '../../../shared/contracts/content-manager';
 import { getService } from '../utils';
 import {

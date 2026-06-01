@@ -1,4 +1,4 @@
-# @strapi/generators
+# @resillix/generators
 
 This package contains strapi code generators available through the CLI or programmatically.
 

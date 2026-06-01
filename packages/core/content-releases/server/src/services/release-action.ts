@@ -1,6 +1,6 @@
-import { errors, async } from '@strapi/utils';
+import { errors, async } from '@resillix/utils';
 
-import type { Core, Internal, Modules, UID, Data } from '@strapi/types';
+import type { Core, Internal, Modules, UID, Data } from '@resillix/types';
 
 import _ from 'lodash/fp';
 

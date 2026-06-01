@@ -3,9 +3,9 @@
 const path = require('path');
 
 const moduleNameMapper = {
-  '.*\\.(css|less|styl|scss|sass)$': '@strapi/admin-test-utils/file-mock',
+  '.*\\.(css|less|styl|scss|sass)$': '@resillix/admin-test-utils/file-mock',
   '.*\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|ico)$':
-    '@strapi/admin-test-utils/file-mock',
+    '@resillix/admin-test-utils/file-mock',
   /**
    * we're mapping the following packages to the monorepos node_modules
    * so if you link a package e.g. `design-system` the correct dependencies
@@ -26,10 +26,10 @@ module.exports = {
   /* Tells jest to ignore duplicated manual mock files, such as index.js */
   modulePathIgnorePatterns: ['.*__mocks__.*'],
   testPathIgnorePatterns: ['node_modules/', 'dist/'],
-  globalSetup: '@strapi/admin-test-utils/global-setup',
-  setupFiles: ['@strapi/admin-test-utils/setup'],
-  setupFilesAfterEnv: ['@strapi/admin-test-utils/after-env'],
-  testEnvironment: '@strapi/admin-test-utils/environment',
+  globalSetup: '@resillix/admin-test-utils/global-setup',
+  setupFiles: ['@resillix/admin-test-utils/setup'],
+  setupFilesAfterEnv: ['@resillix/admin-test-utils/after-env'],
+  testEnvironment: '@resillix/admin-test-utils/environment',
   prettierPath: require.resolve('prettier-2'),
   transform: {
     '^.+\\.js(x)?$': [

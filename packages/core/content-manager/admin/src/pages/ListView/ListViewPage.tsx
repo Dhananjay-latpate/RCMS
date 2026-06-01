@@ -19,7 +19,7 @@ import {
   useIsDesktop,
   useClipboard,
   tours,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Button,
   Flex,
@@ -60,7 +60,7 @@ import { TableActions } from './components/TableActions';
 import { CellContent } from './components/TableCells/CellContent';
 import { ViewSettingsMenu } from './components/ViewSettingsMenu';
 
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@resillix/types';
 
 const { INJECT_COLUMN_IN_TABLE } = HOOKS;
 

@@ -143,7 +143,7 @@ const Notification = ({
  *
  * @example
  * ```tsx
- * import { useNotification } from '@strapi/strapi/admin';
+ * import { useNotification } from '@resillix/strapi/admin';
  *
  * const MyComponent = () => {
  *  const { toggleNotification } = useNotification();

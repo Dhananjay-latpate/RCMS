@@ -1,6 +1,6 @@
 import type { Context } from 'koa';
 
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import adminUploadController from '../admin-upload';
 import { getService } from '../../utils';
 import { validateBulkUpdateBody, validateUploadBody } from '../validation/admin/upload';

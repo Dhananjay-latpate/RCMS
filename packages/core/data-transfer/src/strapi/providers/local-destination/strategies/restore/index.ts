@@ -1,5 +1,5 @@
-import type { Core, UID, Struct } from '@strapi/types';
-import type { Model } from '@strapi/database';
+import type { Core, UID, Struct } from '@resillix/types';
+import type { Model } from '@resillix/database';
 import { ProviderTransferError } from '../../../../../errors/providers';
 import * as queries from '../../../../queries';
 

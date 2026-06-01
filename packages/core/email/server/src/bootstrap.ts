@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import type { ProviderCapabilities } from '../../shared/types';
 import type { EmailConfig, SendOptions } from './types';
 
@@ -25,7 +25,7 @@ const createProvider = (emailConfig: EmailConfig) => {
 
   let modulePath: string;
   try {
-    modulePath = require.resolve(`@strapi/provider-email-${providerName}`);
+    modulePath = require.resolve(`@resillix/provider-email-${providerName}`);
   } catch (error) {
     if (
       error !== null &&

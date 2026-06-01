@@ -18,7 +18,7 @@ import {
 import { useNotification } from './Notifications';
 
 import type { WidgetWithUID } from '../core/apis/Widgets';
-import type { WidgetType } from '@strapi/admin/strapi-admin';
+import type { WidgetType } from '@resillix/admin/strapi-admin';
 
 export interface WidgetInfo {
   widget: WidgetType | undefined;

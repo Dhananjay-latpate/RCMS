@@ -1,5 +1,5 @@
 import type { Context } from 'koa';
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@resillix/types';
 import { getService } from '../utils';
 
 const getSessionManager = (): Modules.SessionManager.SessionManagerService | null => {

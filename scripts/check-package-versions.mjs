@@ -2,7 +2,7 @@
 
 /**
  * Ensures all workspace package.json files that have a "version" field use the
- * same version as the canonical source (@strapi/strapi). Run from repo root.
+ * same version as the canonical source (@resillix/strapi). Run from repo root.
  *
  * Usage:
  *   node scripts/check-package-versions.mjs              # check only, exit 1 if mismatch

@@ -1,6 +1,6 @@
 import * as z from 'zod/v4';
 
-import type { Core, Modules } from '@strapi/types';
+import type { Core, Modules } from '@resillix/types';
 
 import {
   BodyAssembler,

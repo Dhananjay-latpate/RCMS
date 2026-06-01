@@ -1,6 +1,6 @@
-import type { Core, UID } from '@strapi/types';
+import type { Core, UID } from '@resillix/types';
 
-import { contentTypes, AbstractRouteValidator } from '@strapi/utils';
+import { contentTypes, AbstractRouteValidator } from '@resillix/utils';
 import * as z from 'zod/v4';
 
 /**

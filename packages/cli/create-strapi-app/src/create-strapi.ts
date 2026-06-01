@@ -5,7 +5,7 @@ import execa from 'execa';
 import fse from 'fs-extra';
 import semver from 'semver';
 
-import { createGrowthSsoTrial } from '@strapi/cloud-cli';
+import { createGrowthSsoTrial } from '@resillix/cloud-cli';
 
 import { copyTemplate } from './utils/template';
 import { tryGitInit } from './utils/git';

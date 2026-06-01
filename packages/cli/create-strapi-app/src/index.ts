@@ -19,7 +19,7 @@ import { logger } from './utils/logger';
 
 const { version } = fse.readJSONSync(join(__dirname, '..', 'package.json'));
 
-const command = new commander.Command('create-strapi-app')
+const command = new commander.Command('create-resillix-app')
   .version(version)
   .arguments('[directory]')
   .usage('[directory] [options]')
@@ -166,9 +166,9 @@ async function run(args: string[]): Promise<void> {
     gitInit: true,
     devDependencies: {},
     dependencies: {
-      '@strapi/strapi': version,
-      '@strapi/plugin-users-permissions': version,
-      '@strapi/plugin-cloud': version,
+      '@resillix/strapi': version,
+      '@resillix/plugin-users-permissions': version,
+      '@resillix/plugin-cloud': version,
       // third party
       react: '^18.0.0',
       'react-dom': '^18.0.0',

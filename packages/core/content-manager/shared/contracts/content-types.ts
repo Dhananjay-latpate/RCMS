@@ -1,5 +1,5 @@
-import type { Struct } from '@strapi/types';
-import { errors } from '@strapi/utils';
+import type { Struct } from '@resillix/types';
+import { errors } from '@resillix/utils';
 import { ComponentConfiguration } from './components';
 
 export type RelationOpenMode = 'modal' | 'page' | 'newTab';

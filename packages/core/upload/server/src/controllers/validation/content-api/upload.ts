@@ -1,4 +1,4 @@
-import { yup, validateYupSchema } from '@strapi/utils';
+import { yup, validateYupSchema } from '@resillix/utils';
 
 const focalPointSchema = yup
   .object({

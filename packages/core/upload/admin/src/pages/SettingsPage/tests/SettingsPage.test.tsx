@@ -1,9 +1,9 @@
 // TODO: find a better naming convention for the file that was an index file before
-import { useAIAvailability } from '@strapi/admin/strapi-admin/ee';
+import { useAIAvailability } from '@resillix/admin/strapi-admin/ee';
 import { render, screen, waitFor } from '@tests/utils';
 
-jest.mock('@strapi/admin/strapi-admin/ee', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin/ee'),
+jest.mock('@resillix/admin/strapi-admin/ee', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin/ee'),
   useAIAvailability: jest.fn(),
 }));
 

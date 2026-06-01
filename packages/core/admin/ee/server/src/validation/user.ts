@@ -1,4 +1,4 @@
-import { yup, validateYupSchema } from '@strapi/utils';
+import { yup, validateYupSchema } from '@resillix/utils';
 import { schemas } from '../../../../server/src/validation/user';
 
 const ssoUserCreationInputExtension = yup

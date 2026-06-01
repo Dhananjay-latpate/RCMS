@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/database",
+  "name": "@resillix/database",
   "version": "5.42.0",
   "description": "Resillix CMS's database layer",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@paralleldrive/cuid2": "2.2.2",
-    "@strapi/utils": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "ajv": "8.18.0",
     "date-fns": "2.30.0",
     "debug": "4.3.4",

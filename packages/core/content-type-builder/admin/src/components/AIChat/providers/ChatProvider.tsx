@@ -10,7 +10,7 @@ import {
 } from 'react';
 
 import { UIMessage, useChat } from '@ai-sdk/react';
-import { useAIAvailability } from '@strapi/admin/strapi-admin/ee';
+import { useAIAvailability } from '@resillix/admin/strapi-admin/ee';
 
 import { useCTBTracking } from '../../CTBSession/ctbSession';
 import { useDataManager } from '../../DataManager/useDataManager';

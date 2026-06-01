@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 
-import { useTracking } from '@strapi/admin/strapi-admin';
+import { useTracking } from '@resillix/admin/strapi-admin';
 
 import { useCTBSession } from './useCTBSession';
 

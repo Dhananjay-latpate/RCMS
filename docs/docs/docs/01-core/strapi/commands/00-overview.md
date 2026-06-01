@@ -5,9 +5,9 @@ tags:
   - commands
 ---
 
-The CLI is largely contained to the `@strapi/strapi` package, however some packages are able to inject their own commands:
+The CLI is largely contained to the `@resillix/strapi` package, however some packages are able to inject their own commands:
 
-- [`@strapi/data-transfer`](/docs/core/data-transfer/intro)
+- [`@resillix/data-transfer`](/docs/core/data-transfer/intro)
 
 ## Structure of command
 
@@ -34,7 +34,7 @@ const myCommand: StrapiCommand = ({ argv, ctx }) => {
 };
 ```
 
-These actions are then combined together in the `@strapi/strapi` package to be used as a complete CLI, the context provided to each command
+These actions are then combined together in the `@resillix/strapi` package to be used as a complete CLI, the context provided to each command
 supplies a number of useful properties:
 
 ```ts

@@ -4,7 +4,7 @@
  * RFC-compliant utilities for parsing and formatting email addresses.
  *
  * @example
- * import { parseEmailAddress, formatEmailAddress } from '@strapi/provider-email-nodemailer/utils';
+ * import { parseEmailAddress, formatEmailAddress } from '@resillix/provider-email-nodemailer/utils';
  *
  * const parsed = parseEmailAddress('Strapi <no-reply@strapi.io>');
  * console.log(parsed.name);  // 'Strapi'

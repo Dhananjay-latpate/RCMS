@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/content-manager",
+  "name": "@resillix/content-manager",
   "version": "5.42.0",
   "description": "A powerful UI to easily manage your data.",
   "homepage": "https://github.com/Dhananjay-latpate/RCMS",
@@ -69,11 +69,11 @@
     "@dnd-kit/utilities": "3.2.2",
     "@radix-ui/react-toolbar": "1.0.4",
     "@reduxjs/toolkit": "1.9.7",
+    "@resillix/types": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "@sindresorhus/slugify": "1.1.0",
     "@strapi/design-system": "2.2.0",
     "@strapi/icons": "2.2.0",
-    "@strapi/types": "5.42.0",
-    "@strapi/utils": "5.42.0",
     "codemirror5": "npm:codemirror@^5.65.11",
     "date-fns": "2.30.0",
     "fractional-indexing": "3.2.0",
@@ -107,8 +107,8 @@
     "yup": "0.32.9"
   },
   "devDependencies": {
-    "@strapi/admin": "5.42.0",
-    "@strapi/database": "5.42.0",
+    "@resillix/admin": "5.42.0",
+    "@resillix/database": "5.42.0",
     "@testing-library/react": "16.3.0",
     "@types/jest": "29.5.2",
     "@types/lodash": "^4.14.191",
@@ -121,7 +121,7 @@
     "styled-components": "6.1.8"
   },
   "peerDependencies": {
-    "@strapi/admin": "^5.0.0",
+    "@resillix/admin": "^5.0.0",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.30.3",

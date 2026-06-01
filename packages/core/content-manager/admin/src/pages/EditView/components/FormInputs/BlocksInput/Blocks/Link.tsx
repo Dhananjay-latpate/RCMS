@@ -19,7 +19,7 @@ import { styled } from 'styled-components';
 import { type BlocksStore, useBlocksEditorContext } from '../BlocksEditor';
 import { type Block } from '../utils/types';
 
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 const isLinkNode = (element: Element): element is Schema.Attribute.LinkInlineNode => {
   return element.type === 'link';

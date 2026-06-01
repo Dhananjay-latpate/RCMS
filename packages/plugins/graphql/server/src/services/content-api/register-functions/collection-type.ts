@@ -1,4 +1,4 @@
-import type { Core, Struct } from '@strapi/types';
+import type { Core, Struct } from '@resillix/types';
 import type { TypeRegistry } from '../../type-registry';
 
 const registerCollectionType = (

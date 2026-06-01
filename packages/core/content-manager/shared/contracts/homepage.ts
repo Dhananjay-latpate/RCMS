@@ -1,5 +1,5 @@
-import type { errors } from '@strapi/utils';
-import type { Struct, UID } from '@strapi/types';
+import type { errors } from '@resillix/utils';
+import type { Struct, UID } from '@resillix/types';
 
 // Export required to avoid "cannot be named" TS build error
 export interface RecentDocument {

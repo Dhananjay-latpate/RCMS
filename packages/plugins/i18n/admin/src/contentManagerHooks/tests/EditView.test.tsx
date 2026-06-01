@@ -4,7 +4,7 @@ import { render, screen } from '@tests/utils';
 
 import { mutateEditViewHook } from '../editView';
 
-import type { EditFieldLayout, EditLayout } from '@strapi/content-manager/strapi-admin';
+import type { EditFieldLayout, EditLayout } from '@resillix/content-manager/strapi-admin';
 
 jest.mock('react-router-dom', () => {
   const actual = jest.requireActual('react-router-dom');
@@ -16,8 +16,8 @@ jest.mock('react-router-dom', () => {
 
 // Mock CM hook once and override return per-test
 const mockUseDocumentLayout = jest.fn(() => ({ edit: undefined as unknown as EditLayout }));
-jest.mock('@strapi/content-manager/strapi-admin', () => {
-  const actual = jest.requireActual('@strapi/content-manager/strapi-admin');
+jest.mock('@resillix/content-manager/strapi-admin', () => {
+  const actual = jest.requireActual('@resillix/content-manager/strapi-admin');
   return {
     ...actual,
     unstable_useDocumentLayout: () => mockUseDocumentLayout(),

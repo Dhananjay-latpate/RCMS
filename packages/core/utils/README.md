@@ -1,7 +1,7 @@
 # strapi-utils
 
-[![npm version](https://img.shields.io/npm/v/@strapi/utils.svg)](https://www.npmjs.org/package/@strapi/utils)
-[![npm downloads](https://img.shields.io/npm/dm/@strapi/utils.svg)](https://www.npmjs.org/package/@strapi/utils)
+[![npm version](https://img.shields.io/npm/v/@resillix/utils.svg)](https://www.npmjs.org/package/@resillix/utils)
+[![npm downloads](https://img.shields.io/npm/dm/@resillix/utils.svg)](https://www.npmjs.org/package/@resillix/utils)
 
 Shared utilities between Strapi packages.
 

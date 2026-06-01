@@ -1,4 +1,4 @@
-import { useFetchClient } from '@strapi/admin/strapi-admin';
+import { useFetchClient } from '@resillix/admin/strapi-admin';
 import { useQuery } from 'react-query';
 
 import type { GetSettings } from '../../../shared/contracts/settings';

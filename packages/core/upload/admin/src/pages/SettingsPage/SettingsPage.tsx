@@ -7,8 +7,8 @@ import {
   useFetchClient,
   Layouts,
   ConfirmDialog,
-} from '@strapi/admin/strapi-admin';
-import { useAIAvailability } from '@strapi/admin/strapi-admin/ee';
+} from '@resillix/admin/strapi-admin';
+import { useAIAvailability } from '@resillix/admin/strapi-admin/ee';
 import {
   Box,
   Button,

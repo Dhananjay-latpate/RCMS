@@ -7,7 +7,7 @@
  */
 
 const _ = require('lodash');
-const utils = require('@strapi/utils');
+const utils = require('@resillix/utils');
 const { getService } = require('../utils');
 const { validateCreateUserBody, validateUpdateUserBody } = require('./validation/user');
 

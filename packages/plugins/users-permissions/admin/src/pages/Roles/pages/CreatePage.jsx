@@ -18,7 +18,7 @@ import {
   useFetchClient,
   Layouts,
   BackButton,
-} from '@strapi/strapi/admin';
+} from '@resillix/strapi/admin';
 import { Formik, Form } from 'formik';
 import { useIntl } from 'react-intl';
 import { useMutation } from 'react-query';

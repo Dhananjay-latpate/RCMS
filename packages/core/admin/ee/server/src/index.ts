@@ -12,7 +12,7 @@ import { createAuditLogsLifecycleService } from './audit-logs/services/lifecycle
 import { auditLog } from './audit-logs/content-types/audit-log';
 import aiRoutes from './ai/routes/ai';
 import aiController from './ai/controllers/ai';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { createAIContainer } from './ai/containers/ai';
 
 const getAdminEE = () => {

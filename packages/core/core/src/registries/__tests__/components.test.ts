@@ -1,4 +1,4 @@
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 import componentsRegistry from '../components';
 

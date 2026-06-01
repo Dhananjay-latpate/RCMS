@@ -1,6 +1,6 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import * as yup from 'yup';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import type { GetRecentDocuments, GetCountDocuments } from '../../../../shared/contracts/homepage';
 
 const createHomepageController = () => {

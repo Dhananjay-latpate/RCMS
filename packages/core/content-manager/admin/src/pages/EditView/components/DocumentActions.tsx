@@ -10,7 +10,7 @@ import {
   useGuidedTour,
   GUIDED_TOUR_REQUIRED_ACTIONS,
   useIsDesktop,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Button,
   Dialog,

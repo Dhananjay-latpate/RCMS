@@ -1,5 +1,5 @@
-import { yup } from '@strapi/utils';
-import type { Core } from '@strapi/types';
+import { yup } from '@resillix/utils';
+import type { Core } from '@resillix/types';
 import { resolveMiddlewares } from './middleware';
 
 type MiddlewareConfig = (string | { name?: string; resolve?: string; config?: unknown })[];

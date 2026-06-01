@@ -6,7 +6,7 @@ import {
   Table,
   useQueryParams,
   useTable,
-} from '@strapi/admin/strapi-admin';
+} from '@resillix/admin/strapi-admin';
 import {
   Box,
   Button,

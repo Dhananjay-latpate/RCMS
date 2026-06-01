@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { createStrapi, compileStrapi } = require('@strapi/strapi');
+const { createStrapi, compileStrapi } = require('@resillix/strapi');
 const path = require('path');
 
 // Expected counts per run (kept small for example seeding in this repo)

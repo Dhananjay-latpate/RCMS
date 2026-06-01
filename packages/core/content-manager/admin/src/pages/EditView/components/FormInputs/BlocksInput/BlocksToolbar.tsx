@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import * as Toolbar from '@radix-ui/react-toolbar';
-import { useIsMobile } from '@strapi/admin/strapi-admin';
+import { useIsMobile } from '@resillix/admin/strapi-admin';
 import {
   Flex,
   Tooltip,

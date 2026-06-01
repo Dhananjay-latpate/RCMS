@@ -8,8 +8,8 @@ import {
   useAPIErrorHandler,
   FormErrors,
   useForm,
-} from '@strapi/admin/strapi-admin';
-import { useAIAvailability } from '@strapi/admin/strapi-admin/ee';
+} from '@resillix/admin/strapi-admin';
+import { useAIAvailability } from '@resillix/admin/strapi-admin/ee';
 import {
   type DocumentActionComponent,
   type DocumentActionProps,
@@ -17,7 +17,7 @@ import {
   unstable_useDocumentActions as useDocumentActions,
   buildValidParams,
   HeaderActionProps,
-} from '@strapi/content-manager/strapi-admin';
+} from '@resillix/content-manager/strapi-admin';
 import {
   Flex,
   Status,
@@ -51,7 +51,7 @@ import { BulkLocaleActionModal } from './BulkLocaleActionModal';
 
 import type { Locale } from '../../../shared/contracts/locales';
 import type { I18nBaseQuery } from '../types';
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@resillix/types';
 
 /* -------------------------------------------------------------------------------------------------
  * LocalePickerAction

@@ -1,4 +1,4 @@
-import { useAIAvailability as useGlobalAIAvailability } from '@strapi/admin/strapi-admin/ee';
+import { useAIAvailability as useGlobalAIAvailability } from '@resillix/admin/strapi-admin/ee';
 
 import { useSettings } from './useSettings';
 

@@ -6,7 +6,7 @@ import {
   strapi as strapiDataTransfer,
   file as fileDataTransfer,
   directory as directoryDataTransfer,
-} from '@strapi/data-transfer';
+} from '@resillix/data-transfer';
 
 import importAction from '../action';
 import { expectExit } from '../../__tests__/commands.test.utils';
@@ -36,8 +36,8 @@ jest.mock('../../../utils/data-transfer', () => {
   };
 });
 
-jest.mock('@strapi/data-transfer', () => {
-  const actual = jest.requireActual('@strapi/data-transfer');
+jest.mock('@resillix/data-transfer', () => {
+  const actual = jest.requireActual('@resillix/data-transfer');
 
   return {
     ...actual,

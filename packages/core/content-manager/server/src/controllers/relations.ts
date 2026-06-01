@@ -1,7 +1,7 @@
 import { prop, uniq, uniqBy, concat, flow, isEmpty } from 'lodash/fp';
 
-import { isOperatorOfType, contentTypes, relations, errors } from '@strapi/utils';
-import type { Data, Modules, UID } from '@strapi/types';
+import { isOperatorOfType, contentTypes, relations, errors } from '@resillix/utils';
+import type { Data, Modules, UID } from '@resillix/types';
 
 import { getService } from '../utils';
 import { validateFindAvailable, validateFindExisting } from './validation/relations';

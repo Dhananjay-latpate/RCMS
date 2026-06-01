@@ -1,4 +1,4 @@
-import type { Model } from '@strapi/database';
+import type { Model } from '@resillix/database';
 
 const AI_METADATA_JOB_UID = 'plugin::upload.ai-metadata-job';
 

@@ -11,8 +11,8 @@ import {
   isFetchError,
   Layouts,
   GradientBadge,
-} from '@strapi/admin/strapi-admin';
-import { useLicenseLimits } from '@strapi/admin/strapi-admin/ee';
+} from '@resillix/admin/strapi-admin';
+import { useLicenseLimits } from '@resillix/admin/strapi-admin/ee';
 import {
   Alert,
   Badge,

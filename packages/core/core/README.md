@@ -1,1 +1,1 @@
-# `@strapi/core`
+# `@resillix/core`

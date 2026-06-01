@@ -1,7 +1,7 @@
 import { prop } from 'lodash/fp';
-import { contentTypes as contentTypesUtils } from '@strapi/utils';
+import { contentTypes as contentTypesUtils } from '@resillix/utils';
 
-import type { Core, Struct } from '@strapi/types';
+import type { Core, Struct } from '@resillix/types';
 import { getService } from '../utils';
 
 export default ({ strapi }: { strapi: Core.Strapi }) => ({

@@ -1,5 +1,5 @@
 import type { ComponentsDictionary, Document } from '../../../hooks/useDocument';
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 type AnyData = Omit<Document, 'id'>;
 

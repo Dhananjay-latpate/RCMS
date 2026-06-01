@@ -2,7 +2,7 @@ import { createCLI } from '../../../index';
 import { getInquirer } from '../../../utils/get-inquirer';
 import transferAction from '../action';
 
-jest.mock('@strapi/cloud-cli', () => ({
+jest.mock('@resillix/cloud-cli', () => ({
   buildStrapiCloudCommands: jest.fn().mockResolvedValue(undefined),
 }));
 

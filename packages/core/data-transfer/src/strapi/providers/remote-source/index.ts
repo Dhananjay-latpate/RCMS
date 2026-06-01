@@ -1,5 +1,5 @@
 import { PassThrough, Readable, Writable } from 'stream';
-import type { Struct, Utils } from '@strapi/types';
+import type { Struct, Utils } from '@resillix/types';
 import { WebSocket } from 'ws';
 import { castArray } from 'lodash/fp';
 

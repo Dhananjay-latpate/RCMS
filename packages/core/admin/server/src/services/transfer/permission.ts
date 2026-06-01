@@ -1,5 +1,5 @@
-import permissions from '@strapi/permissions';
-import { providerFactory } from '@strapi/utils';
+import permissions from '@resillix/permissions';
+import { providerFactory } from '@resillix/utils';
 
 const DEFAULT_TRANSFER_ACTIONS = ['push', 'pull'];
 

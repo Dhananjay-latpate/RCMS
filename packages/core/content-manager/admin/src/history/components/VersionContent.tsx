@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Form, Layouts, createRulesEngine, useForm, useIsMobile } from '@strapi/admin/strapi-admin';
+import { Form, Layouts, createRulesEngine, useForm, useIsMobile } from '@resillix/admin/strapi-admin';
 import { Box, Divider, Flex, Grid, Typography } from '@strapi/design-system';
 import pipe from 'lodash/fp/pipe';
 import { useIntl } from 'react-intl';
@@ -23,7 +23,7 @@ import type { Metadatas } from '../../../../shared/contracts/content-types';
 import type { GetInitData } from '../../../../shared/contracts/init';
 import type { ComponentsDictionary, Document } from '../../hooks/useDocument';
 import type { EditFieldLayout } from '../../hooks/useDocumentLayout';
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 const createLayoutFromFields = <T extends EditFieldLayout | UnknownField>(fields: T[]) => {
   return (

@@ -13,7 +13,7 @@ import { useNotification } from '../../../../features/Notifications';
 import { useAPIErrorHandler } from '../../../../hooks/useAPIErrorHandler';
 import { useRegenerateTokenMutation } from '../../../../services/transferTokens';
 
-import type { Data } from '@strapi/types';
+import type { Data } from '@resillix/types';
 
 interface RegenerateProps {
   onRegenerate?: (newKey: string) => void;

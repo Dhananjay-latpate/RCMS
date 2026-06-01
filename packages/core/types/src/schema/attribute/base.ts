@@ -86,7 +86,7 @@ export interface Attribute<TKind extends Kind = Kind> {
   column?: Partial<Column>;
 }
 
-// NOTE: Copied directly from @strapi/database package
+// NOTE: Copied directly from @resillix/database package
 export interface Column {
   type?: string;
   name?: string;
@@ -107,7 +107,7 @@ export interface Column {
  *
  * @example
  * ```typescript
- * import type { Schema } from '@strapi/types';
+ * import type { Schema } from '@resillix/types';
  *
  * // An attribute of type 'boolean'
  * type BooleanAttribute = Schema.Attribute.OfType<'boolean'>;

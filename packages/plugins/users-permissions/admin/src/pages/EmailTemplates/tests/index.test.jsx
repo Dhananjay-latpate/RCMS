@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { render, screen, waitFor } from '@strapi/strapi/admin/test';
+import { render, screen, waitFor } from '@resillix/strapi/admin/test';
 
 import { EmailTemplatesPage } from '../index';
 
@@ -11,8 +11,8 @@ jest.mock('cropperjs/dist/cropper.css?raw', () => '', {
   virtual: true,
 });
 
-jest.mock('@strapi/strapi/admin', () => ({
-  ...jest.requireActual('@strapi/strapi/admin'),
+jest.mock('@resillix/strapi/admin', () => ({
+  ...jest.requireActual('@resillix/strapi/admin'),
   useRBAC: jest.fn().mockImplementation(() => ({
     isLoading: false,
     allowedActions: { canUpdate: true },

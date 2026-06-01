@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { useNotification } from '@strapi/admin/strapi-admin';
+import { useNotification } from '@resillix/admin/strapi-admin';
 import { Button, Field, Flex, Modal, TextInput } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 import { styled } from 'styled-components';

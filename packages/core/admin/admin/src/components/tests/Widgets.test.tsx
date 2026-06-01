@@ -9,8 +9,8 @@ jest.mock('../../services/homepage', () => ({
 }));
 
 // Mock the useAuth hook
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useAuth: (_consumerName: string, selector: (state: any) => any) =>
     selector({
       user: {

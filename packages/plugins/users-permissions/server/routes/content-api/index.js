@@ -1,6 +1,6 @@
 'use strict';
 
-const { createContentApiRoutesFactory } = require('@strapi/utils');
+const { createContentApiRoutesFactory } = require('@resillix/utils');
 const authRoutes = require('./auth');
 const userRoutes = require('./user');
 const roleRoutes = require('./role');

@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { homepageService } from '../homepage';
 
 const createMockAdminStore = (initialValue?: any) => {

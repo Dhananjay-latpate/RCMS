@@ -1,6 +1,6 @@
 import { ComponentType, SVGProps } from 'react';
 
-import { useStrapiApp } from '@strapi/admin/strapi-admin';
+import { useStrapiApp } from '@resillix/admin/strapi-admin';
 import { Box } from '@strapi/design-system';
 import {
   BooleanField,

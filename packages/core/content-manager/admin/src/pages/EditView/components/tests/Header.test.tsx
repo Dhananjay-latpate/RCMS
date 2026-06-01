@@ -5,8 +5,8 @@ import { Header, HeaderProps } from '../Header';
 
 let getDocumentActionsReturn: unknown[] = [];
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useStrapiApp: jest.fn((name, getter) =>
     getter({
       plugins: {

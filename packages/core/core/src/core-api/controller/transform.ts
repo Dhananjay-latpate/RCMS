@@ -1,6 +1,6 @@
 import { isNil, isPlainObject } from 'lodash/fp';
-import type { UID, Struct, Data } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { UID, Struct, Data } from '@resillix/types';
+import { async } from '@resillix/utils';
 
 type TransformedEntry = {
   id: string;

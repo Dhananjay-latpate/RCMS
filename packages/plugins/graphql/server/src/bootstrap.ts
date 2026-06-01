@@ -9,7 +9,7 @@ import depthLimit from 'graphql-depth-limit';
 import bodyParser from 'koa-bodyparser';
 import cors from '@koa/cors';
 
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import type { Options } from '@koa/cors';
 import type { BaseContext, DefaultContextExtends, DefaultStateExtends } from 'koa';
 

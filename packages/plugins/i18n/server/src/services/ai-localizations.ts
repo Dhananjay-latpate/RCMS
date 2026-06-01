@@ -1,5 +1,5 @@
-import type { Core, Modules, Schema, UID } from '@strapi/types';
-import { traverseEntity } from '@strapi/utils';
+import type { Core, Modules, Schema, UID } from '@resillix/types';
+import { traverseEntity } from '@resillix/utils';
 import { getService } from '../utils';
 
 const isLocalizedAttribute = (attribute: Schema.Attribute.Attribute | undefined): boolean => {

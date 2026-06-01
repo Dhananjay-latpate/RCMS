@@ -1,8 +1,8 @@
-import { getFetchClient } from '@strapi/admin/strapi-admin';
+import { getFetchClient } from '@resillix/admin/strapi-admin';
 
 import { getAIJwt, clearAIJwt, fetchAI } from '../lib/aiClient';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
+jest.mock('@resillix/admin/strapi-admin', () => ({
   getFetchClient: jest.fn(),
 }));
 

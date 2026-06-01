@@ -1,6 +1,6 @@
 import { enumType } from 'nexus';
 import { set } from 'lodash/fp';
-import { strings } from '@strapi/utils';
+import { strings } from '@resillix/utils';
 
 interface Definition {
   enum: string[];

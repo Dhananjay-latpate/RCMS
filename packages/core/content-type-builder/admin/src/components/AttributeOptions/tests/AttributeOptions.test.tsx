@@ -1,4 +1,4 @@
-import { useStrapiApp } from '@strapi/admin/strapi-admin';
+import { useStrapiApp } from '@resillix/admin/strapi-admin';
 import { DesignSystemProvider } from '@strapi/design-system';
 import { render, screen } from '@testing-library/react';
 import { userEvent } from '@testing-library/user-event';
@@ -11,8 +11,8 @@ import { AttributeOptions } from '../AttributeOptions';
 
 import type { IconByType } from '../../AttributeIcon';
 
-jest.mock('@strapi/admin/strapi-admin', () => ({
-  ...jest.requireActual('@strapi/admin/strapi-admin'),
+jest.mock('@resillix/admin/strapi-admin', () => ({
+  ...jest.requireActual('@resillix/admin/strapi-admin'),
   useStrapiApp: jest.fn((_name, getter) =>
     getter({
       customFields: {

@@ -2,7 +2,7 @@
 import { createContext } from 'react';
 
 import type { Component, ContentType } from '../../types';
-import type { Internal, Struct } from '@strapi/types';
+import type { Internal, Struct } from '@resillix/types';
 
 export interface DataManagerContextValue {
   isLoading: boolean;

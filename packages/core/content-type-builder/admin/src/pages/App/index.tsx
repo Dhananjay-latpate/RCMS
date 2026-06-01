@@ -3,8 +3,8 @@
 /* eslint-disable check-file/no-index */
 import { lazy, Suspense, useEffect } from 'react';
 
-import { Page, Layouts, useAppInfo, useGuidedTour } from '@strapi/admin/strapi-admin';
-import { useAIAvailability } from '@strapi/admin/strapi-admin/ee';
+import { Page, Layouts, useAppInfo, useGuidedTour } from '@resillix/admin/strapi-admin';
+import { useAIAvailability } from '@resillix/admin/strapi-admin/ee';
 import { useIntl } from 'react-intl';
 import { Route, Routes } from 'react-router-dom';
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { SubNav } from '@strapi/admin/strapi-admin';
+import { SubNav } from '@resillix/admin/strapi-admin';
 import { Flex, Searchbar, useCollator, useFilter, Divider, Loader } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 

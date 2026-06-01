@@ -1,4 +1,4 @@
-import type { Schema } from '@strapi/types';
+import type { Schema } from '@resillix/types';
 
 export const hasDefaultAttribute = (
   attribute: Schema.Attribute.AnyAttribute

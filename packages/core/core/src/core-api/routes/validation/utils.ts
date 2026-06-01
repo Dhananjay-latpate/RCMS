@@ -1,5 +1,5 @@
-import { transformUidToValidOpenApiName } from '@strapi/utils';
-import type { Internal } from '@strapi/types';
+import { transformUidToValidOpenApiName } from '@resillix/utils';
+import type { Internal } from '@resillix/types';
 import * as z from 'zod/v4';
 
 // Schema generation happens on-demand when schemas don't exist in the registry

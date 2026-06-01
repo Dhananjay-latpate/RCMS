@@ -1,5 +1,5 @@
-import { errors as databaseErrors } from '@strapi/database';
-import { errors } from '@strapi/utils';
+import { errors as databaseErrors } from '@resillix/database';
+import { errors } from '@resillix/utils';
 
 import type { Middleware } from './middleware-manager';
 

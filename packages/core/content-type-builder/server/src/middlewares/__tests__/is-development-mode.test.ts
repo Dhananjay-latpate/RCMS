@@ -1,8 +1,8 @@
 import type { Context } from 'koa';
 
-// Mock the @strapi/utils module before importing the middleware
+// Mock the @resillix/utils module before importing the middleware
 jest.mock(
-  '@strapi/utils',
+  '@resillix/utils',
   () => ({
     errors: {
       PolicyError: class PolicyError extends Error {

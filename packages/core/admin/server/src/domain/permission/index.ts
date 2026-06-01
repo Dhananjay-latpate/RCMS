@@ -1,6 +1,6 @@
-import type { Utils } from '@strapi/types';
+import type { Utils } from '@resillix/types';
 
-import { providerFactory } from '@strapi/utils';
+import { providerFactory } from '@resillix/utils';
 import {
   pipe,
   set,

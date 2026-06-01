@@ -1,4 +1,4 @@
-import type { Internal } from '@strapi/types';
+import type { Internal } from '@resillix/types';
 
 import type { Context } from '../../types';
 

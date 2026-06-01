@@ -1,4 +1,4 @@
-import { useIsMobile } from '@strapi/admin/strapi-admin';
+import { useIsMobile } from '@resillix/admin/strapi-admin';
 import { Box, Flex, Accordion, Typography } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 

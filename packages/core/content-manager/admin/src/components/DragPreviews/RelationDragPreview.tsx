@@ -1,4 +1,4 @@
-import { useIsDesktop } from '@strapi/admin/strapi-admin';
+import { useIsDesktop } from '@resillix/admin/strapi-admin';
 import { Box, Flex, IconButton, Typography } from '@strapi/design-system';
 import { Cross, Drag } from '@strapi/icons';
 
@@ -9,7 +9,7 @@ import {
   FlexWrapper,
 } from '../../pages/EditView/components/FormInputs/Relations/Relations';
 
-import type { Data } from '@strapi/types';
+import type { Data } from '@resillix/types';
 
 interface RelationDragPreviewProps {
   status?: string;

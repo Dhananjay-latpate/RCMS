@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import type { Settings } from '../validation/settings';
 
 const createSettingsService = ({ strapi }: { strapi: Core.Strapi }) => {

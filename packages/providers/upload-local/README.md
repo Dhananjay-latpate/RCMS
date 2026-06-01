@@ -1,4 +1,4 @@
-# @strapi/provider-upload-local
+# @resillix/provider-upload-local
 
 ## Resources
 
@@ -15,10 +15,10 @@
 
 ```bash
 # using yarn
-yarn add @strapi/provider-upload-local
+yarn add @resillix/provider-upload-local
 
 # using npm
-npm install @strapi/provider-upload-local --save
+npm install @resillix/provider-upload-local --save
 ```
 
 ## Configurations

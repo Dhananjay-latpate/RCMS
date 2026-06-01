@@ -6,8 +6,8 @@
 import { uniqBy, castArray, isNil, isArray, mergeWith } from 'lodash';
 import { has, prop, isObject, isEmpty } from 'lodash/fp';
 import jsonLogic from 'json-logic-js';
-import strapiUtils from '@strapi/utils';
-import type { Modules, UID, Struct, Schema } from '@strapi/types';
+import strapiUtils from '@resillix/utils';
+import type { Modules, UID, Struct, Schema } from '@resillix/types';
 import { Validators, ValidatorMetas } from './validators';
 
 type CreateOrUpdate = 'creation' | 'update';

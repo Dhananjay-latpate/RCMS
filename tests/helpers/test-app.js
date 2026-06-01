@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 const { rimraf } = require('rimraf');
 const execa = require('execa');
-const { createStrapi } = require('create-strapi-app');
+const { createStrapi } = require('create-resillix-app');
 
 /**
  * Deletes a test app
@@ -37,11 +37,11 @@ const generateTestApp = async ({ appPath, database, template, link = false }) =>
     deviceId: null,
     installDependencies: false,
     dependencies: {
-      '@strapi/strapi': pkg.version,
-      '@strapi/plugin-users-permissions': pkg.version,
-      '@strapi/plugin-graphql': pkg.version,
-      '@strapi/plugin-documentation': pkg.version,
-      '@strapi/plugin-cloud': pkg.version,
+      '@resillix/strapi': pkg.version,
+      '@resillix/plugin-users-permissions': pkg.version,
+      '@resillix/plugin-graphql': pkg.version,
+      '@resillix/plugin-documentation': pkg.version,
+      '@resillix/plugin-cloud': pkg.version,
       react: '18.2.0',
       'react-dom': '18.2.0',
       'react-router-dom': '^6.0.0',

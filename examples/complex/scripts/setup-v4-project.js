@@ -62,8 +62,8 @@ const packageJson = {
     develop: 'strapi develop',
     start: 'strapi start',
     strapi: 'strapi',
-    upgrade: 'npx @strapi/upgrade latest',
-    'upgrade:dry': 'npx @strapi/upgrade latest --dry',
+    upgrade: 'npx @resillix/upgrade latest',
+    'upgrade:dry': 'npx @resillix/upgrade latest --dry',
     'develop:postgres': 'node scripts/develop-with-db.js postgres',
     'develop:mysql': 'node scripts/develop-with-db.js mysql',
     // Run the simple seeder directly (no DB wrapper)
@@ -74,8 +74,8 @@ const packageJson = {
   },
   dependencies: {
     '@strapi/plugin-i18n': '4.26.0',
-    '@strapi/plugin-users-permissions': '4.26.0',
-    '@strapi/strapi': '4.26.0',
+    '@resillix/plugin-users-permissions': '4.26.0',
+    '@resillix/strapi': '4.26.0',
     entities: '2.2.0',
     mysql2: '3.20.0',
     pg: '8.20.0',
@@ -360,7 +360,7 @@ CONTENT_TYPES.forEach((contentType) => {
  * ${contentType} controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require('@resillix/strapi').factories;
 
 module.exports = createCoreController('api::${contentType}.${contentType}');
 `;
@@ -378,7 +378,7 @@ module.exports = createCoreController('api::${contentType}.${contentType}');
  * ${contentType} router
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require('@resillix/strapi').factories;
 
 module.exports = createCoreRouter('api::${contentType}.${contentType}');
 `;
@@ -396,7 +396,7 @@ module.exports = createCoreRouter('api::${contentType}.${contentType}');
  * ${contentType} service
  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+const { createCoreService } = require('@resillix/strapi').factories;
 
 module.exports = createCoreService('api::${contentType}.${contentType}');
 `;

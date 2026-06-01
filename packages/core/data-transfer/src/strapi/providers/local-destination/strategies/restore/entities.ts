@@ -1,5 +1,5 @@
 import { Writable } from 'stream';
-import type { Core, UID } from '@strapi/types';
+import type { Core, UID } from '@resillix/types';
 
 import { last } from 'lodash/fp';
 

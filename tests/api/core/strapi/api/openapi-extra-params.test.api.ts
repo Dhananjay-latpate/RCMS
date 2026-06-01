@@ -1,7 +1,7 @@
 import * as z from 'zod/v4';
 
 import { createStrapiInstance } from 'api-tests/strapi';
-import { generate } from '@strapi/openapi';
+import { generate } from '@resillix/openapi';
 
 /** Returns true if any path operation in the spec has a query parameter with the given name. */
 function hasQueryParamInSpec(

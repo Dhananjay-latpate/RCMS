@@ -1,4 +1,4 @@
-import { yup } from '@strapi/utils';
+import { yup } from '@resillix/utils';
 
 const strapiServerSchema = yup
   .object()

@@ -1,7 +1,7 @@
 import { assoc, curry } from 'lodash/fp';
 
-import type { Modules, Struct, UID } from '@strapi/types';
-import { contentTypes, errors } from '@strapi/utils';
+import type { Modules, Struct, UID } from '@resillix/types';
+import { contentTypes, errors } from '@resillix/utils';
 
 type ParamsTransform = (params: Modules.Documents.Params.All) => Modules.Documents.Params.All;
 

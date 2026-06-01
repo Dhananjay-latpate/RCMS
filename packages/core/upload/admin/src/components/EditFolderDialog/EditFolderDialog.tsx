@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { useNotification } from '@strapi/admin/strapi-admin';
+import { useNotification } from '@resillix/admin/strapi-admin';
 import { Button, Field, Flex, Grid, Loader, Modal, Typography } from '@strapi/design-system';
 import { Form, Formik, FormikErrors } from 'formik';
 import isEmpty from 'lodash/isEmpty';
@@ -20,7 +20,7 @@ import { EditFolderModalHeader } from './ModalHeader/ModalHeader';
 import { RemoveFolderDialog } from './RemoveFolderDialog';
 
 import type { FolderDefinition } from '../../../../shared/contracts/folders';
-import type { FetchError } from '@strapi/admin/strapi-admin';
+import type { FetchError } from '@resillix/admin/strapi-admin';
 
 const folderSchema = yup.object({
   name: yup.string().required(),

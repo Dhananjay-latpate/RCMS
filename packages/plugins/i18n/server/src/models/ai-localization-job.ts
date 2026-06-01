@@ -1,4 +1,4 @@
-import type { Model } from '@strapi/database';
+import type { Model } from '@resillix/database';
 
 const AI_LOCALIZATION_JOB_UID = 'plugin::i18n.ai-localization-job';
 

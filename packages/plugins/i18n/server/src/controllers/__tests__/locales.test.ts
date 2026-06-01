@@ -1,4 +1,4 @@
-import { errors, sanitize } from '@strapi/utils';
+import { errors, sanitize } from '@resillix/utils';
 import controller from '../locales';
 import localeModel from '../../content-types/locale';
 

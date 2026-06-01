@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { errors, contentTypes as contentTypesUtils } from '@strapi/utils';
+import { errors, contentTypes as contentTypesUtils } from '@resillix/utils';
 import { getService } from '../../utils';
 
 const findEntityAndCheckPermissions = async (

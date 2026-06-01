@@ -1,6 +1,6 @@
 import { pick, isEqual } from 'lodash/fp';
-import type { Logger } from '@strapi/logger';
-import type { Core } from '@strapi/types';
+import type { Logger } from '@resillix/logger';
+import type { Core } from '@resillix/types';
 import { createStrapiFetch } from '../utils/fetch';
 import {
   readLicense,

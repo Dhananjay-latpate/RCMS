@@ -23,7 +23,7 @@ import { Table as TableImpl } from '../../../../components/Table';
 import { useTracking } from '../../../../features/Tracking';
 import { useQueryParams } from '../../../../hooks/useQueryParams';
 
-import type { Data } from '@strapi/types';
+import type { Data } from '@resillix/types';
 
 /* -------------------------------------------------------------------------------------------------
  * Table

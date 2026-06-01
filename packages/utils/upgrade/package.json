@@ -1,5 +1,5 @@
 {
-  "name": "@strapi/upgrade",
+  "name": "@resillix/upgrade",
   "version": "5.42.0",
   "description": "CLI to upgrade Resillix CMS applications effortless",
   "keywords": [
@@ -63,7 +63,7 @@
     "watch": "run -T rollup -c -w"
   },
   "dependencies": {
-    "@strapi/utils": "5.42.0",
+    "@resillix/utils": "5.42.0",
     "chalk": "4.1.2",
     "cli-table3": "0.6.5",
     "commander": "8.3.0",
@@ -81,7 +81,7 @@
     "undici": "6.24.1"
   },
   "devDependencies": {
-    "@strapi/types": "5.42.0",
+    "@resillix/types": "5.42.0",
     "@types/fs-extra": "11.0.4",
     "@types/jscodeshift": "17.3.0",
     "eslint-config-custom": "5.42.0",

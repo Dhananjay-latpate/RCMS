@@ -8,7 +8,7 @@ const {
   errors,
   objects,
   sanitizeRoutesMapForSerialization,
-} = require('@strapi/utils');
+} = require('@resillix/utils');
 
 const { getService } = require('../utils');
 

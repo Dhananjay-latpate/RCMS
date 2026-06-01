@@ -14,8 +14,8 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-users-permissions": "workspace:*",
-    "@strapi/strapi": "workspace:*",
+    "@resillix/plugin-users-permissions": "workspace:*",
+    "@resillix/strapi": "workspace:*",
     "better-sqlite3": "12.8.0",
     "react": "rc",
     "react-dom": "rc",

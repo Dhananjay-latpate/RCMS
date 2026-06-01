@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { createContext, useContext, useState } from 'react';
 
-import { useNotification } from '@strapi/admin/strapi-admin';
+import { useNotification } from '@resillix/admin/strapi-admin';
 import {
   Box,
   Flex,

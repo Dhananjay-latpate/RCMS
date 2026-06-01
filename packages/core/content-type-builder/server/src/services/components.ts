@@ -1,4 +1,4 @@
-import type { Internal, Struct } from '@strapi/types';
+import type { Internal, Struct } from '@resillix/types';
 import { get, has } from 'lodash';
 
 import { formatAttributes, replaceTemporaryUIDs } from '../utils/attributes';

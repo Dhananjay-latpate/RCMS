@@ -27,8 +27,8 @@
     "test:migration": "node scripts/validate-migration.js"
   },
   "dependencies": {
-    "@strapi/plugin-users-permissions": "workspace:*",
-    "@strapi/strapi": "workspace:*",
+    "@resillix/plugin-users-permissions": "workspace:*",
+    "@resillix/strapi": "workspace:*",
     "mysql2": "3.20.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",

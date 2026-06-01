@@ -1,6 +1,6 @@
-import { setCreatorFields, errors } from '@strapi/utils';
+import { setCreatorFields, errors } from '@resillix/utils';
 
-import type { Core, Struct, UID, Data } from '@strapi/types';
+import type { Core, Struct, UID, Data } from '@resillix/types';
 
 import { ALLOWED_WEBHOOK_EVENTS, RELEASE_ACTION_MODEL_UID, RELEASE_MODEL_UID } from '../constants';
 import type {

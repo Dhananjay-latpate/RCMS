@@ -519,7 +519,7 @@ export interface UseTrackingReturn {
  *
  * @example
  * ```tsx
- * import { useTracking } from '@strapi/strapi/admin';
+ * import { useTracking } from '@resillix/strapi/admin';
  *
  * const MyComponent = () => {
  *  const { trackUsage } = useTracking();

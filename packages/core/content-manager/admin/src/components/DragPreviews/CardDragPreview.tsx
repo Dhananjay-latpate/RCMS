@@ -1,4 +1,4 @@
-import { useIsDesktop } from '@strapi/admin/strapi-admin';
+import { useIsDesktop } from '@resillix/admin/strapi-admin';
 import { Flex, FlexComponent, Typography } from '@strapi/design-system';
 import { Cross, Drag, Pencil } from '@strapi/icons';
 import { styled } from 'styled-components';

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-import { tours, useGuidedTour, useAppInfo } from '@strapi/admin/strapi-admin';
+import { tours, useGuidedTour, useAppInfo } from '@resillix/admin/strapi-admin';
 import { Flex, IconButton, Button, Typography, Box } from '@strapi/design-system';
 import { Sparkle, ArrowUp, Plus, Paperclip, Upload, Code } from '@strapi/icons';
 import { styled } from 'styled-components';

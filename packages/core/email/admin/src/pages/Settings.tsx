@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Page, useNotification, useFetchClient, Layouts } from '@strapi/admin/strapi-admin';
+import { Page, useNotification, useFetchClient, Layouts } from '@resillix/admin/strapi-admin';
 import {
   Box,
   Button,

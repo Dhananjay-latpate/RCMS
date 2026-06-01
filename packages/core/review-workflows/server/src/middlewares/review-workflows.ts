@@ -1,5 +1,5 @@
 import type { Context } from 'koa';
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 
 import { set } from 'lodash/fp';
 

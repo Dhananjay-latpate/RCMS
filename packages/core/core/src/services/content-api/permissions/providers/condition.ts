@@ -1,4 +1,4 @@
-import { providerFactory } from '@strapi/utils';
+import { providerFactory } from '@resillix/utils';
 
 export interface Condition {
   name: string;

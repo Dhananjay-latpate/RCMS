@@ -1,4 +1,4 @@
-import { getFetchClient } from '@strapi/admin/strapi-admin';
+import { getFetchClient } from '@resillix/admin/strapi-admin';
 
 /**
  * Centralized AI client utilities:

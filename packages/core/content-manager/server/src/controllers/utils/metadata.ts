@@ -1,5 +1,5 @@
-import type { UID } from '@strapi/types';
-import { async } from '@strapi/utils';
+import type { UID } from '@resillix/types';
+import { async } from '@resillix/utils';
 
 import { getService } from '../../utils';
 

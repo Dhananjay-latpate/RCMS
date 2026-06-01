@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import type { Modules } from '@strapi/types';
+import type { Modules } from '@resillix/types';
 
 export const REFRESH_COOKIE_NAME = 'strapi_admin_refresh';
 

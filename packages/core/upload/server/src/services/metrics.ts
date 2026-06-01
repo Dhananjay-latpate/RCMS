@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/types';
+import type { Core } from '@resillix/types';
 import { Settings } from '../controllers/validation/admin/settings';
 
 const getProviderName = () => strapi.config.get('plugin::upload.provider', 'local');

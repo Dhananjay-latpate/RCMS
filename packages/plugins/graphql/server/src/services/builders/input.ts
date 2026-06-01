@@ -1,6 +1,6 @@
 import { inputObjectType, nonNull } from 'nexus';
-import { contentTypes } from '@strapi/utils';
-import type { Struct } from '@strapi/types';
+import { contentTypes } from '@resillix/utils';
+import type { Struct } from '@resillix/types';
 import type { Context } from '../types';
 
 const { isWritableAttribute } = contentTypes;

@@ -1,5 +1,5 @@
 import { toUpper, snakeCase, pick, isEmpty } from 'lodash/fp';
-import { errors } from '@strapi/utils';
+import { errors } from '@resillix/utils';
 import { unwrapResolverError } from '@apollo/server/errors';
 import { GraphQLError, type GraphQLFormattedError } from 'graphql';
 
