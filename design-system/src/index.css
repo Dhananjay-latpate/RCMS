@@ -1,0 +1,19 @@
+@import './lib/tokens/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--rx-bg-body);
+  color: var(--rx-text);
+  font-family: var(--rx-font-sans);
+  -webkit-font-smoothing: antialiased;
+}
