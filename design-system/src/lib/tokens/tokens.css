@@ -1,0 +1,128 @@
+/**
+ * Resillix design tokens — source of truth as CSS custom properties.
+ *
+ * One token layer powers the admin panel, plugin UIs and customer front-ends.
+ * Themes are implemented as variable scopes: `:root` is light, `.dark` overrides.
+ * Switching themes at runtime = toggling the `dark` class on the root element.
+ *
+ * Naming: --rx-<category>-<scale|name>
+ *   color | space | radius | shadow | font | text | leading | z
+ */
+
+:root {
+  /* ---- Neutral scale (modern-minimal grays) ---- */
+  --rx-neutral-0: #ffffff;
+  --rx-neutral-50: #f9fafb;
+  --rx-neutral-100: #f3f4f6;
+  --rx-neutral-150: #eceef0;
+  --rx-neutral-200: #e5e7eb;
+  --rx-neutral-300: #d1d5db;
+  --rx-neutral-400: #9ca3af;
+  --rx-neutral-500: #6b7280;
+  --rx-neutral-600: #4b5563;
+  --rx-neutral-700: #374151;
+  --rx-neutral-800: #1f2937;
+  --rx-neutral-900: #111827;
+
+  /* ---- Primary (calm professional indigo) ---- */
+  --rx-primary-50: #eef2ff;
+  --rx-primary-100: #e0e7ff;
+  --rx-primary-200: #c7d2fe;
+  --rx-primary-300: #a5b4fc;
+  --rx-primary-400: #818cf8;
+  --rx-primary-500: #6366f1;
+  --rx-primary-600: #4f46e5;
+  --rx-primary-700: #4338ca;
+
+  /* ---- Semantic ---- */
+  --rx-success-100: #dcfce7;
+  --rx-success-500: #16a34a;
+  --rx-success-700: #15803d;
+  --rx-warning-100: #fef3c7;
+  --rx-warning-500: #d97706;
+  --rx-warning-700: #b45309;
+  --rx-danger-100: #fee2e2;
+  --rx-danger-500: #dc2626;
+  --rx-danger-700: #b91c1c;
+
+  /* ---- Surfaces & text (semantic aliases — what components reference) ---- */
+  --rx-bg-body: var(--rx-neutral-100);
+  --rx-bg-surface: var(--rx-neutral-0);
+  --rx-bg-subtle: var(--rx-neutral-50);
+  --rx-border: var(--rx-neutral-200);
+  --rx-border-strong: var(--rx-neutral-300);
+  --rx-text: var(--rx-neutral-800);
+  --rx-text-muted: var(--rx-neutral-500);
+  --rx-text-inverted: var(--rx-neutral-0);
+
+  /* ---- Spacing (1 = 4px) ---- */
+  --rx-space-0: 0px;
+  --rx-space-1: 4px;
+  --rx-space-2: 8px;
+  --rx-space-3: 12px;
+  --rx-space-4: 16px;
+  --rx-space-5: 20px;
+  --rx-space-6: 24px;
+  --rx-space-7: 32px;
+  --rx-space-8: 40px;
+  --rx-space-9: 48px;
+  --rx-space-10: 64px;
+
+  /* ---- Radii (soft surfaces) ---- */
+  --rx-radius-sm: 4px;
+  --rx-radius: 8px;
+  --rx-radius-lg: 12px;
+  --rx-radius-xl: 16px;
+  --rx-radius-full: 9999px;
+
+  /* ---- Elevation (subtle) ---- */
+  --rx-shadow-sm: 0 1px 2px 0 rgb(17 24 39 / 0.05);
+  --rx-shadow: 0 1px 3px 0 rgb(17 24 39 / 0.08), 0 1px 2px -1px rgb(17 24 39 / 0.06);
+  --rx-shadow-lg: 0 10px 24px -6px rgb(17 24 39 / 0.12), 0 4px 8px -4px rgb(17 24 39 / 0.06);
+
+  /* ---- Typography ---- */
+  --rx-font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+  --rx-font-mono: ui-monospace, 'SF Mono', 'Cascadia Code', 'Roboto Mono', Menlo, monospace;
+}
+
+.dark {
+  --rx-neutral-0: #1a1d23;
+  --rx-neutral-50: #20242b;
+  --rx-neutral-100: #15181d;
+  --rx-neutral-150: #262a32;
+  --rx-neutral-200: #2c313a;
+  --rx-neutral-300: #3a414c;
+  --rx-neutral-400: #5b636f;
+  --rx-neutral-500: #8b94a1;
+  --rx-neutral-600: #aab2bd;
+  --rx-neutral-700: #cdd3db;
+  --rx-neutral-800: #e7eaee;
+  --rx-neutral-900: #f7f8fa;
+
+  --rx-primary-50: #1e2230;
+  --rx-primary-100: #262b45;
+  --rx-primary-200: #313a6b;
+  --rx-primary-300: #4451a3;
+  --rx-primary-400: #6f79e0;
+  --rx-primary-500: #818cf8;
+  --rx-primary-600: #a5b4fc;
+  --rx-primary-700: #c7d2fe;
+
+  --rx-success-100: #14321f;
+  --rx-warning-100: #3a2c10;
+  --rx-danger-100: #3a1818;
+
+  --rx-bg-body: var(--rx-neutral-100);
+  --rx-bg-surface: var(--rx-neutral-0);
+  --rx-bg-subtle: var(--rx-neutral-50);
+  --rx-border: var(--rx-neutral-200);
+  --rx-border-strong: var(--rx-neutral-300);
+  --rx-text: var(--rx-neutral-800);
+  --rx-text-muted: var(--rx-neutral-500);
+  --rx-text-inverted: #15181d;
+
+  --rx-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+  --rx-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.5), 0 1px 2px -1px rgb(0 0 0 / 0.4);
+  --rx-shadow-lg: 0 10px 24px -6px rgb(0 0 0 / 0.6), 0 4px 8px -4px rgb(0 0 0 / 0.5);
+}
