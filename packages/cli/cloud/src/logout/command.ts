@@ -9,7 +9,7 @@ import action from './action';
 const command: StrapiCloudCommand = ({ ctx }) => {
   return createCommand('cloud:logout')
     .alias('logout')
-    .description('Strapi Cloud Logout')
+    .description('Resillix CMS Cloud Logout')
     .option('-d, --debug', 'Enable debugging mode with verbose logs')
     .option('-s, --silent', "Don't log anything")
     .action(() => runAction('logout', action)(ctx));

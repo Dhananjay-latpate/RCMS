@@ -14,7 +14,7 @@ export async function checkInstallPath(directory: string): Promise<string> {
       logger.fatal(
         `${chalk.green(
           rootPath
-        )} is not a directory. Make sure to create a Strapi application in an empty directory.`
+        )} is not a directory. Make sure to create a Resillix CMS application in an empty directory.`
       );
     }
 

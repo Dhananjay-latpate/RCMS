@@ -8,7 +8,7 @@ const assertCwdContainsStrapiProject = (name: string) => {
     console.log(
       `You need to run ${chalk.yellow(
         `strapi ${name}`
-      )} in a Strapi project. Make sure you are in the right directory.`
+      )} in a Resillix CMS project. Make sure you are in the right directory.`
     );
     process.exit(1);
   };

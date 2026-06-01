@@ -6,7 +6,7 @@ export { action, command };
 
 export default {
   name: 'list-projects',
-  description: 'List Strapi Cloud projects',
+  description: 'List Resillix CMS Cloud projects',
   action,
   command,
 } as StrapiCloudCommandInfo;

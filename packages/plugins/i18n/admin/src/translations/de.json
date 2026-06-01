@@ -40,7 +40,7 @@
   "Settings.list.actions.unpublishAdditionalInfos": "Dies wird die Veröffentlichung der aktiven Sprachversionen zurücknehmen <em>(aus Internationalisierung)</em>",
   "Settings.list.actions.edit": "Sprache bearbeiten",
   "Settings.list.description": "Einstellungen für das Plugin anpassen",
-  "Settings.list.empty.description": "Das ist ein unerwartetes Verhalten. Möglicherweise wurde die Datenbank manuell modifiziert. Es sollte mindestens eine Sprache in der Datenbank existieren, um Strapi nutzen zu können",
+  "Settings.list.empty.description": "Das ist ein unerwartetes Verhalten. Möglicherweise wurde die Datenbank manuell modifiziert. Es sollte mindestens eine Sprache in der Datenbank existieren, um Resillix CMS nutzen zu können",
   "Settings.list.empty.title": "Keine Übersetzungen vorhanden",
   "Settings.aiLocalizations.label": "KI-Übersetzungen",
   "Settings.aiLocalizations.description": "Jedes Mal wenn du im Content Manager speicherst, wird unsere KI deine Standard-Lokalisierung verwenden, um alle anderen Lokalisierungen automatisch zu übersetzen.",

@@ -56,7 +56,7 @@ interface CmdOptions {
 /**
  * Export command.
  *
- * It transfers data from a local Strapi instance to a file
+ * It transfers data from a local Resillix CMS instance to a file
  *
  * @param {ExportCommandOptions} opts
  */

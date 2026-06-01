@@ -9,7 +9,7 @@ const command: StrapiCloudCommand = ({ command, ctx }) => {
   command
     .command('cloud:link')
     .alias('link')
-    .description('Link a local directory to a Strapi Cloud project')
+    .description('Link a local directory to a Resillix CMS Cloud project')
     .option('-d, --debug', 'Enable debugging mode with verbose logs')
     .option('-s, --silent', "Don't log anything")
     .action(() => runAction('link', action)(ctx));

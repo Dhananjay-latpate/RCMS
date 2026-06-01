@@ -1,12 +1,12 @@
 {
   "global": {
-    "siteName": "Strapi Blog",
+    "siteName": "Resillix CMS Blog",
     "defaultSeo": {
       "metaTitle": "Page",
-      "metaDescription": "A blog made with Strapi",
+      "metaDescription": "A blog made with Resillix CMS",
       "shareImage": null
     },
-    "siteDescription": "A Blog made with Strapi",
+    "siteDescription": "A Blog made with Resillix CMS",
     "favicon": null
   },
   "about": {

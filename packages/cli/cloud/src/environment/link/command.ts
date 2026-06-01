@@ -8,7 +8,7 @@ const command: StrapiCloudCommand = ({ command, ctx }) => {
 
   environmentCmd
     .command('link')
-    .description('Link project to a specific Strapi Cloud project environment')
+    .description('Link project to a specific Resillix CMS Cloud project environment')
     .option('-d, --debug', 'Enable debugging mode with verbose logs')
     .option('-s, --silent', "Don't log anything")
     .action(() => runAction('link', action)(ctx));

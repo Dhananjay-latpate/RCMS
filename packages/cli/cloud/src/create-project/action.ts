@@ -41,7 +41,7 @@ async function handleError(ctx: CLIContext, error: Error) {
         return;
       case 503:
         logger.error(
-          'Strapi Cloud project creation is currently unavailable. Please try again later.'
+          'Resillix CMS Cloud project creation is currently unavailable. Please try again later.'
         );
         return;
       default:
@@ -80,7 +80,7 @@ async function createProject(
     await local.save({ project: data });
     projectSpinner.succeed('Project created successfully!');
   } catch (e: Error | unknown) {
-    projectSpinner.fail(`An error occurred while creating the project on Strapi Cloud.`);
+    projectSpinner.fail(`An error occurred while creating the project on Resillix CMS Cloud.`);
     close();
     throw e;
   }
@@ -94,7 +94,7 @@ async function createProject(
       environmentSpinner.succeed('Environment created successfully!\n');
     } catch (e: Error | unknown) {
       environmentSpinner.fail(
-        `An error occurred while creating the environment on Strapi Cloud.\n`
+        `An error occurred while creating the environment on Resillix CMS Cloud.\n`
       );
       const environmentErrorMessage = environmentErrorMessageFactory({
         projectName: projectData.name,

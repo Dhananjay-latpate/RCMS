@@ -18,7 +18,7 @@ async function getLocalProject(ctx: CLIContext) {
 
   if (!localConfig || !localConfig.project) {
     ctx.logger.warn(
-      `\nWe couldn't find a valid local project config.\nPlease link your local project to an existing Strapi Cloud project using the ${chalk.cyan(
+      `\nWe couldn't find a valid local project config.\nPlease link your local project to an existing Resillix CMS Cloud project using the ${chalk.cyan(
         'link'
       )} command.`
     );

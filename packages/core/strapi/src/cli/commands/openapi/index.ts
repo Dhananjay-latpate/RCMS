@@ -9,13 +9,13 @@ import { action as generate } from './generate';
  */
 const command: StrapiCommand = () => {
   const openapi = createCommand('openapi').description(
-    'Manage OpenAPI specifications for your Strapi application'
+    'Manage OpenAPI specifications for your Resillix CMS application'
   );
 
   // `$ strapi openapi generate [-o, --output <path>]`
   openapi
     .command('generate')
-    .description('Generate an OpenAPI specification for the current Strapi application')
+    .description('Generate an OpenAPI specification for the current Resillix CMS application')
     .option('-o, --output <path>', 'Output file path for the OpenAPI specification')
     .action(runAction('openapi:generate', generate));
 

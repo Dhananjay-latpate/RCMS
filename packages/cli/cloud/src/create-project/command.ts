@@ -4,11 +4,11 @@ import { runAction } from '../utils/helpers';
 import action from './action';
 
 /**
- * `$ create project in Strapi cloud`
+ * `$ create project in Resillix CMS cloud`
  */
 const command: StrapiCloudCommand = ({ ctx }) => {
   return createCommand('cloud:create-project')
-    .description('Create a Strapi Cloud project')
+    .description('Create a Resillix CMS Cloud project')
     .option('-d, --debug', 'Enable debugging mode with verbose logs')
     .option('-s, --silent', "Don't log anything")
     .action(() => runAction('cloud:create-project', action)(ctx));

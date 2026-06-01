@@ -28,7 +28,7 @@ const action = async () => {
  */
 const command: StrapiCommand = () => {
   return createCommand('start')
-    .description('Start your Strapi application')
+    .description('Start your Resillix CMS application')
     .action(runAction('start', action));
 };
 

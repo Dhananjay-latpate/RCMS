@@ -37,7 +37,7 @@ const command: StrapiCommand = ({ ctx }) => {
     .option('--build-admin', 'Build the admin panel', true)
     .option('--no-build-admin', 'Do not build the admin panel in case watch is disabled')
     .option('--open', 'Open the admin in your browser', true)
-    .description('Start your Strapi application in development mode')
+    .description('Start your Resillix CMS application in development mode')
     .action(async (options: DevelopCLIOptions) => {
       return action({ ...options, ...ctx });
     });

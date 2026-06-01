@@ -45,7 +45,7 @@ const createStrapiApp = async (): Promise<Core.Strapi> => {
   const appContext = await compileStrapi();
   const app = createStrapi(appContext);
 
-  // Make sure to not log Strapi debug info
+  // Make sure to not log Resillix CMS debug info
   app.log.level = 'error';
 
   // Load internals

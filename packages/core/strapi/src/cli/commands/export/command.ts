@@ -15,7 +15,7 @@ import { prepareExportDirFormatCli } from './validate-dir-format';
  */
 const command = () => {
   return createCommand('export')
-    .description('Export data from Strapi to file')
+    .description('Export data from Resillix CMS to file')
     .allowExcessArguments(false)
     .addOption(
       new Option('--no-encrypt', `Disables 'aes-128-ecb' encryption of the output file`).default(

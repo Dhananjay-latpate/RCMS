@@ -68,7 +68,7 @@ const action = async () => {
   }
 
   await sendEvent('didOptOutTelemetry', uuid, installId);
-  console.log(`${chalk.green('Successfully opted out of Strapi telemetry')}`);
+  console.log(`${chalk.green('Successfully opted out of Resillix CMS telemetry')}`);
   process.exit(0);
 };
 
@@ -77,7 +77,7 @@ const action = async () => {
  */
 const command: StrapiCommand = () => {
   return createCommand('telemetry:disable')
-    .description('Disable anonymous telemetry and metadata sending to Strapi analytics')
+    .description('Disable anonymous telemetry and metadata sending to Resillix CMS analytics')
     .action(runAction('telemetry:disable', action));
 };
 
